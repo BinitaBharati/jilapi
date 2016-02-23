@@ -1,0 +1,12 @@
+[
+  {
+    "kernelName": "Linux",
+    "nodeName": "vmwutpapp01-dev",
+    "kernelVersion": "2.6.18-238.5.1.el5",
+    "buildTime": "#1 SMP Mon Feb 21 05:52:39 EST 2011",
+    "processorType": "x86_64",
+    "hwPlatform": "x86_64",
+    "processorArch": "x86_64",
+    "osName": "GNU/Linux"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "userName": "root",
+    "passwd": "x",
+    "userId": "0",
+    "grpId": "0",
+    "userFullName": "root",
+    "homeDirectory": "/root",
+    "shellAccount": "/bin/bash"
+  },
+  {
+    "userName": "bin",
+    "passwd": "x",
+    "userId": "1",
+    "grpId": "1",
+    "userFullName": "bin",
+    "homeDirectory": "/bin",
+    "shellAccount": "/sbin/nologin"
+  },
+  {
+    "userName": "daemon",
+    "passwd": "x",
+    "userId": "2",
+    "grpId": "2",
+    "userFullName": "daemon",
+    "homeDirectory": "/sbin",
+    "shellAccount": "/sbin/nologin"
+  },
+  {
+    "userName": "adm",
+    "passwd": "x",
+    "userId": "3",
+    "grpId": "4",
+    "userFullName": "adm",
+    "homeDirectory": "/var/adm",
+    "shellAccount": "/sbin/nologin"
+  },
+  {
+    "userName": "lp",
+    "passwd": "x",
+    "userId": "4",
+    "grpId": "7",
+    "userFullName": "lp",
+    "homeDirectory": "/var/spool/lpd",
+    "shellAccount": "/sbin/nologin"
+  },
+  {
+    "userName": "sync",
+    "passwd": "x",
+    "userId": "5",
+    "grpId": "0",
+    "userFullName": "sync",
+    "homeDirectory": "/sbin",
+    "shellAccount": "/bin/sync"
+  },
+  {
+    "userName": "shutdown",
+    "passwd": "x",
+    "userId": "6",
+    "grpId": "0",
+    "userFullName": "shutdown",
+    "homeDirectory": "/sbin",
+    "shellAccount": "/sbin/shutdown"
+  },
+  {
+    "userName": "dovenull",
+    "passwd": "x",
+    "userId": "496",
+    "grpId": "492",
+    "userFullName": "Dovecot\u0027s unauthorized user",
+    "homeDirectory": "/usr/libexec/dovecot",
+    "shellAccount": "/sbin/nologin"
+  },
+  {
+    "userName": "tcpdump",
+    "passwd": "x",
+    "userId": "72",
+    "grpId": "72",
+    "userFullName": "",
+    "homeDirectory": "/",
+    "shellAccount": "/sbin/nologin"
+  },
+  {
+    "userName": "nscd",
+    "passwd": "x",
+    "userId": "28",
+    "grpId": "28",
+    "userFullName": "NSCD Daemon",
+    "homeDirectory": "/",
+    "shellAccount": "/sbin/nologin"
+  }
+]

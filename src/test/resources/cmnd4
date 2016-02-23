@@ -1,0 +1,10 @@
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+dovenull:x:496:492:Dovecot's unauthorized user:/usr/libexec/dovecot:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin

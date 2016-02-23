@@ -1,0 +1,215 @@
+{
+  "ipv4Route": [
+    {
+      "destinationNw": "0.0.0.0",
+      "netMask": "0.0.0.0",
+      "gateway": "10.74.128.1",
+      "port": "10.74.130.122",
+      "metric": "20"
+    },
+    {
+      "destinationNw": "10.74.128.0",
+      "netMask": "255.255.252.0",
+      "gateway": "On-link",
+      "port": "10.74.130.122",
+      "metric": "276"
+    },
+    {
+      "destinationNw": "10.74.130.122",
+      "netMask": "255.255.255.255",
+      "gateway": "On-link",
+      "port": "10.74.130.122",
+      "metric": "276"
+    },
+    {
+      "destinationNw": "10.74.131.255",
+      "netMask": "255.255.255.255",
+      "gateway": "On-link",
+      "port": "10.74.130.122",
+      "metric": "276"
+    },
+    {
+      "destinationNw": "127.0.0.0",
+      "netMask": "255.0.0.0",
+      "gateway": "On-link",
+      "port": "127.0.0.1",
+      "metric": "306"
+    },
+    {
+      "destinationNw": "127.0.0.1",
+      "netMask": "255.255.255.255",
+      "gateway": "On-link",
+      "port": "127.0.0.1",
+      "metric": "306"
+    },
+    {
+      "destinationNw": "127.255.255.255",
+      "netMask": "255.255.255.255",
+      "gateway": "On-link",
+      "port": "127.0.0.1",
+      "metric": "306"
+    },
+    {
+      "destinationNw": "132.168.56.0",
+      "netMask": "255.255.255.0",
+      "gateway": "On-link",
+      "port": "132.168.56.1",
+      "metric": "266"
+    },
+    {
+      "destinationNw": "192.168.119.0",
+      "netMask": "255.255.255.0",
+      "gateway": "On-link",
+      "port": "192.168.119.1",
+      "metric": "266"
+    },
+    {
+      "destinationNw": "192.168.119.1",
+      "netMask": "255.255.255.255",
+      "gateway": "On-link",
+      "port": "192.168.119.1",
+      "metric": "266"
+    },
+    {
+      "destinationNw": "192.168.119.255",
+      "netMask": "255.255.255.255",
+      "gateway": "On-link",
+      "port": "192.168.119.1",
+      "metric": "266"
+    },
+    {
+      "destinationNw": "224.0.0.0",
+      "netMask": "240.0.0.0",
+      "gateway": "On-link",
+      "port": "127.0.0.1",
+      "metric": "306"
+    },
+    {
+      "destinationNw": "224.0.0.0",
+      "netMask": "240.0.0.0",
+      "gateway": "On-link",
+      "port": "10.74.130.122",
+      "metric": "276"
+    },
+    {
+      "destinationNw": "224.0.0.0",
+      "netMask": "240.0.0.0",
+      "gateway": "On-link",
+      "port": "132.168.56.1",
+      "metric": "266"
+    },
+    {
+      "destinationNw": "255.255.255.255",
+      "netMask": "255.255.255.255",
+      "gateway": "On-link",
+      "port": "192.168.100.1",
+      "metric": "266"
+    },
+    {
+      "destinationNw": "255.255.255.255",
+      "netMask": "255.255.255.255",
+      "gateway": "On-link",
+      "port": "192.168.20.1",
+      "metric": "266"
+    },
+    {
+      "destinationNw": "255.255.255.255",
+      "netMask": "255.255.255.255",
+      "gateway": "On-link",
+      "port": "192.168.40.1",
+      "metric": "266"
+    }
+  ],
+  "ipv6Route": [
+    {
+      "field1": "1",
+      "metric": "306",
+      "destination": "::1/128",
+      "gateway": "On-link"
+    },
+    {
+      "field1": "23",
+      "metric": "1010",
+      "destination": "2002::/16",
+      "gateway": "On-link"
+    },
+    {
+      "field1": "11",
+      "metric": "276",
+      "destination": "fe80::/64",
+      "gateway": "On-link"
+    },
+    {
+      "field1": "21",
+      "metric": "266",
+      "destination": "fe80::/64",
+      "gateway": "On-link"
+    },
+    {
+      "field1": "22",
+      "metric": "266",
+      "destination": "fe80::/64",
+      "gateway": "On-link"
+    },
+    {
+      "field1": "1",
+      "metric": "306",
+      "destination": "ff00::/8",
+      "gateway": "On-link"
+    },
+    {
+      "field1": "11",
+      "metric": "276",
+      "destination": "ff00::/8",
+      "gateway": "On-link"
+    },
+    {
+      "field1": "21",
+      "metric": "266",
+      "destination": "ff00::/8",
+      "gateway": "On-link"
+    },
+    {
+      "field1": "22",
+      "metric": "266",
+      "destination": "ff00::/8",
+      "gateway": "On-link"
+    },
+    {
+      "field1": "24",
+      "metric": "266",
+      "destination": "ff00::/8",
+      "gateway": "On-link"
+    },
+    {
+      "field1": "26",
+      "metric": "266",
+      "destination": "ff00::/8",
+      "gateway": "On-link"
+    },
+    {
+      "field1": "28",
+      "metric": "266",
+      "destination": "ff00::/8",
+      "gateway": "On-link"
+    },
+    {
+      "field1": "30",
+      "metric": "266",
+      "destination": "ff00::/8",
+      "gateway": "On-link"
+    },
+    {
+      "field1": "32",
+      "metric": "266",
+      "destination": "ff00::/8",
+      "gateway": "On-link"
+    },
+    {
+      "field1": "35",
+      "metric": "266",
+      "destination": "ff00::/8",
+      "gateway": "On-link"
+    }
+  ]
+}
