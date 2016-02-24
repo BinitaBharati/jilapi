@@ -121,3 +121,8 @@ Jilapi is a Java-based native OS command output parser.
 \#`nscd:x:28:28:NSCD Daemon:/:/sbin/nologin`<br/>
 `cmnd4.result.sections.line.field.map=1:userName,2:passwd,3:userId,4:grpId,5:userFullName,6:homeDirectory,7:shellAccount`<br/>
 `cmnd4.result.line.field.delimiter=:`<br/>
+
+## License
+
+Copyright © 2016 Binita Bharati
+Distributed under the MIT license. 
