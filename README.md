@@ -79,8 +79,8 @@ Jilapi is a Java-based native OS command output parser.
  <br />
 \#`IPv6 Route Table`<br />
 \#`===========================================================================`<br/>
-\#`Active Routes:<br/>
-\#` If Metric Network Destination      Gateway`<br/>
+\#`Active Routes:`<br />
+\#` If Metric Network Destination      Gateway`<br />
 \#`===========================================================================`<br/>
 \#`Interface List`<br/>
 \#` 15...e8 b1 fc 66 45 3a ......Bluetooth Device (Personal Area Network)`<br/>
