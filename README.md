@@ -83,8 +83,6 @@ Jilapi is a Java-based native OS command output parser.
 \#` If Metric NetworkDestination      Gateway`<br/>
 \#`  1    306 ::1/128                  On-link`<br/>
 \#` 23   1010 2002::/16                On-link`<br/>
-\#` 23    266 2002:84a8:3801::84a8:3801/128<br/>
-`                                    On-link`<br/>
 \#` 11    276 fe80::/64                On-link`<br/>
 \#` 21    266 fe80::/64                On-link`<br/>
 \#` 22    266 fe80::/64                On-link`<br/>
@@ -129,15 +127,15 @@ Jilapi is a Java-based native OS command output parser.
 `cmnd3.result.sections.footer=\=+;\=+`<br/>
 `cmnd3.result.sections.line.field.map=1:destinationNw,2:netMask,3:gateway,4:port,5:metric;1:field1,2:metric,3:destination,4:gateway`<br/>
 
-`root:x:0:0:root:/root:/bin/bash`<br/>
-`bin:x:1:1:bin:/bin:/sbin/nologin`<br/>
-`daemon:x:2:2:daemon:/sbin:/sbin/nologin`<br/>
-`adm:x:3:4:adm:/var/adm:/sbin/nologin`<br/>
-`lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin`<br/>
-`sync:x:5:0:sync:/sbin:/bin/sync`<br/>
-`shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown`<br/>
-`dovenull:x:496:492:Dovecot's unauthorized user:/usr/libexec/dovecot:/sbin/nologin`<br/>
-`tcpdump:x:72:72::/:/sbin/nologin`<br/>
-`nscd:x:28:28:NSCD Daemon:/:/sbin/nologin`<br/>
-`cmnd4.result.sections.line.field.map=1:userName,2:passwd,3:userId,4:grpId,5:userFullName,6:homeDirectory,7:shellAccount`<br/>
-`cmnd4.result.line.field.delimiter=:`<br/>
+\#`root:x:0:0:root:/root:/bin/bash`<br/>
+\#`bin:x:1:1:bin:/bin:/sbin/nologin`<br/>
+\#`daemon:x:2:2:daemon:/sbin:/sbin/nologin`<br/>
+\#`adm:x:3:4:adm:/var/adm:/sbin/nologin`<br/>
+\#`lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin`<br/>
+\#`sync:x:5:0:sync:/sbin:/bin/sync`<br/>
+\#`shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown`<br/>
+\#`dovenull:x:496:492:Dovecot's unauthorized user:/usr/libexec/dovecot:/sbin/nologin`<br/>
+\#`tcpdump:x:72:72::/:/sbin/nologin`<br/>
+\#`nscd:x:28:28:NSCD Daemon:/:/sbin/nologin`<br/>
+\#`cmnd4.result.sections.line.field.map=1:userName,2:passwd,3:userId,4:grpId,5:userFullName,6:homeDirectory,7:shellAccount`<br/>
+\#`cmnd4.result.line.field.delimiter=:`<br/>
