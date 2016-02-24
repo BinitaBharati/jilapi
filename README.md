@@ -36,11 +36,11 @@ Jilapi is a Java-based native OS command output parser.
 ### Sample file
 `result.line.field.delimiter=default` <br />
 
-\#*`Kernel IP routing table`* <br />
-\#*`Destination     Gateway         Genmask         Flags Metric Ref    Use Iface`* <br/>
-\#*`0.0.0.0         10.0.2.2        0.0.0.0         UG    0      0        0 eth0`* <br/>
-\#*`10.0.2.0        0.0.0.0         255.255.255.0   U     0      0        0 eth0`* <br/>
-\#*`192.168.10.0    0.0.0.0         255.255.255.0   U     0      0        0 eth1`* <br/>
+\#*Kernel IP routing table* <br />
+\#*Destination     Gateway         Genmask         Flags Metric Ref    Use Iface`* <br/>
+\#*0.0.0.0         10.0.2.2        0.0.0.0         UG    0      0        0 eth0`* <br/>
+\#*10.0.2.0        0.0.0.0         255.255.255.0   U     0      0        0 eth0`* <br/>
+\#*192.168.10.0    0.0.0.0         255.255.255.0   U     0      0        0 eth1`* <br/>
 `cmnd1.result.sections.header=Destination,Gateway,Genmask,Flags,Metric,Ref,Use,Iface` <br/>
 `cmnd1.result.sections.line.field.map=1:destinationNw,2:gateway,3:netMask,5:metric,8:port` <br/>
 
