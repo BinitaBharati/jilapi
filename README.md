@@ -31,9 +31,9 @@ Jilapi is a Java-based native OS command output parser.
     The map should contain the field positions in ascending order. Eg : 1:fieldA,4:fieldB,10:fieldC is valid. But, 1:fieldA,10:fieldC,4:fieldB is invalid. A single field can spawn across multiple positions (columns) in the output line.See cmnd2's buildTime for a sample of the same.
 * **`<CMND_KEY>.result.line.field.delimiter`** : The delimiter used to delimit across individual fields.This should be a unique character, and should no be already present as part of the original output.The field delimiter when not specified is SPACE.
 
- `result.line.field.delimiter=default` <br />
+`result.line.field.delimiter=default` <br />
 
- \#`Kernel IP routing table` <br />
+\#`Kernel IP routing table` <br />
 \#`Destination     Gateway         Genmask         Flags Metric Ref    Use Iface` <br/>
 \#`0.0.0.0         10.0.2.2        0.0.0.0         UG    0      0        0 eth0` <br/>
 \#`10.0.2.0        0.0.0.0         255.255.255.0   U     0      0        0 eth0` <br/>
@@ -116,5 +116,5 @@ Jilapi is a Java-based native OS command output parser.
 \#`dovenull:x:496:492:Dovecot's unauthorized user:/usr/libexec/dovecot:/sbin/nologin`<br/>
 \#`tcpdump:x:72:72::/:/sbin/nologin`<br/>
 \#`nscd:x:28:28:NSCD Daemon:/:/sbin/nologin`<br/>
-\#`cmnd4.result.sections.line.field.map=1:userName,2:passwd,3:userId,4:grpId,5:userFullName,6:homeDirectory,7:shellAccount`<br/>
-\#`cmnd4.result.line.field.delimiter=:`<br/>
+`cmnd4.result.sections.line.field.map=1:userName,2:passwd,3:userId,4:grpId,5:userFullName,6:homeDirectory,7:shellAccount`<br/>
+`cmnd4.result.line.field.delimiter=:`<br/>
