@@ -35,7 +35,7 @@ Jilapi is a Java-based native OS command output parser.
 
 ### Sample file
 
-`result.line.field.delimiter=default` <br />
+```result.line.field.delimiter=default``` <br />
 
 \#Kernel IP routing table <br />
 \#Destination     Gateway         Genmask         Flags Metric Ref    Use Iface <br/>
