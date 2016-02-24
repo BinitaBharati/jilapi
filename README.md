@@ -118,15 +118,15 @@ cmnd3.result.sections.line.field.map=1:destinationNw,2:netMask,3:gateway,4:port,
 ```
 
 \#root:X:0:0:root:/root:/bin/bash<br/>
-\#bin:x:1:1:bin:/bin:/sbin/nologin<br/>
-\#daemon:x:2:2:daemon:/sbin:/sbin/nologin<br/>
-\#adm:x:3:4:adm:/var/adm:/sbin/nologin<br/>
-\#lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin<br/>
-\#sync:x:5:0:sync:/sbin:/bin/sync<br/>
-\#shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown<br/>
-\#dovenull:x:496:492:Dovecot's unauthorized user:/usr/libexec/dovecot:/sbin/nologin<br/>
-\#tcpdump:x:72:72::/:/sbin/nologin<br/>
-\#nscd:x:28:28:NSCD Daemon:/:/sbin/nologin<br/>
+\#bin:X:1:1:bin:/bin:/sbin/nologin<br/>
+\#daemon:X:2:2:daemon:/sbin:/sbin/nologin<br/>
+\#adm:X:3:4:adm:/var/adm:/sbin/nologin<br/>
+\#lp:X:4:7:lp:/var/spool/lpd:/sbin/nologin<br/>
+\#sync:X:5:0:sync:/sbin:/bin/sync<br/>
+\#shutdown:X:6:0:shutdown:/sbin:/sbin/shutdown<br/>
+\#dovenull:X:496:492:Dovecot's unauthorized user:/usr/libexec/dovecot:/sbin/nologin<br/>
+\#tcpdump:X:72:72::/:/sbin/nologin<br/>
+\#nscd:X:28:28:NSCD Daemon:/:/sbin/nologin<br/>
 ``` 
 cmnd4.result.sections.line.field.map=1:userName,2:passwd,3:userId,4:grpId,5:userFullName,6:homeDirectory,7:shellAccount
 cmnd4.result.line.field.delimiter=:
