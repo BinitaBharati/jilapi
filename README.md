@@ -21,7 +21,9 @@ Jilapi is a Java-based native OS command output parser.
 ## Test
 * `mvn test`
 
-## Sample property file
+## Jilapi property file
+
+### File description
 * **`<CMND_KEY>.result.sections`**  : Useful when the command output has multiple sections.May not be applicable for all commands.
     Please check the 'cmnd3' properties for a demo of the <CMND_KEY>.result.sections property.
 * **`<CMND_KEY>.result.sections.header`** :  The output line preceding the start of the actual data. May not be applicable for all commands.
@@ -31,6 +33,7 @@ Jilapi is a Java-based native OS command output parser.
     The map should contain the field positions in ascending order. Eg : 1:fieldA,4:fieldB,10:fieldC is valid. But, 1:fieldA,10:fieldC,4:fieldB is invalid. A single field can spawn across multiple positions (columns) in the output line.See cmnd2's buildTime for a sample of the same.
 * **`<CMND_KEY>.result.line.field.delimiter`** : The delimiter used to delimit across individual fields.This should be a unique character, and should no be already present as part of the original output.The field delimiter when not specified is SPACE.
 
+### Sample file
 `result.line.field.delimiter=default` <br />
 
 \#`Kernel IP routing table` <br />
