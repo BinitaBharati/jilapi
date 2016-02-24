@@ -124,5 +124,5 @@ Jilapi is a Java-based native OS command output parser.
 
 ## License
 
-Copyright © 2016 Binita Bharati
+Copyright © 2016 Binita Bharati <br />
 Distributed under the MIT license. 
