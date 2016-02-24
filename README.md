@@ -53,56 +53,56 @@ Jilapi is a Java-based native OS command output parser.
 \#*` 13...e8 b1 fc 66 45 36 ......Intel(R) Dual Band Wireless-AC 7260`*<br/>
 \#*` 11...28 d2 44 cc 73 0c ......Intel(R) Ethernet Connection I218-LM`*<br/>
 \#*` 30...0a 00 27 00 00 00 ......VirtualBox Host-Only Ethernet Adapter 6`*<br/>
-\#` 32...0a 00 27 00 00 00 ......VirtualBox Host-Only Ethernet Adapter 7`<br/>
-\#` 35...0a 00 27 00 00 00 ......VirtualBox Host-Only Ethernet Adapter 8`<br/>
-\#`  1...........................Software Loopback Interface 1`<br/>
-\#` 12...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter`<br/>
-\#` 16...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter 2`<br/>
-\#` 17...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter 3`<br/>
-\#` 33...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter 10`<br/>
-\#` 34...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter 11`<br/>
-\#`===========================================================================`<br />
+\#*` 32...0a 00 27 00 00 00 ......VirtualBox Host-Only Ethernet Adapter 7`*<br/>
+\#*` 35...0a 00 27 00 00 00 ......VirtualBox Host-Only Ethernet Adapter 8`*<br/>
+\#*`  1...........................Software Loopback Interface 1`*<br/>
+\#*` 12...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter`*<br/>
+\#*` 16...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter 2`*<br/>
+\#*` 17...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter 3`*<br/>
+\#*` 33...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter 10`*<br/>
+\#*` 34...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter 11`*<br/>
+\#*`===========================================================================`*<br />
 <br />
-\#`IPv4 Route Table`<br />
-\#`===========================================================================`<br />
-\#`Active Routes:`<br/>
-\#`Network Destination        Netmask          Gateway       Interface  Metric`<br/>
-\#`          0.0.0.0          0.0.0.0      10.74.128.1    10.74.130.122     20`<br/>
-\#`      10.74.128.0    255.255.252.0         On-link     10.74.130.122    276`<br/>
-\#`    10.74.130.122  255.255.255.255         On-link     10.74.130.122    276`<br/>
-\#`    10.74.131.255  255.255.255.255         On-link     10.74.130.122    276`<br/>
-\#`        127.0.0.0        255.0.0.0         On-link         127.0.0.1    306`<br/>
-\#`        127.0.0.1  255.255.255.255         On-link         127.0.0.1    306`<br/>
-\#`  127.255.255.255  255.255.255.255         On-link         127.0.0.1    306`<br/>
-\#`     132.168.56.0    255.255.255.0         On-link      132.168.56.1    266`<br/>
-\#`    192.168.119.0    255.255.255.0         On-link     192.168.119.1    266`<br/>
-\#`    192.168.119.1  255.255.255.255         On-link     192.168.119.1    266`<br/> \#`===========================================================================`<br />
-\#`Persistent Routes:`<br />
-\#`  None`<br />
+\#*`IPv4 Route Table`*<br />
+\#*`===========================================================================`*<br />
+\#*`Active Routes:`*<br/>
+\#*`Network Destination        Netmask          Gateway       Interface  Metric`*<br/>
+\#*`          0.0.0.0          0.0.0.0      10.74.128.1    10.74.130.122     20`*<br/>
+\#*`      10.74.128.0    255.255.252.0         On-link     10.74.130.122    276`*<br/>
+\#*`    10.74.130.122  255.255.255.255         On-link     10.74.130.122    276`*<br/>
+\#*`    10.74.131.255  255.255.255.255         On-link     10.74.130.122    276`*<br/>
+\#*`        127.0.0.0        255.0.0.0         On-link         127.0.0.1    306`*<br/>
+\#*`        127.0.0.1  255.255.255.255         On-link         127.0.0.1    306`*<br/>
+\#*`  127.255.255.255  255.255.255.255         On-link         127.0.0.1    306`*<br/>
+\#*`     132.168.56.0    255.255.255.0         On-link      132.168.56.1    266`*<br/>
+\#*`    192.168.119.0    255.255.255.0         On-link     192.168.119.1    266`*<br/>
+\#*`    192.168.119.1  255.255.255.255         On-link     192.168.119.1    266`*<br/> \#*`===========================================================================`*<br />
+\#*`Persistent Routes:`*<br />
+\#*`  None`*<br />
  <br />
-\#`IPv6 Route Table`<br />
-\#`===========================================================================`<br />
-\#`Active Routes:`<br />
-\#` If Metric NetworkDestination      Gateway`<br/>
-\#`  1    306 ::1/128                  On-link`<br/>
-\#` 23   1010 2002::/16                On-link`<br/>
-\#` 11    276 fe80::/64                On-link`<br/>
-\#` 21    266 fe80::/64                On-link`<br/>
-\#` 22    266 fe80::/64                On-link`<br/>
-\#` 21    266 fe80::2d21:f7b:b2f6:374d/128` <br/>
-`                                    On-link`<br/>
-\#` 24    266 fe80::4ca6:6ff5:97f3:e609/128`<br/>
-`                                    On-link`<br/>
-\#` 11    276 fe80::58b5:85f7:a3a3:c493/128`<br/>
-`                                    On-link`<br/>
-\#`  1    306 ff00::/8                 On-link`<br/>
-\#` 11    276 ff00::/8                 On-link`<br/>
-\#` 21    266 ff00::/8                 On-link`<br/>
-\#` 22    266 ff00::/8                 On-link`<br/>
-\#` 24    266 ff00::/8                 On-link`<br/>
-\#`===========================================================================`<br />
-\#`Persistent Routes:`<br />
-\#`  None`<br />
+\#`IPv6 Route Table`*<br />
+\#*`===========================================================================`*<br />
+\#*`Active Routes:`*<br />
+\#*` If Metric NetworkDestination      Gateway`*<br/>
+\#*`  1    306 ::1/128                  On-link`*<br/>
+\#*` 23   1010 2002::/16                On-link`*<br/>
+\#*` 11    276 fe80::/64                On-link`*<br/>
+\#*` 21    266 fe80::/64                On-link`*<br/>
+\#*` 22    266 fe80::/64                On-link`*<br/>
+\#*` 21    266 fe80::2d21:f7b:b2f6:374d/128` <br/>
+`                                    On-link`*<br/>
+\#*` 24    266 fe80::4ca6:6ff5:97f3:e609/128`*<br/>
+`                                    On-link`*<br/>
+\#*` 11    276 fe80::58b5:85f7:a3a3:c493/128`*<br/>
+`                                    On-link`*<br/>
+\#*`  1    306 ff00::/8                 On-link`*<br/>
+\#*` 11    276 ff00::/8                 On-link`*<br/>
+\#*` 21    266 ff00::/8                 On-link`*<br/>
+\#*` 22    266 ff00::/8                 On-link`*<br/>
+\#*` 24    266 ff00::/8                 On-link`*<br/>
+\#*`===========================================================================`*<br />
+\#*`Persistent Routes:`*<br />
+\#*`  None`*<br />
 
 `cmnd3.result.sections=ipv4Route;ipv6Route`<br/>
 `cmnd3.result.sections.header=NetworkDestination,Netmask,Gateway,Interface,Metric;If,Metric,Network Destination,Gateway`<br/>
