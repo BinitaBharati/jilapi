@@ -78,46 +78,9 @@ Jilapi is a Java-based native OS command output parser.
 \#`  None`<br />
  <br />
 \#`IPv6 Route Table`<br />
-\#`===========================================================================`<br/>
+\#`===========================================================================`<br />
 \#`Active Routes:`<br />
-\#` If Metric Network Destination      Gateway`<br />
-\#`===========================================================================`<br/>
-\#`Interface List`<br/>
-\#` 15...e8 b1 fc 66 45 3a ......Bluetooth Device (Personal Area Network)`<br/>
-\#` 13...e8 b1 fc 66 45 36 ......Intel(R) Dual Band Wireless-AC 7260`<br/>
-\#` 11...28 d2 44 cc 73 0c ......Intel(R) Ethernet Connection I218-LM`<br/>
-\#` 30...0a 00 27 00 00 00 ......VirtualBox Host-Only Ethernet Adapter 6`<br/>
-\#` 32...0a 00 27 00 00 00 ......VirtualBox Host-Only Ethernet Adapter 7`<br/>
-\#` 35...0a 00 27 00 00 00 ......VirtualBox Host-Only Ethernet Adapter 8`<br/>
-\#`  1...........................Software Loopback Interface 1`<br/>
-\#` 12...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter`<br/>
-\#` 16...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter 2`<br/>
-\#` 17...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter 3`<br/>
-\#` 33...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter 10`<br/>
-\#` 34...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter 11`<br/>
-\#`===========================================================================`<br />
-<br />
-\#`IPv4 Route Table`<br />
-\#`===========================================================================`<br />
-\#`Active Routes:`<br/>
-\#`Network Destination        Netmask          Gateway       Interface  Metric`<br/>
-\#`          0.0.0.0          0.0.0.0      10.74.128.1    10.74.130.122     20`<br/>
-\#`      10.74.128.0    255.255.252.0         On-link     10.74.130.122    276`<br/>
-\#`    10.74.130.122  255.255.255.255         On-link     10.74.130.122    276`<br/>
-\#`    10.74.131.255  255.255.255.255         On-link     10.74.130.122    276`<br/>
-\#`        127.0.0.0        255.0.0.0         On-link         127.0.0.1    306`<br/>
-\#`        127.0.0.1  255.255.255.255         On-link         127.0.0.1    306`<br/>
-\#`  127.255.255.255  255.255.255.255         On-link         127.0.0.1    306`<br/>
-\#`     132.168.56.0    255.255.255.0         On-link      132.168.56.1    266`<br/>
-\#`    192.168.119.0    255.255.255.0         On-link     192.168.119.1    266`<br/>
-\#`    192.168.119.1  255.255.255.255         On-link     192.168.119.1    266`<br/>\#`===========================================================================`<br/>
-\#`Persistent Routes:`<br/>
-\#`  None`<br/>
- <br/>
-\#`IPv6 Route Table`<br/>
-\#`===========================================================================`<br/>
-\#`Active Routes:<br/>
-\#` If Metric Network Destination      Gateway`<br/>
+\#` If Metric NetworkDestination      Gateway`<br/>
 \#`  1    306 ::1/128                  On-link`<br/>
 \#` 23   1010 2002::/16                On-link`<br/>
 \#` 23    266 2002:84a8:3801::84a8:3801/128<br/>
