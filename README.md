@@ -117,7 +117,7 @@ cmnd3.result.sections.footer=\=+;\=+
 cmnd3.result.sections.line.field.map=1:destinationNw,2:netMask,3:gateway,4:port,5:metric;1:field1,2:metric,3:destination,4:gateway
 ```
 
-\#root\:x:0:0:root:/root:/bin/bash<br/>
+\#root::x:0:0:root:/root:/bin/bash<br/>
 \#bin:x:1:1:bin:/bin:/sbin/nologin<br/>
 \#daemon:x:2:2:daemon:/sbin:/sbin/nologin<br/>
 \#adm:x:3:4:adm:/var/adm:/sbin/nologin<br/>
