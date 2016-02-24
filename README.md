@@ -24,7 +24,7 @@ Jilapi is a Java-based native OS command output parser.
 ## Jilapi property file
 
 ### File description
-* **`<CMND_KEY>.result.sections`** : Useful when the command output has multiple sections.May not be applicable for all commands.
+* **`<CMND_KEY>.result.sections`**: Useful when the command output has multiple sections.May not be applicable for all commands.
     Please check the 'cmnd3' properties for a demo of the <CMND_KEY>.result.sections property.
 * **`<CMND_KEY>.result.sections.header`**:  The output line preceding the start of the actual data.May not be applicable for all commands.
 * **`<CMND_KEY>.result.sections.footer`**: The output line following the end of the actual data.May not be applicable for all commands.
