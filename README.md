@@ -34,6 +34,7 @@ Jilapi is a Java-based native OS command output parser.
 * **`<CMND_KEY>.result.line.field.delimiter`** : The delimiter used to delimit across individual fields.This should be a unique character, and should no be already present as part of the original output.The field delimiter when not specified is SPACE.
 
 ### Sample file
+
 `result.line.field.delimiter=default` <br />
 
 \#Kernel IP routing table <br />
@@ -41,8 +42,7 @@ Jilapi is a Java-based native OS command output parser.
 \#0.0.0.0         10.0.2.2        0.0.0.0         UG    0      0        0 eth0 <br/>
 \#10.0.2.0        0.0.0.0         255.255.255.0   U     0      0        0 eth0 <br/>
 \#192.168.10.0    0.0.0.0         255.255.255.0   U     0      0        0 eth1 <br/>
-```
-cmnd1.result.sections.header=Destination,Gateway,Genmask,Flags,Metric,Ref,Use,Iface
+```cmnd1.result.sections.header=Destination,Gateway,Genmask,Flags,Metric,Ref,Use,Iface
 cmnd1.result.sections.line.field.map=1:destinationNw,2:gateway,3:netMask,5:metric,8:port
 ```
 
