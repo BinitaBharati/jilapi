@@ -86,41 +86,20 @@ Jilapi is a Java-based native OS command output parser.
 \#` 11    276 fe80::/64                On-link`<br/>
 \#` 21    266 fe80::/64                On-link`<br/>
 \#` 22    266 fe80::/64                On-link`<br/>
-\#` 21    266 fe80::2d21:f7b:b2f6:374d/128 <br/>
+\#` 21    266 fe80::2d21:f7b:b2f6:374d/128` <br/>
 `                                    On-link`<br/>
-\#` 24    266 fe80::4ca6:6ff5:97f3:e609/128<br/>
+\#` 24    266 fe80::4ca6:6ff5:97f3:e609/128`<br/>
 `                                    On-link`<br/>
-\#` 11    276 fe80::58b5:85f7:a3a3:c493/128<br/>
+\#` 11    276 fe80::58b5:85f7:a3a3:c493/128`<br/>
 `                                    On-link`<br/>
 \#`  1    306 ff00::/8                 On-link`<br/>
 \#` 11    276 ff00::/8                 On-link`<br/>
 \#` 21    266 ff00::/8                 On-link`<br/>
 \#` 22    266 ff00::/8                 On-link`<br/>
 \#` 24    266 ff00::/8                 On-link`<br/>
-\#`===========================================================================`<br/>
-\#`Persistent Routes:`<br/>
-\#`  None`<br/>
-\#`  1    306 ::1/128                  On-link`<br/>
-\#` 23   1010 2002::/16                On-link`<br/>
-\#` 23    266 2002:84a8:3801::84a8:3801/128<br/>
-`                                    On-link`<br/>
-\#` 11    276 fe80::/64                On-link`<br/>
-\#` 21    266 fe80::/64                On-link`<br/>
-\#` 22    266 fe80::/64                On-link`<br/>
-\#` 21    266 fe80::2d21:f7b:b2f6:374d/128 <br/>
-`                                    On-link`<br/>
-\#` 24    266 fe80::4ca6:6ff5:97f3:e609/128<br/>
-`                                    On-link`<br/>
-` 11    276 fe80::58b5:85f7:a3a3:c493/128<br/>
-`                                    On-link`<br/>
-\#` 26    266 ff00::/8                 On-link`<br/>
-\#` 28    266 ff00::/8                 On-link`<br/>
-\#` 30    266 ff00::/8                 On-link`<br/>
-\#` 32    266 ff00::/8                 On-link`<br/>
-\#` 35    266 ff00::/8                 On-link`<br/>
-\#`===========================================================================`<br/>
-\#`Persistent Routes:`<br/>
-\#`  None`<br/>
+\#`===========================================================================`<br />
+\#`Persistent Routes:`<br />
+\#`  None`<br />
 
 `cmnd3.result.sections=ipv4Route;ipv6Route`<br/>
 `cmnd3.result.sections.header=NetworkDestination,Netmask,Gateway,Interface,Metric;If,Metric,Network Destination,Gateway`<br/>
