@@ -25,10 +25,9 @@ Jilapi is a Java-based native OS command line output parser.
 ## Quick Start
 Lets take example of a simple Linux command.Executing `uname -a` on a RHEL system generates the following output: <br />
  `Linux vmwutpapp01-dev 2.6.18-238.5.1.el5 #1 SMP Mon Feb 21 05:52:39 EST 2011 x86_64 x86_64 x86_64 GNU/Linux` <br />
- |_____| |_____________||_________________| |_________________________________| |___| |___|  |_____| |_______| <br/>
- 
-    |         |                 |                           |                     |     |       |           | <br/>
-Kernel name   |                 |                           |               Processor   H/w     Processor   |___OS name <br />
+    |         |          |_________________| |_________________________________| |      |       |         | <br/>
+    |         |                 |                          |                     |      |       |         |  <br/>
+Kernel name   |                 |                          |               Processor   H/w     Processor  OS name <br />
           Node name       Kernel version          Kernel build time         type      Platform  architecture <br />
           
 ## Jilapi property file
