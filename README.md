@@ -41,9 +41,9 @@ Jilapi is a Java-based native OS command line output parser.
       If exact field positioning not available, but instead search texts per field available in the output, then please use 
       result.entity.prefix.map.
 * **`<CMND_KEY>.result.entity.field.prefix.map`**: A list enlisting the text content signifying the start of each field of an entity
-     in the output.This is mutually exclusive with result.entity.field.positional.map.
+     in the output.This is mutually exclusive with result.entity.field.positional.map.Please refer to cmnd5 for a sample.
 * **`<CMND_KEY>.result.entity.delimiter`**: Delimiter to determine start and end of a complete entity. Default delimiter is a new
-      line. i.e each line of the output is a meaningful complete entity..
+      line. i.e each line of the output is a meaningful complete entity.
 * **`<CMND_KEY>.result.entity.field.delimiter`**: Delimiter between individual fields of an entity, Default is SPACE..
 
 ### Sample file
