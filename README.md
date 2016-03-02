@@ -24,7 +24,7 @@ Jilapi is a Java-based native OS command line output parser.
 
 ## Quick Start
 Lets take example of a simple Linux command.Executing `uname -a` on a RHEL system generates the following output: 
-![Alt text](sample1.png?raw=true "Optional Title")
+![Alt text](sample/sample1.png?raw=true "Optional Title")
           
 ## Jilapi property file
 
