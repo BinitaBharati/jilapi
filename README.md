@@ -23,13 +23,14 @@ Jilapi is a Java-based native OS command line output parser.
 * `mvn test`
 
 ## Quick Start
-Lets take example of a simple Linux command.Executing `uname -a` on a RHEL system generates the following output: 
-![Alt text](docs/cmnd1.png "Optional Title")
+Lets see few sample commands. <br />
+1. Executing `uname -a` on a Linux system generates the following output: 
+![Alt text](docs/cmnd1.png "uname -a")
 
 Now, lets understand what attributes of jilapi property file matters in this case.
 * **`<CMND_KEY>.entity.delimiter`**: Here a single line contains a complete meanigful entity.Hence, entity delimiter is a new line, which is also the default entity delimiter.Hence, this attribute doesnt apply.
 * * **`<CMND_KEY>.result.entity.field.delimiter`**:The entity field delimiter is SPACE here, which is also the default.So, this attribute doesnt apply.
-* **`<CMND_KEY>.result.sections`**: The output is just a single line.Hence, sections doesnt apply.
+* **`<CMND_KEY>.result.sections`**: The output is just a single line.Hence, multiple sections doesnt apply.
 * **`<CMND_KEY>.result.header`**: The output is just a single line.Hence, headers doesnt apply.
 * **`<CMND_KEY>.result.footer`**: The output is just a single line.Hence, footers doesnt apply.
 * **`<CMND_KEY>.result.ignore`**: The output is just a single line.Hence, ignore doesnt apply.
@@ -39,6 +40,19 @@ Corresponding property file entry is given below:
 ```
 cmnd1.result.entity.field.positional.map=1:kernelName,2:nodeName,3:kernelVersion,4-11:buildTime,12:processorType,13:hwPlatform,14:processorArch,15:osName
 ```
+
+2. Executing `route -n` on a Linux system generates the following output:
+![Alt text](docs/cmnd2.png "route -n")
+
+Now, lets understand what attributes of jilapi property file matters in this case.
+* **`<CMND_KEY>.entity.delimiter`**: Here each single line contains a complete meanigful entity, which is a route entry.Hence, entity delimiter is a new line, which is also the default entity delimiter.Hence, this attribute doesn't apply.
+* * **`<CMND_KEY>.result.entity.field.delimiter`**:The entity field delimiter is SPACE here, which is also the default.So, this attribute doesnt apply.
+* **`<CMND_KEY>.result.sections`**: There are no sections, as in there is only a single large section.Multiple sections dont apply.
+* **`<CMND_KEY>.result.header`**: The lines containing the fields `Destination`,`Gateway`,`Genmask` etc precede the actual route entries.So, the columns `Destination`,`Gateway`,`Genmask` etc is the header.
+* **`<CMND_KEY>.result.footer`**: Footers doesnt apply.
+* **`<CMND_KEY>.result.ignore`**: Ignore doesnt apply.
+* **`<CMND_KEY>.result.entity.field.positional.map`**: Here each field of the entity is positional.Eg at 1st position we find `Destination Network`, 2nd position we find `Gateway` etc.
+* **`<CMND_KEY>.result.entity.field.prefix.map`**: Doesnt apply as `<CMND_KEY>.result.entity.field.positional.map` is already applied.
 
           
 ## Jilapi property file
