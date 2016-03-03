@@ -1,7 +1,7 @@
 # Jilapi
 Jilapi is a Java library to parse OS command line output.
 
-##Features
+##How it works
 * Line-wise parser.By default, Jilapi assumes that every output line is a meaningful entity by itself.
   (Jilapi can also be made to work under situation when a single entity spans across multiple lines)
 * Every line is further broken down into individual fields.
@@ -21,6 +21,26 @@ Jilapi is a Java library to parse OS command line output.
 
 ## Test
 * `mvn test`
+* 
+## Jilapi property
+
+* **`<CMND_KEY>.entity.delimiter`**: The delimiter marking a complete entity can be demarked.Entity is a single unit of useful data.
+     A command output can have multiple such entities.The default entity delimiter is new line, but it may not be true in all cases.
+* **`<CMND_KEY>.result.entity.field.delimiter`**: The delimiter used to delimit across individual fields of a entity.This should be a      unique character, and should not be already present as part of the original output.The default field delimiter when not specified      is SPACE.The delimiter field can take a regex.
+     A command output can have multiple such entities.The default entity delimiter is new line.
+* **`<CMND_KEY>.result.sections`**: Useful when the command output has multiple sections.May not be applicable for all commands.
+     If a command output has multiple sections, they are demarked using a semi colon character.Please check the 'cmnd3' properties for      a demo of the <CMND_KEY>.result.sections property.
+* **`<CMND_KEY>.result.header`**:  The output line preceding the start of the actual data.May not be applicable for all commands.
+* **`<CMND_KEY>.result.footer`**: The output line following the end of the actual data.May not be applicable for all commands.This field can take a regex.
+* **`<CMND_KEY>.result.ignore`**: The output line that needs to be ignored.May not be applicable for all commands.
+* **`<CMND_KEY>.result.entity.field.positional.map`**: A map representing the position of the fields of an entity in the output.This 
+      is mutually exclusive with result.entity.field.prefix.map.s. The map should contain the field positions in ascending order. 
+      Eg -> 1:fieldA,4:fieldB,10:fieldC is valid. But, 1:fieldA,10:fieldC,4:fieldB is invalid.
+      A single field can spawn across multiple positions (columns) in the output line.See cmnd1's buildTime for a sample of the same.
+      If exact field positioning not available, but instead search texts per field available in the output, then please use 
+      result.entity.prefix.map.
+* **`<CMND_KEY>.result.entity.field.prefix.map`**: A list enlisting the text content signifying the start of each field of an entity
+     in the output.This is mutually exclusive with result.entity.field.positional.map.Please refer to cmnd5 for a sample.
 
 ## Quick Start
 Lets see few sample commands. <br />
@@ -115,26 +135,7 @@ cmnd5.entity.delimiter=EMPTY_LINE
 cmnd5.result.entity.field.prefix.map=encap::linkEncapsulation,addr::inetAddr,Bcast::bcastAddress,Mask::mask,Scope::scope,packets::rxPackets,errors::errors,dropped::dropped,overruns::overruns,frame::frame
 
 ```
-## Jilapi property file
 
-### File description
-* **`<CMND_KEY>.entity.delimiter`**: The delimiter marking a complete entity can be demarked.Entity is a single unit of useful data.
-     A command output can have multiple such entities.The default entity delimiter is new line, but it may not be true in all cases.
-* **`<CMND_KEY>.result.entity.field.delimiter`**: The delimiter used to delimit across individual fields of a entity.This should be a      unique character, and should not be already present as part of the original output.The default field delimiter when not specified      is SPACE.The delimiter field can take a regex.
-     A command output can have multiple such entities.The default entity delimiter is new line.
-* **`<CMND_KEY>.result.sections`**: Useful when the command output has multiple sections.May not be applicable for all commands.
-     If a command output has multiple sections, they are demarked using a semi colon character.Please check the 'cmnd3' properties for      a demo of the <CMND_KEY>.result.sections property.
-* **`<CMND_KEY>.result.header`**:  The output line preceding the start of the actual data.May not be applicable for all commands.
-* **`<CMND_KEY>.result.footer`**: The output line following the end of the actual data.May not be applicable for all commands.This field can take a regex.
-* **`<CMND_KEY>.result.ignore`**: The output line that needs to be ignored.May not be applicable for all commands.
-* **`<CMND_KEY>.result.entity.field.positional.map`**: A map representing the position of the fields of an entity in the output.This 
-      is mutually exclusive with result.entity.field.prefix.map.s. The map should contain the field positions in ascending order. 
-      Eg -> 1:fieldA,4:fieldB,10:fieldC is valid. But, 1:fieldA,10:fieldC,4:fieldB is invalid.
-      A single field can spawn across multiple positions (columns) in the output line.See cmnd1's buildTime for a sample of the same.
-      If exact field positioning not available, but instead search texts per field available in the output, then please use 
-      result.entity.prefix.map.
-* **`<CMND_KEY>.result.entity.field.prefix.map`**: A list enlisting the text content signifying the start of each field of an entity
-     in the output.This is mutually exclusive with result.entity.field.positional.map.Please refer to cmnd5 for a sample.
 
 
 ## License
