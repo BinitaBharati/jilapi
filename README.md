@@ -10,7 +10,7 @@ Jilapi is a Java library to parse OS command line output.
      * A single String with a new line delimiter to mark individual lines.
 * The result of the command output parsing is given out in JSON format.
 * It is a standalone jar
-* The user of the library is required to provide a Properties reference which has command parsing rules. The Properties reference can be instantiated as considered apt by the user, ie sourced from a file/DB etc. Please check the sample jilapi.properties file for reference.
+* The user of the library is required to provide a [Properties](https://docs.oracle.com/javase/8/docs/api/java/util/Properties.html "java.util.Properties") reference which has command parsing rules. The Properties reference can be instantiated as considered apt by the user, ie sourced from a file/DB etc. Please check the sample [jilapi.properties](src/test/resources/jilapi.properties) file for reference.
 
 ## Build
 * `git clone git@github.com:BinitaBharati/jilapi.git`
@@ -22,7 +22,7 @@ Jilapi is a Java library to parse OS command line output.
 * `mvn test`
  
 ## Jilapi property
-This is the heart of Jilapi. For every command, the user of this library has to pass appropriate Properties loaded with command parsing rules. Below is a summary of all the possible properties: <br /> 
+This is the heart of Jilapi. For every command, the user of this library has to pass appropriate [Properties](https://docs.oracle.com/javase/8/docs/api/java/util/Properties.html "java.util.Properties") loaded with command parsing rules. Below is a summary of all the possible properties: <br /> 
 * **`<CMND_KEY>.entity.delimiter`**: The delimiter marking a complete entity can be demarked.Entity is a single unit of useful data.
      A command output can have multiple such entities.The default entity delimiter is new line, but it may not be true in all cases.
 * **`<CMND_KEY>.result.entity.field.delimiter`**: The delimiter used to delimit across individual fields of a entity.This should be a      unique character, and should not be already present as part of the original output.The default field delimiter when not specified      is SPACE.The delimiter field can take a regex.
