@@ -11,7 +11,6 @@
 package com.github.binitabharati.jilapi;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.StringReader;
@@ -32,13 +31,11 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 
-import java.applet.Applet;
-
 public class Jilapi {
     
     public static final Logger logger = LoggerFactory.getLogger(Jilapi.class);
 
-    private static Properties prop;
+    private  Properties prop;
     private  String commandKey;
     private  JsonElement data;   
     private  Map<ProcessingEntity, Boolean> headerMap;
@@ -54,24 +51,13 @@ public class Jilapi {
     private  boolean startFound;
     private  Map<ProcessingEntity, Boolean> fieldMapper;
     
-    public Jilapi(String commandKey) throws Exception {
+    public Jilapi(Properties prop, String commandKey) throws Exception {
+        this.prop = prop;
+        this.commandKey = commandKey;
         init(commandKey);
     }
     
-    public void init(String commandKey) throws Exception {     
-        if (prop == null) {
-            prop = new Properties();
-            InputStream is = Jilapi.class.getClassLoader().getResourceAsStream("jilapi.properties");
-            try {
-                prop.load(is);
-                is.close();
-            } catch (IOException e) {
-                // TODO Auto-generated catch block
-                e.printStackTrace();
-            }
-        }      
-        this.commandKey = commandKey;
-        
+    private void init(String commandKey) throws Exception {           
         List<String> tmpList = null;
         String  tmpProp = null;
         
@@ -205,7 +191,7 @@ public class Jilapi {
         return parseCommand(br);
     }
     
-    public String parseCommand(BufferedReader br) throws Exception {
+    private String parseCommand(BufferedReader br) throws Exception {
         String line = null;
         
         if (entityDelimterRegex.equals(Utils.CMND_ENTITY_DELIMITER_VAL_DEFAULT)) {

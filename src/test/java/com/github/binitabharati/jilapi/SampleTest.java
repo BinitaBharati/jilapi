@@ -17,7 +17,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
-import org.junit.Before;
 import org.junit.Test;
 
 import com.github.binitabharati.jilapi.sample.model.EtcPasswd;
@@ -37,8 +36,7 @@ public class SampleTest extends TestCase {
     
     private static Properties prop;
     
-    @Before
-    public static void init() throws Exception {
+    private static Properties loadPropertiesFromCP() {
         prop = new Properties();
         InputStream is = SampleTest.class.getClassLoader().getResourceAsStream("jilapi.properties");
         try {
@@ -48,25 +46,16 @@ public class SampleTest extends TestCase {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-        
+        return prop;
     }
-       
+    
+   
     @Test
     public void testSample1() throws Exception {
-        if (prop == null) {
-            prop = new Properties();
-            InputStream is1 = SampleTest.class.getClassLoader().getResourceAsStream("jilapi.properties");
-            try {
-                prop.load(is1);
-                is1.close();
-            } catch (IOException e) {
-                // TODO Auto-generated catch block
-                e.printStackTrace();
-            }
-        }       
+        loadPropertiesFromCP();
         String cmndKey = "cmnd1";
         InputStream is = this.getClass().getClassLoader().getResourceAsStream(cmndKey); //Read command output file into InputStream.       
-        Jilapi jilapi = new Jilapi(cmndKey);
+        Jilapi jilapi = new Jilapi(prop, cmndKey);
         String actualJson = jilapi.parseCommand(is);     
         System.out.println("cmnd1: actualJson = " + Utils.preetyPrintJson(actualJson));
         String expectedJson = readFile(cmndKey + "Op.json");
@@ -79,20 +68,10 @@ public class SampleTest extends TestCase {
     
     @Test
     public void testSample2() throws Exception {
-        if (prop == null) {
-            prop = new Properties();
-            InputStream is1 = SampleTest.class.getClassLoader().getResourceAsStream("jilapi.properties");
-            try {
-                prop.load(is1);
-                is1.close();
-            } catch (IOException e) {
-                // TODO Auto-generated catch block
-                e.printStackTrace();
-            }
-        }       
+        loadPropertiesFromCP();
         String cmndKey = "cmnd2";
         InputStream is = this.getClass().getClassLoader().getResourceAsStream(cmndKey); //Read command output file into InputStream. 
-        Jilapi jilapi = new Jilapi(cmndKey);
+        Jilapi jilapi = new Jilapi(prop, cmndKey);
         String actualJson = jilapi.parseCommand(is);     
         System.out.println("cmnd2: actualJson = " + Utils.preetyPrintJson(actualJson));
         String expectedJson = readFile(cmndKey + "Op.json");
@@ -105,20 +84,10 @@ public class SampleTest extends TestCase {
     
     @Test
     public void testSample3() throws Exception {
-        if (prop == null) {
-            prop = new Properties();
-            InputStream is1 = SampleTest.class.getClassLoader().getResourceAsStream("jilapi.properties");
-            try {
-                prop.load(is1);
-                is1.close();
-            } catch (IOException e) {
-                // TODO Auto-generated catch block
-                e.printStackTrace();
-            }
-        }       
+        loadPropertiesFromCP();  
         String cmndKey = "cmnd3";
         InputStream is = this.getClass().getClassLoader().getResourceAsStream(cmndKey); //Read command output file into InputStream. 
-        Jilapi jilapi = new Jilapi(cmndKey);
+        Jilapi jilapi = new Jilapi(prop, cmndKey);
         String actualJson = jilapi.parseCommand(is);     
         System.out.println("cmnd3 actualJson = " + Utils.preetyPrintJson(actualJson));
         String expectedJson = readFile(cmndKey + "Op.json");
@@ -130,20 +99,10 @@ public class SampleTest extends TestCase {
     
     @Test
     public void testSample4() throws Exception {
-        if (prop == null) {
-            prop = new Properties();
-            InputStream is1 = SampleTest.class.getClassLoader().getResourceAsStream("jilapi.properties");
-            try {
-                prop.load(is1);
-                is1.close();
-            } catch (IOException e) {
-                // TODO Auto-generated catch block
-                e.printStackTrace();
-            }
-        }       
+        loadPropertiesFromCP();
         String cmndKey = "cmnd4";
         InputStream is = this.getClass().getClassLoader().getResourceAsStream(cmndKey); //Read command output file into InputStream. 
-        Jilapi jilapi = new Jilapi(cmndKey);
+        Jilapi jilapi = new Jilapi(prop, cmndKey);
         String actualJson = jilapi.parseCommand(is);     
         System.out.println("cmnd4: actualJson = " + Utils.preetyPrintJson(actualJson));
         String expectedJson = readFile(cmndKey + "Op.json");
@@ -156,20 +115,10 @@ public class SampleTest extends TestCase {
     
     @Test
     public void testSample5() throws Exception {
-        if (prop == null) {
-            prop = new Properties();
-            InputStream is1 = SampleTest.class.getClassLoader().getResourceAsStream("jilapi.properties");
-            try {
-                prop.load(is1);
-                is1.close();
-            } catch (IOException e) {
-                // TODO Auto-generated catch block
-                e.printStackTrace();
-            }
-        }       
+        loadPropertiesFromCP();
         String cmndKey = "cmnd5";
         InputStream is = this.getClass().getClassLoader().getResourceAsStream(cmndKey); //Read command output file into InputStream. 
-        Jilapi jilapi = new Jilapi(cmndKey);
+        Jilapi jilapi = new Jilapi(prop, cmndKey);
         String actualJson = jilapi.parseCommand(is);     
         System.out.println("cmnd5: actualJson = " + Utils.preetyPrintJson(actualJson));
         String expectedJson = readFile(cmndKey + "Op.json");
