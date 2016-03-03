@@ -1,5 +1,5 @@
 # Jilapi
-Jilapi is a Java library to parse command line output.
+Jilapi is a Java library to parse OS command line output.
 
 ##Features
 * Line-wise parser.By default, Jilapi assumes that every output line is a meaningful entity by itself.
@@ -50,8 +50,8 @@ Now, lets understand what attributes of jilapi property file matters in this cas
 * **`<CMND_KEY>.result.entity.field.delimiter`**:The entity field delimiter is SPACE here, which is also the default.So, this attribute doesnt apply.
 * **`<CMND_KEY>.result.sections`**: There are no sections, as in there is only a single large section.Multiple sections dont apply.
 * **`<CMND_KEY>.result.header`**: The lines containing the fields `Destination`,`Gateway`,`Genmask` etc precede the actual route entries.So, the columns `Destination`,`Gateway`,`Genmask` etc is the header.
-* **`<CMND_KEY>.result.footer`**: Footers doesnt apply.
-* **`<CMND_KEY>.result.ignore`**: Ignore doesnt apply.
+* **`<CMND_KEY>.result.footer`**: Not applicable.
+* **`<CMND_KEY>.result.ignore`**: Not applicable.
 * **`<CMND_KEY>.result.entity.field.positional.map`**: Here each field of the entity is positional.Eg at 1st position we find `Destination Network`, 2nd position we find `Gateway` etc.
 * **`<CMND_KEY>.result.entity.field.prefix.map`**: Doesnt apply as `<CMND_KEY>.result.entity.field.positional.map` is already applied.<br />
 Corresponding property file entry is given below:
@@ -68,7 +68,7 @@ Now, lets understand what attributes of jilapi property file matters in this cas
 * **`<CMND_KEY>.result.sections`**: There are multiple sections of route entry here, viz IPv4 route entries and IPv6 route entries.
 * **`<CMND_KEY>.result.header`**: Each of the respective sections contain their own headers. Eg: IPv4 route entry has the headers as `Network Destination`,`Netmask`,`Gateway`,`Interface` and `Metric`.
 * **`<CMND_KEY>.result.footer`**: Each of the respective sections contain their own footers.Both IPV4 and IPV6 sections have `====` as the footer.
-* **`<CMND_KEY>.result.ignore`**: Ignore doesnt apply.
+* **`<CMND_KEY>.result.ignore`**: Not applicable.
 * **`<CMND_KEY>.result.entity.field.positional.map`**: Here each field of the entity is positional.Eg: In the case of IPv4 section,we find `Destination Network` at 1st posistion, `Gateway` at 2nd position etc.
 * **`<CMND_KEY>.result.entity.field.prefix.map`**: Doesnt apply as `<CMND_KEY>.result.entity.field.positional.map` is already applied.<br />
 Corresponding property file entry is given below:
@@ -88,7 +88,7 @@ Now, lets understand what attributes of jilapi property file matters in this cas
 * **`<CMND_KEY>.result.sections`**: Not applicable here.
 * **`<CMND_KEY>.result.header`**: Not applicable here.
 * **`<CMND_KEY>.result.footer`**: Not applicable here.
-* **`<CMND_KEY>.result.ignore`**: Ignore doesnt apply.
+* **`<CMND_KEY>.result.ignore`**: Not applicable.
 * **`<CMND_KEY>.result.entity.field.positional.map`**: Here each field of the entity is positional.Eg: at 1st position we find the user name, 2nd position is the password and so on.
 * **`<CMND_KEY>.result.entity.field.prefix.map`**: Doesnt apply as `<CMND_KEY>.result.entity.field.positional.map` is already applied.<br />
 Corresponding property file entry is given below:
@@ -108,7 +108,7 @@ Now, lets understand what attributes of jilapi property file matters in this cas
 * **`<CMND_KEY>.result.footer`**: Not applicable here.
 * **`<CMND_KEY>.result.ignore`**: Not applicable here.
 * **`<CMND_KEY>.result.entity.field.positional.map`**: Here each field of the entity can be found by a prefix.Hence, positional map doesnt apply.Prefix map should be applied.
-* **`<CMND_KEY>.result.entity.field.prefix.map`**: `encap:` is the prefix to extract link encapsulation value, `addr:` is teh prefix to extract IP address, and so on. <br />
+* **`<CMND_KEY>.result.entity.field.prefix.map`**: `encap:` is the prefix to extract link encapsulation value, `addr:` is the prefix to extract IP address, and so on. <br />
 Corresponding property file entry is given below:
 ```
 cmnd5.entity.delimiter=EMPTY_LINE
