@@ -30,7 +30,7 @@ Executing `uname -a` on a Linux system generates the following output:
 
 Now, lets understand what attributes of jilapi property file matters in this case.
 * **`<CMND_KEY>.entity.delimiter`**: Here a single line contains a complete meanigful entity.Hence, entity delimiter is a new line, which is also the default entity delimiter.Hence, this attribute doesnt apply.
-* * **`<CMND_KEY>.result.entity.field.delimiter`**:The entity field delimiter is SPACE here, which is also the default.So, this attribute doesnt apply.
+* **`<CMND_KEY>.result.entity.field.delimiter`**:The entity field delimiter is SPACE here, which is also the default.So, this attribute doesnt apply.
 * **`<CMND_KEY>.result.sections`**: The output is just a single line.Hence, multiple sections doesnt apply.
 * **`<CMND_KEY>.result.header`**: The output is just a single line.Hence, headers doesnt apply.
 * **`<CMND_KEY>.result.footer`**: The output is just a single line.Hence, footers doesnt apply.
@@ -47,7 +47,7 @@ Executing `route -n` on a Linux system generates the following output: <br />
 
 Now, lets understand what attributes of jilapi property file matters in this case.
 * **`<CMND_KEY>.entity.delimiter`**: Here each single line contains a complete meanigful entity, which is a route entry.Hence, entity delimiter is a new line, which is also the default entity delimiter.Hence, this attribute doesn't apply.
-* * **`<CMND_KEY>.result.entity.field.delimiter`**:The entity field delimiter is SPACE here, which is also the default.So, this attribute doesnt apply.
+* **`<CMND_KEY>.result.entity.field.delimiter`**:The entity field delimiter is SPACE here, which is also the default.So, this attribute doesnt apply.
 * **`<CMND_KEY>.result.sections`**: There are no sections, as in there is only a single large section.Multiple sections dont apply.
 * **`<CMND_KEY>.result.header`**: The lines containing the fields `Destination`,`Gateway`,`Genmask` etc precede the actual route entries.So, the columns `Destination`,`Gateway`,`Genmask` etc is the header.
 * **`<CMND_KEY>.result.footer`**: Footers doesnt apply.
@@ -59,18 +59,35 @@ Corresponding property file entry is given below:
 cmnd2.result.header=Destination,Gateway,Genmask,Flags,Metric,Ref,Use,Iface
 cmnd2.result.entity.field.positional.map=1:destinationNw,2:gateway,3:netMask,5:metric,8:port
 ```
+##### route print
+Executing `route print` on a Windows system generates the following output: <br />
+![Alt text](docs/cmnd3.png "route print")
+Now, lets understand what attributes of jilapi property file matters in this case.
+* **`<CMND_KEY>.entity.delimiter`**: Here, a complete meanigful entity, which is a route entry, can be derived from a single line.Hence, entity delimiter is a new line, which is also the default entity delimiter.Hence, this attribute doesn't apply.
+* **`<CMND_KEY>.result.entity.field.delimiter`**:The entity field delimiter is SPACE here, which is also the default.So, this attribute doesnt apply.
+* **`<CMND_KEY>.result.sections`**: There are multiple sections of route entry here, viz IPv4 route entries and IPv6 route entries.
+* **`<CMND_KEY>.result.header`**: Each of the respective sections contain their own headers. Eg: IPv4 route entry has the headers as `Network Destination`,`Netmask`,`Gateway`,`Interface` and `Metric`.
+* **`<CMND_KEY>.result.footer`**: Each of the respective sections contain their own footers.Both IPV4 and IPV6 sections have `====` as the footer.
+* **`<CMND_KEY>.result.ignore`**: Ignore doesnt apply.
+* **`<CMND_KEY>.result.entity.field.positional.map`**: Here each field of the entity is positional.Eg: In the case of IPv4 section,we find `Destination Network` at 1st posistion, `Gateway` at 2nd position etc.
+* **`<CMND_KEY>.result.entity.field.prefix.map`**: Doesnt apply as `<CMND_KEY>.result.entity.field.positional.map` is already applied.<br />
+Corresponding property file entry is given below:
+```
+cmnd3.result.sections=ipv4Route;ipv6Route
+cmnd3.result.header=Network Destination,Netmask,Gateway,Interface,Metric;If,Metric,Network Destination,Gateway
+cmnd3.result.footer=\=+;\=+
+cmnd3.result.entity.field.positional.map=1:destinationNw,2:netMask,3:gateway,4:port,5:metric;1:field1,2:metric,3:destination,4:gateway
+```
 
-
-          
 ## Jilapi property file
 
 ### File description
 * **`<CMND_KEY>.entity.delimiter`**: The delimiter marking a complete entity can be demarked.Entity is a single unit of useful data.
      A command output can have multiple such entities.The default entity delimiter is new line, but it may not be true in all cases.
 * **`<CMND_KEY>.result.entity.field.delimiter`**: The delimiter used to delimit across individual fields of a entity.This should be a      unique character, and should not be already present as part of the original output.The default field delimiter when not specified      is SPACE.
-     A command output can have multiple such entities.The default entity delimiter is new line, but it may not be true in all cases.
+     A command output can have multiple such entities.The default entity delimiter is new line.
 * **`<CMND_KEY>.result.sections`**: Useful when the command output has multiple sections.May not be applicable for all commands.
-    Please check the 'cmnd3' properties for a demo of the <CMND_KEY>.result.sections property.
+     If a command output has multiple sections, they are demarked using a semi colon character.Please check the 'cmnd3' properties for      a demo of the <CMND_KEY>.result.sections property.
 * **`<CMND_KEY>.result.header`**:  The output line preceding the start of the actual data.May not be applicable for all commands.
 * **`<CMND_KEY>.result.footer`**: The output line following the end of the actual data.May not be applicable for all commands.
 * **`<CMND_KEY>.result.ignore`**: The output line that needs to be ignored.May not be applicable for all commands.
