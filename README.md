@@ -35,7 +35,7 @@ Now, lets understand what attributes of jilapi property file matters in this cas
 * **`<CMND_KEY>.result.footer`**: The output is just a single line.Hence, footers doesnt apply.
 * **`<CMND_KEY>.result.ignore`**: The output is just a single line.Hence, ignore doesnt apply.
 * **`<CMND_KEY>.result.entity.field.positional.map`**: Here each field of the entity is positional.Eg at 1st position we find Kernel version, 2nd position we find Node name etc.The field Build time spans multiple columns, viz column 4 to 11.
-* **`<CMND_KEY>.result.entity.field.prefix.map`**: Doesnt apply as `<CMND_KEY>.result.entity.field.positional.map` is already applied.
+* **`<CMND_KEY>.result.entity.field.prefix.map`**: Doesnt apply as `<CMND_KEY>.result.entity.field.positional.map` is already applied.<br />
 Corresponding property file entry is given below:
 ```
 cmnd1.result.entity.field.positional.map=1:kernelName,2:nodeName,3:kernelVersion,4-11:buildTime,12:processorType,13:hwPlatform,14:processorArch,15:osName
@@ -52,7 +52,13 @@ Now, lets understand what attributes of jilapi property file matters in this cas
 * **`<CMND_KEY>.result.footer`**: Footers doesnt apply.
 * **`<CMND_KEY>.result.ignore`**: Ignore doesnt apply.
 * **`<CMND_KEY>.result.entity.field.positional.map`**: Here each field of the entity is positional.Eg at 1st position we find `Destination Network`, 2nd position we find `Gateway` etc.
-* **`<CMND_KEY>.result.entity.field.prefix.map`**: Doesnt apply as `<CMND_KEY>.result.entity.field.positional.map` is already applied.
+* **`<CMND_KEY>.result.entity.field.prefix.map`**: Doesnt apply as `<CMND_KEY>.result.entity.field.positional.map` is already applied.<br />
+Corresponding property file entry is given below:
+```
+cmnd2.result.header=Destination,Gateway,Genmask,Flags,Metric,Ref,Use,Iface
+cmnd2.result.entity.field.positional.map=1:destinationNw,2:gateway,3:netMask,5:metric,8:port
+```
+
 
           
 ## Jilapi property file
