@@ -80,8 +80,9 @@ cmnd3.result.entity.field.positional.map=1:destinationNw,2:netMask,3:gateway,4:p
 ```
 ##### /etc/passwd
 Executing `cat /etc/passwd` on a Linux system generates the following output: <br />
-![Alt text](docs/cmnd4.png "/etc/passwd")
+![Alt text](docs/cmnd4.png "/etc/passwd") <br />
 Now, lets understand what attributes of jilapi property file matters in this case.
+
 * **`<CMND_KEY>.entity.delimiter`**: Here, a complete meanigful entity, which is a route entry, can be derived from a single line.Hence, entity delimiter is a new line, which is also the default entity delimiter.Hence, this attribute doesn't apply.
 * **`<CMND_KEY>.result.entity.field.delimiter`**:The entity field delimiter is colon here.So, this attribute's value should be set as `:` in the property file.
 * **`<CMND_KEY>.result.sections`**: Not applicable here.
