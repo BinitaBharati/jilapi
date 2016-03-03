@@ -24,7 +24,7 @@ Jilapi is a Java-based native OS command line output parser.
 
 ## Quick Start
 Lets take example of a simple Linux command.Executing `uname -a` on a RHEL system generates the following output: 
-![Alt text](sample/sample1.png "Optional Title")
+![Alt text](docs/cmnd1.png "Optional Title")
 
 Now, lets understand what attributes of jilapi property file matters in this case.
 * **`<CMND_KEY>.entity.delimiter`**: Here a single line contains a complete meanigful entity.Hence, entity delimiter is a new line, which is also the default entity delimiter.Hence, this attribute doesnt apply.
