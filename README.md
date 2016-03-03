@@ -21,9 +21,9 @@ Jilapi is a Java library to parse OS command line output.
 
 ## Test
 * `mvn test`
-* 
+ 
 ## Jilapi property
-
+This is the heart of Jilapi. For every command, the user of this library has to make appropriate entries into the jilapi.properties file. Below is a summary of all the possible properties: <br /> 
 * **`<CMND_KEY>.entity.delimiter`**: The delimiter marking a complete entity can be demarked.Entity is a single unit of useful data.
      A command output can have multiple such entities.The default entity delimiter is new line, but it may not be true in all cases.
 * **`<CMND_KEY>.result.entity.field.delimiter`**: The delimiter used to delimit across individual fields of a entity.This should be a      unique character, and should not be already present as part of the original output.The default field delimiter when not specified      is SPACE.The delimiter field can take a regex.
