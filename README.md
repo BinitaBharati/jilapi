@@ -78,18 +78,34 @@ cmnd3.result.header=Network Destination,Netmask,Gateway,Interface,Metric;If,Metr
 cmnd3.result.footer=\=+;\=+
 cmnd3.result.entity.field.positional.map=1:destinationNw,2:netMask,3:gateway,4:port,5:metric;1:field1,2:metric,3:destination,4:gateway
 ```
-
+##### /etc/passwd
+Executing `cat /etc/passwd` on a Linux system generates the following output: <br />
+![Alt text](docs/cmnd4.png "/etc/passwd")
+Now, lets understand what attributes of jilapi property file matters in this case.
+* **`<CMND_KEY>.entity.delimiter`**: Here, a complete meanigful entity, which is a route entry, can be derived from a single line.Hence, entity delimiter is a new line, which is also the default entity delimiter.Hence, this attribute doesn't apply.
+* **`<CMND_KEY>.result.entity.field.delimiter`**:The entity field delimiter is colon here.So, this attribute's value should be set as `:` in the property file.
+* **`<CMND_KEY>.result.sections`**: Not applicable here.
+* **`<CMND_KEY>.result.header`**: Not applicable here.
+* **`<CMND_KEY>.result.footer`**: Not applicable here.
+* **`<CMND_KEY>.result.ignore`**: Ignore doesnt apply.
+* **`<CMND_KEY>.result.entity.field.positional.map`**: Here each field of the entity is positional.Eg: at 1st position we find the user name, 2nd position is the password and so on.
+* **`<CMND_KEY>.result.entity.field.prefix.map`**: Doesnt apply as `<CMND_KEY>.result.entity.field.positional.map` is already applied.<br />
+Corresponding property file entry is given below:
+```
+cmnd4.result.entity.field.positional.map=1:userName,2:passwd,3:userId,4:grpId,5:userFullName,6:homeDirectory,7:shellAccount
+cmnd4.result.entity.field.delimiter=:
+```
 ## Jilapi property file
 
 ### File description
 * **`<CMND_KEY>.entity.delimiter`**: The delimiter marking a complete entity can be demarked.Entity is a single unit of useful data.
      A command output can have multiple such entities.The default entity delimiter is new line, but it may not be true in all cases.
-* **`<CMND_KEY>.result.entity.field.delimiter`**: The delimiter used to delimit across individual fields of a entity.This should be a      unique character, and should not be already present as part of the original output.The default field delimiter when not specified      is SPACE.
+* **`<CMND_KEY>.result.entity.field.delimiter`**: The delimiter used to delimit across individual fields of a entity.This should be a      unique character, and should not be already present as part of the original output.The default field delimiter when not specified      is SPACE.The delimiter field can take a regex.
      A command output can have multiple such entities.The default entity delimiter is new line.
 * **`<CMND_KEY>.result.sections`**: Useful when the command output has multiple sections.May not be applicable for all commands.
      If a command output has multiple sections, they are demarked using a semi colon character.Please check the 'cmnd3' properties for      a demo of the <CMND_KEY>.result.sections property.
 * **`<CMND_KEY>.result.header`**:  The output line preceding the start of the actual data.May not be applicable for all commands.
-* **`<CMND_KEY>.result.footer`**: The output line following the end of the actual data.May not be applicable for all commands.
+* **`<CMND_KEY>.result.footer`**: The output line following the end of the actual data.May not be applicable for all commands.This field can take a regex.
 * **`<CMND_KEY>.result.ignore`**: The output line that needs to be ignored.May not be applicable for all commands.
 * **`<CMND_KEY>.result.entity.field.positional.map`**: A map representing the position of the fields of an entity in the output.This 
       is mutually exclusive with result.entity.field.prefix.map.s. The map should contain the field positions in ascending order. 
