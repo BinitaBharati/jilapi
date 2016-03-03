@@ -25,6 +25,21 @@ Jilapi is a Java-based native OS command line output parser.
 ## Quick Start
 Lets take example of a simple Linux command.Executing `uname -a` on a RHEL system generates the following output: 
 ![Alt text](sample/sample1.png "Optional Title")
+
+Now, lets understand what attributes of jilapi property file matters in this case.
+* **`<CMND_KEY>.entity.delimiter`**: Here a single line contains a complete meanigful entity.Hence, entity delimiter is a new line, which is also the default entity delimiter.Hence, this attribute doesnt apply.
+* * **`<CMND_KEY>.result.entity.field.delimiter`**:The entity field delimiter is SPACE here, which is also the default.So, this attribute doesnt apply.
+* **`<CMND_KEY>.result.sections`**: The output is just a single line.Hence, sections doesnt apply.
+* **`<CMND_KEY>.result.header`**: The output is just a single line.Hence, headers doesnt apply.
+* **`<CMND_KEY>.result.footer`**: The output is just a single line.Hence, footers doesnt apply.
+* **`<CMND_KEY>.result.ignore`**: The output is just a single line.Hence, ignore doesnt apply.
+* **`<CMND_KEY>.result.entity.field.positional.map`**: Here each field of the entity is positional.Eg at 1st position we find Kernel version, 2nd position we find Node name etc.The field Build time spans multiple columns, viz column 4 to 11.
+* **`<CMND_KEY>.result.entity.field.prefix.map`**: Doesnt apply as `<CMND_KEY>.result.entity.field.positional.map` is already applied.
+Corresponding property file entry is given below:
+```
+cmnd1.result.entity.field.positional.map=1:kernelName,2:nodeName,3:kernelVersion,4-11:buildTime,12:processorType,13:hwPlatform,14:processorArch,15:osName
+```
+
           
 ## Jilapi property file
 
@@ -41,14 +56,11 @@ Lets take example of a simple Linux command.Executing `uname -a` on a RHEL syste
 * **`<CMND_KEY>.result.entity.field.positional.map`**: A map representing the position of the fields of an entity in the output.This 
       is mutually exclusive with result.entity.field.prefix.map.s. The map should contain the field positions in ascending order. 
       Eg -> 1:fieldA,4:fieldB,10:fieldC is valid. But, 1:fieldA,10:fieldC,4:fieldB is invalid.
-      A single field can spawn across multiple positions (columns) in the output line.See cmnd2's buildTime for a sample of the same.
+      A single field can spawn across multiple positions (columns) in the output line.See cmnd1's buildTime for a sample of the same.
       If exact field positioning not available, but instead search texts per field available in the output, then please use 
       result.entity.prefix.map.
 * **`<CMND_KEY>.result.entity.field.prefix.map`**: A list enlisting the text content signifying the start of each field of an entity
      in the output.This is mutually exclusive with result.entity.field.positional.map.Please refer to cmnd5 for a sample.
-* **`<CMND_KEY>.result.entity.delimiter`**: Delimiter to determine start and end of a complete entity. Default delimiter is a new
-      line. i.e each line of the output is a meaningful complete entity.
-* **`<CMND_KEY>.result.entity.field.delimiter`**: Delimiter between individual fields of an entity, Default is SPACE..
 
 ### Sample file
 
