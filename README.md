@@ -2,7 +2,7 @@
 Jilapi is a Java library to parse OS command line output.
 
 ##How it works
-* Line-wise parser.By default, Jilapi assumes that every output line is a meaningful entity by itself.
+* Line-wise parser. By default, Jilapi assumes that every output line is a meaningful entity by itself.
   (Jilapi can also be made to work under situation when a single entity spans across multiple lines)
 * Every line is further broken down into individual fields.
 * Takes the following types of inputs:
