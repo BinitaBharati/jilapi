@@ -17,14 +17,18 @@ import com.google.gson.JsonParser;
 
 public class Utils {
     
+    public static final String CMND_ENTITY_DELIMITER = ".entity.delimiter";
+    public static final String CMND_ENTITY_DELIMITER_VAL_DEFAULT = "\n";
     public static final String CMND_RESULT_SECTIONS = ".result.sections";
-    public static final String CMND_RESULT_HEADER = ".result.sections.header";
-    public static final String CMND_RESULT_FOOTER = ".result.sections.footer";
-    public static final String CMND_RESULT_IGNORE = ".result.sections.ignore";
-    public static final String CMND_RESULT_LINE_FIELD_MAP = ".result.sections.line.field.map";
-    
-    public static final String CMND_FIELD_DELIMITER_KEY = ".result.line.field.delimiter";
-    public static final String CMND_FIELD_DELIMITER_VAL_DEFAULT = " +"; // " +" -> one or more spaces.
+    public static final String CMND_RESULT_HEADER = ".result.header";
+    public static final String CMND_RESULT_FOOTER = ".result.footer";
+    public static final String CMND_RESULT_IGNORE = ".result.ignore";
+    public static final String CMND_RESULT_ENTITY_POSITIONAL_MAP = ".result.entity.field.positional.map";
+    public static final String CMND_RESULT_ENTITY_PREFIX_MAP = ".result.entity.field.prefix.map";
+    public static final String CMND_RESULT_ENTITY_MIX_MAP = ".result.entity.field.mix.map";
+    public static final String CMND_FIELD_DELIMITER_KEY = ".result.entity.field.delimiter";
+    public static final String CMND_FIELD_DELIMITER_VAL_DEFAULT_REGEX = " +"; // " +" -> one or more spaces.
+    public static final String CMND_ENTITY_DELIMITER_EMPTY_LINE = "";
 
     public static String preetyPrintJson(String uglyJson) {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();

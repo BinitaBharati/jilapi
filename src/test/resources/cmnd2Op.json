@@ -1,12 +1,23 @@
 [
+{
+    "destinationNw": "0.0.0.0",
+    "gateway": "10.0.2.2",
+    "netMask": "0.0.0.0",
+    "metric": "0",
+    "port": "eth0"
+  } ,
+ {
+    "destinationNw": "10.0.2.0",
+    "gateway": "0.0.0.0",
+    "netMask": "255.255.255.0",
+    "metric": "0",
+    "port": "eth0"
+  },
   {
-    "kernelName": "Linux",
-    "nodeName": "vmwutpapp01-dev",
-    "kernelVersion": "2.6.18-238.5.1.el5",
-    "buildTime": "#1 SMP Mon Feb 21 05:52:39 EST 2011",
-    "processorType": "x86_64",
-    "hwPlatform": "x86_64",
-    "processorArch": "x86_64",
-    "osName": "GNU/Linux"
+    "destinationNw": "192.168.10.0",
+    "gateway": "0.0.0.0",
+    "netMask": "255.255.255.0",
+    "metric": "0",
+    "port": "eth1"
   }
 ]

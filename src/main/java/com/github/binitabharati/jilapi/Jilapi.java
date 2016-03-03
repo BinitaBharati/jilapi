@@ -25,10 +25,14 @@ import java.util.Properties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.github.binitabharati.jilapi.util.PositionalFieldHandler;
+import com.github.binitabharati.jilapi.util.PrefixFieldHandler;
 import com.github.binitabharati.jilapi.util.Utils;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
+
+import java.applet.Applet;
 
 public class Jilapi {
     
@@ -38,13 +42,17 @@ public class Jilapi {
     private  String commandKey;
     private  JsonElement data;   
     private  Map<ProcessingEntity, Boolean> headerMap;
-    private  Map<ProcessingEntity, Boolean> fieldMap;
+    private  Map<ProcessingEntity, Boolean> fieldPositonalMap;
+    private  Map<ProcessingEntity, Boolean> fieldPrefixMap;
+    private  Map<ProcessingEntity, Boolean> fieldMixMap;
     private  Map<ProcessingEntity, Boolean> footerMap;
     private  Map<ProcessingEntity, Boolean> sectionMap;
     private  Map<ProcessingEntity, Boolean> ignoreMap;
     private  JsonArray sectionData;
     private  String fieldDelimterRegex;
+    private  String entityDelimterRegex;
     private  boolean startFound;
+    private  Map<ProcessingEntity, Boolean> fieldMapper;
     
     public Jilapi(String commandKey) throws Exception {
         init(commandKey);
@@ -76,11 +84,27 @@ public class Jilapi {
                
         }
        
-        tmpProp = prop.getProperty(commandKey + Utils.CMND_RESULT_LINE_FIELD_MAP);
+        tmpProp = prop.getProperty(commandKey + Utils.CMND_RESULT_ENTITY_POSITIONAL_MAP);
         if (tmpProp != null) {
             tmpList = Arrays.asList(tmpProp.split(";"));
             if (!Utils.isListContainingAllBlanks(tmpList)) {
-                this.fieldMap = constructUnprocessedStatusMap(tmpList);
+                this.fieldPositonalMap = constructUnprocessedStatusMap(tmpList);
+            }
+        }
+        
+        tmpProp = prop.getProperty(commandKey + Utils.CMND_RESULT_ENTITY_PREFIX_MAP);
+        if (tmpProp != null) {
+            tmpList = Arrays.asList(tmpProp.split(";"));
+            if (!Utils.isListContainingAllBlanks(tmpList)) {
+                this.fieldPrefixMap = constructUnprocessedStatusMap(tmpList);
+            }
+        }
+        
+        tmpProp = prop.getProperty(commandKey + Utils.CMND_RESULT_ENTITY_MIX_MAP);
+        if (tmpProp != null) {
+            tmpList = Arrays.asList(tmpProp.split(";"));
+            if (!Utils.isListContainingAllBlanks(tmpList)) {
+                this.fieldMixMap = constructUnprocessedStatusMap(tmpList);
             }
         }
         
@@ -118,7 +142,7 @@ public class Jilapi {
         logger.info("cmdFieldDelimit = " + cmdFieldDelimit);
         
         if (cmdFieldDelimit == null || cmdFieldDelimit.equals("")) {
-            fieldDelimterRegex = Utils.CMND_FIELD_DELIMITER_VAL_DEFAULT;
+            fieldDelimterRegex = Utils.CMND_FIELD_DELIMITER_VAL_DEFAULT_REGEX;
            
         } else {
             fieldDelimterRegex = cmdFieldDelimit;
@@ -131,6 +155,41 @@ public class Jilapi {
             startFound = true;
         }
         
+        String entityDelimit = prop.getProperty(commandKey + Utils.CMND_ENTITY_DELIMITER);
+        if (entityDelimit == null || entityDelimit.equals("")) {
+            entityDelimterRegex = Utils.CMND_ENTITY_DELIMITER_VAL_DEFAULT;
+        } else {
+            if (entityDelimit.equals("EMPTY_LINE")) {
+                entityDelimterRegex = Utils.CMND_ENTITY_DELIMITER_EMPTY_LINE;
+            } else {
+                throw new Exception("Unknown entity delimiter provided." + entityDelimterRegex + " has not been yet handled");
+            }
+           
+        }
+        
+        if (fieldPositonalMap == null && fieldPrefixMap == null && fieldMixMap == null) {
+            throw new Exception("Either of the result.entity.field.positional.map or result.entity.field.prefix.map or result.entity.field.mix.map should be set");
+        }
+        
+        if (fieldPositonalMap != null && fieldPrefixMap != null && fieldMixMap != null) {
+            throw new Exception("All of result.entity.field.positional.map and result.entity.field.prefix.map and result.entity.field.mix.map are set.Only 1 of them should be set.");
+        } else if (fieldPositonalMap != null && fieldPrefixMap != null) {
+            throw new Exception("Both result.entity.field.positional.map and result.entity.field.prefix.map are set.Only 1 of them should be set.");
+        } else if (fieldPrefixMap != null && fieldMixMap != null) {
+            throw new Exception("Both result.entity.field.prefix.map and result.entity.field.mix.map are set.Only 1 of them should be set.");
+        } else if (fieldMixMap != null && fieldPositonalMap != null) {
+            throw new Exception("Both result.entity.field.mix.map and result.entity.field.positional.mapare set.Only 1 of them should be set.");
+        }
+        
+        if (fieldPositonalMap != null) {
+            fieldMapper = fieldPositonalMap;
+        } else if (fieldPrefixMap != null) {
+            fieldMapper = fieldPrefixMap;
+        } else {
+            fieldMapper = fieldMixMap;
+        }
+            
+         
     }
     
     public String parseCommand(InputStream is) throws Exception {
@@ -148,9 +207,26 @@ public class Jilapi {
     
     public String parseCommand(BufferedReader br) throws Exception {
         String line = null;
-        while ((line = br.readLine()) != null) {
-            parseLine(line);
-        }        
+        
+        if (entityDelimterRegex.equals(Utils.CMND_ENTITY_DELIMITER_VAL_DEFAULT)) {
+            while ((line = br.readLine()) != null) {
+                parseLine(line);
+            } 
+        } else { //non default entity delimiter
+            StringBuffer tmp = new StringBuffer();
+            while ((line = br.readLine()) != null) {
+                
+                if (line.trim().equals(entityDelimterRegex)) {
+                    parseLine(tmp.toString());
+                    tmp = new StringBuffer();
+
+                } else {
+                    tmp.append(line);
+                }
+            } 
+            
+        }
+              
         //Happens when there is no footer.
         if (data.isJsonArray()) {
             JsonArray tmp = (JsonArray)data;
@@ -192,11 +268,11 @@ public class Jilapi {
                 data = sectionData;
             }                    
             startFound = false;  
-            ProcessingEntity procStatus = allDataProcessed(fieldMap);
+            ProcessingEntity procStatus = allDataProcessed(fieldMapper);
             if (procStatus != null) {
                 String lineMapperStr = procStatus.getKey();
                 if (lineMapperStr != null && !lineMapperStr.equals("")) {
-                    fieldMap.put(procStatus, true);
+                    fieldMapper.put(procStatus, true);
                 }
                 
             }
@@ -317,14 +393,19 @@ public class Jilapi {
     }
     
     private JsonObject mapDelimitedOp(String delimitedLine) {      
-        logger.info("delimitedLine: " + delimitedLine + ", fieldMap = " + fieldMap);   
-        logger.info("mapDelimitedOp: split regex = " + fieldDelimterRegex);
-        
-        JsonObject ret = null;      
+        logger.info("delimitedLine: " + delimitedLine + ", fieldMap = " + fieldMapper);   
+        logger.info("mapDelimitedOp: split regex = " + fieldDelimterRegex);       
+        JsonObject ret = null;    
+        if (fieldDelimterRegex.equals(Utils.CMND_FIELD_DELIMITER_VAL_DEFAULT_REGEX)) {
+            //Remove consecutive spaces 
+            delimitedLine = delimitedLine.trim().replaceAll(fieldDelimterRegex, " ");
+        }
         String[] opLineTmp = delimitedLine.trim().split(fieldDelimterRegex);       
-        logger.info("opLineTmp = " + Arrays.asList(opLineTmp));
-        
-        ProcessingEntity status = allDataProcessed(fieldMap);
+        logger.info("opLineTmp = " + Arrays.asList(opLineTmp)); 
+        PositionalFieldHandler posHandler = new PositionalFieldHandler();
+        PrefixFieldHandler preHandler = new PrefixFieldHandler(fieldDelimterRegex);
+        int lastPrefixMatchIdx = 0;
+        ProcessingEntity status = allDataProcessed(fieldMapper);
         if (status != null) {
             String lineMapperStr = status.getKey();
             if (lineMapperStr != null) {
@@ -335,42 +416,36 @@ public class Jilapi {
                         ret = new JsonObject();
                         for (String x : temp) {
                             logger.info("x -> " + x);
-                            String fieldName = x.trim().substring(x.indexOf(":") + 1);
-                            String fieldPosInOpLineStr = x.trim().substring(0, x.indexOf(":")).trim();
-                            int fieldPosInOpLine = -1;
+                            String fieldMapVal = x.trim().substring(x.lastIndexOf(":") + 1); 
+                            String fieldMapKey = x.trim().substring(0, x.lastIndexOf(":")).trim();
                             String fieldVal = null;
-                            if (fieldPosInOpLineStr != null && fieldPosInOpLineStr.indexOf("-") != -1) { //A multi-columnar field 
-                                StringBuffer tmp = new StringBuffer();
-                                int startIdx = Integer.parseInt(fieldPosInOpLineStr.substring(0, fieldPosInOpLineStr.indexOf("-")));
-                                int endIdx = Integer.parseInt(fieldPosInOpLineStr.substring(fieldPosInOpLineStr.indexOf("-") + 1));
-                                for (int k = (startIdx - 1); k < endIdx; k++) {
-                                    if (Utils.isElementExists(opLineTmp, k)) {
-                                        tmp.append(opLineTmp[k]);
-                                        tmp.append(" ");
-                                    }
-                                   
-                                }
-                                fieldVal = tmp.toString().trim();
-                               
+                           
+                            if (fieldPositonalMap != null) {                             
                                 
-                            } else { //A normal field
-                                fieldPosInOpLine = Integer.parseInt(fieldPosInOpLineStr); 
-                                if (Utils.isElementExists(opLineTmp, fieldPosInOpLine - 1)) {
-                                    fieldVal = opLineTmp[fieldPosInOpLine - 1];
-                                    //ret.addProperty(fieldName, opLineTmp[fieldPosInOpLine - 1]);                                                 
-                                }
-                            }
-                                                  
-                            ret.addProperty(fieldName, fieldVal);                                                 
+                                fieldVal = posHandler.handlePositionalField(fieldMapKey, opLineTmp);
                             
-                        }
-                    } 
+                            } else if (fieldPrefixMap != null) { //prefix map
+                                fieldVal = preHandler.handlePrefixMap(fieldMapKey, delimitedLine);
+                            } else { //mix map
+                                if (fieldMapKey.matches("[0-9]+")) { //positional field
+                                    posHandler.handlePositionalField(fieldMapKey, opLineTmp);
+                                } else { //prefix field
+                                    fieldVal = preHandler.handlePrefixMap(fieldMapKey, delimitedLine);
+                            
+                                }                            
+                            } 
+                            ret.addProperty(fieldMapVal, fieldVal);         
                     
-                }              
-            }           
-        }     
+                        }              
+                    }           
+                }
+            }
+        }
+        
         logger.info("jsonObj = " + ret);       
         return ret;
     }
-
+    
+    
+    
 }

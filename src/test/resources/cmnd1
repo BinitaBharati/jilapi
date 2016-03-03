@@ -1,5 +1,1 @@
-Kernel IP routing table
-Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
-0.0.0.0         10.0.2.2        0.0.0.0         UG    0      0        0 eth0
-10.0.2.0        0.0.0.0         255.255.255.0   U     0      0        0 eth0
-192.168.10.0    0.0.0.0         255.255.255.0   U     0      0        0 eth1
+Linux vmwutpapp01-dev 2.6.18-238.5.1.el5 #1 SMP Mon Feb 21 05:52:39 EST 2011 x86_64 x86_64 x86_64 GNU/Linux

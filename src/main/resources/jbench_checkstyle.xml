@@ -1,0 +1,255 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="checks_formatter.xml"?>
+<!DOCTYPE module PUBLIC "-//Puppy Crawl//DTD Check Configuration 1.2//EN" 
+	"http://www.puppycrawl.com/dtds/configuration_1_2.dtd">
+<!--
+  $Id: //depot/prod/netapp_ivy_repo/main/com.puppycrawl/checkstyle/5.6/checks/netapp_checks.xml#1 $
+  $Revision: #1 $ $Date: 2012/09/28 $
+  Checkstyle configuration that checks the Netapp DBE group coding conventions from:
+  http://wikid.netapp.com/w/DBE_Java_Coding_Conventions
+-->
+<module name="Checker">
+	<module name="TreeWalker">
+		<module name="FileContentsHolder"/>
+		<!-- Checks for Naming Conventions.                  -->
+		<!-- See http://checkstyle.sf.net/config_naming.html -->
+        <module name="ConstantName">
+            <metadata name="Description"
+                      value="Validates naming convention for constants (static final variables)."/>
+            <property name="format" value="^([A-Z][A-Z0-9]*(_[A-Z0-9]+)*)|([a-z][a-zA-Z0-9]*L|l)ogger|resources$"/>
+        </module>
+        <module name="StaticVariableName">
+            <metadata name="Description"
+                      value="Validates naming convention for static non-final variables."/>
+            <property name="format" value="^[a-z][a-zA-Z0-9]*$"/>
+        </module>
+        <module name="LocalFinalVariableName">
+            <metadata name="Description"
+                      value="Validates naming convention for local final variables."/>
+            <property name="format" value="^[a-z][a-zA-Z0-9]*$"/>
+        </module>
+        <module name="LocalVariableName">
+            <metadata name="Description"
+                      value="Validates naming convention for local non-final variables."/>
+            <property name="format" value="^[a-z][a-zA-Z0-9]*$"/>
+        </module>
+        <module name="MemberName">
+            <metadata name="Description"
+                      value="Validates naming convention for member variables."/>
+            <property name="format" value="^[a-z][a-zA-Z0-9]*$"/>
+        </module>
+		<module name="MethodName">
+			<metadata name="Description" 
+				value="Validates naming convention for methods."/>
+			<property name="format" value="^[a-z][a-zA-Z0-9_]*$"/>
+		</module>
+		<module name="ParameterName">
+			<metadata name="Description" 
+				value="Validates naming convention for method parameters."/>
+			<property name="format" value="^[a-z][a-zA-Z0-9]*$"/>
+		</module>
+		<module name="PackageName">
+			<metadata name="Description" 
+				value="Validates naming convention for packages."/>
+			<property name="format" 
+				value="^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$"/>
+		</module>
+		<module name="TypeName">
+			<metadata name="Description" 
+				value="Validates naming convention for classes and interfaces."/>
+			<property name="format" value="^[A-Z][a-zA-Z0-9]*$"/>
+		</module>
+		
+		<!-- Checks for imports                              -->
+		<!-- See http://checkstyle.sf.net/config_import.html -->
+		<module name="IllegalImport">
+			<metadata name="Description" 
+				value="Rejects all sun.* packages since programs that contain direct calls to the sun.* packages are not 100% Pure Java."/>
+			<property name="illegalPkgs" value="sun, com.sun"/>
+		</module>
+		<module name="RedundantImport">
+			<metadata name="Description" 
+				value="Checks for redundant import statements."/>
+		</module>
+		<module name="UnusedImports">
+			<metadata name="Description" 
+				value="Checks for unused import statements."/>
+		</module>
+		<!-- Checks for whitespace                               -->
+		<!-- See http://checkstyle.sf.net/config_whitespace.html -->
+		<module name="MethodParamPad">
+			<metadata name="Description" 
+				value="Disallows whitespace between the identifier of a method definition, constructor definition, method call, or constructor invocation; and the left parenthesis of the parameter list."/>
+			<property name="allowLineBreaks" value="false"/>
+			<property name="option" value="nospace"/>
+			<property name="tokens" 
+				value="CTOR_DEF, LITERAL_NEW, METHOD_CALL, METHOD_DEF, SUPER_CTOR_CALL"/>
+		</module>
+		<module name="NoWhitespaceAfter">
+			<metadata name="Description" 
+				value="Disallows whitespace after common tokens (., ++, --, etc.)."/>
+			<property name="tokens" value="BNOT, DEC, DOT, INC, LNOT, UNARY_MINUS, UNARY_PLUS"/>
+		</module>
+		<module name="NoWhitespaceBefore">
+			<metadata name="Description" 
+				value="Disallows whitespace after common tokens (., ++, --, etc.)."/>
+      <property name="allowLineBreaks" value="true"/>
+		</module>
+		<module name="OperatorWrap">
+			<metadata name="Description" 
+				value="Enforces that wrapped expressions place operator on new line instead of previous line."/>
+		</module>
+		<module name="ParenPad">
+			<metadata name="Description" 
+				value="Disallows padding of parentheses (i.e. '( 1 + 2 )')."/>
+		</module>
+		<module name="TypecastParenPad">
+			<metadata name="Description" 
+				value="Disallows padding of parentheses for casts (i.e. '( String )')."/>
+		</module>		
+		<module name="WhitespaceAfter">
+			<metadata name="Description" 
+				value="Checks that commas and semicolons are followed by whitespace."/>
+			<property name="tokens" value="COMMA, SEMI"/>	
+		</module>
+		<module name="WhitespaceAround">
+			<metadata name="Description" 
+				value="Checks that appropriate tokens (=, >, ==, {, }, etc) are surrounded by whitespace."/>
+            <property name="tokens" value="ASSIGN, BAND, BAND_ASSIGN, BOR, BOR_ASSIGN, BSR, BSR_ASSIGN, 
+            BXOR, BXOR_ASSIGN, COLON, DIV, DIV_ASSIGN, EQUAL, GE, GT, LAND, LCURLY, LE, LITERAL_ASSERT, 
+            LITERAL_CATCH, LITERAL_DO, LITERAL_ELSE, LITERAL_FINALLY, LITERAL_FOR, LITERAL_IF, LITERAL_RETURN, 
+            LITERAL_TRY, LITERAL_WHILE, LOR, LT, MINUS, MINUS_ASSIGN, MOD, MOD_ASSIGN, NOT_EQUAL, 
+            PLUS, PLUS_ASSIGN, QUESTION, SL, SLIST, SL_ASSIGN, SR, SR_ASSIGN, STAR, STAR_ASSIGN"/>
+		</module>
+		<!-- Modifier Checks                                    -->
+		<!-- See http://checkstyle.sf.net/config_modifiers.html -->
+		<module name="ModifierOrder">
+			<metadata name="Description" 
+				value="Checks that the order of modifiers conforms to the Sun spec."/>
+		</module>
+		<module name="RedundantModifier">
+			<metadata name="Description" 
+				value="Disallows redundant modifiers (for example 'public' on an interface method)."/>
+		</module>
+		<!-- Checks for blocks. You know, those {}'s         -->
+		<!-- See http://checkstyle.sf.net/config_blocks.html -->
+		<module name="AvoidNestedBlocks">
+			<metadata name="Description" 
+				value="Disallows nested blocks - those that exist free in code (without a control construct)."/>
+			<property name="allowInSwitchCase" value="true"/>
+		</module>
+		<module name="LeftCurly">
+			<metadata name="Description" 
+				value="Enforces left brace placement at the end of the line containing the opening statement."/>
+			<property name="option" value="eol"/>
+		</module>
+		<module name="NeedBraces">
+			<metadata name="Description" 
+				value="Enforces braces around all controlled code blocks (if-else, for, while, etc.) even if only one statement long."/>
+		</module>
+        <module name="RightCurly">
+            <metadata name="Description"
+                value="Enforces that the right curly brace appears on the same line."/>
+            <property name="option" value="same"/>
+        </module>
+
+		<!-- Checks for common coding problems               -->
+		<!-- See http://checkstyle.sf.net/config_coding.html -->
+		<module name="ExplicitInitialization">
+			<metadata name="Description"
+				value=" Checks if any class or object member explicitly initialized to default for its type value (null for object references, zero for numeric types and char and false for boolean."/>
+		</module>
+		<module name="EqualsHashCode">
+			<metadata name="Description" 
+				value="Enforces that classes that override equals() also override hashCode()"/>
+		</module>
+		<module name="HiddenField">
+			<metadata name="Description" 
+				value="Checks that a local variable does not hide a field that is defined in the same class."/>
+			<property name="tokens" value="VARIABLE_DEF"/>
+		</module>
+		<module name="SimplifyBooleanExpression">
+			<metadata name="Description" 
+				value="Checks for overly complicated boolean expressions. Currently finds code like  if (b == true), b || true, !false, etc."/>
+		</module>
+		<module name="SimplifyBooleanReturn">
+			<metadata name="Description" 
+				value="Checks for overly complicated boolean return statements."/>
+		</module>
+		<module name="SuperClone">
+			<metadata name="Description" 
+				value="Checks that an overriding clone() method invokes super.clone()."/>
+		</module>
+		<module name="SuperFinalize">
+			<metadata name="Description" 
+				value="Checks that an overriding finalize() method invokes super.finalize()."/>
+		</module>
+		<module name="MultipleVariableDeclarations">
+			<metadata name="Description" 
+				value="Checks that each variable declaration is in its own statement and on its own line."/>
+		</module>
+		<!-- Checks for class design                         -->
+		<!-- See http://checkstyle.sf.net/config_design.html -->
+		<module name="HideUtilityClassConstructor">
+			<metadata name="Description" 
+				value="Enforces that utility classes (classes that contain only static methods) do not have a public constructor."/>
+		</module>
+		<!-- Miscellaneous other checks.                   -->
+		<!-- See http://checkstyle.sf.net/config_misc.html -->
+		<module name="UpperEll">
+			<metadata name="Description" 
+				value="Checks that long literals are defined with 'L' and not 'l' (since 'l' looks like '1')."/>
+		</module>
+		
+		<!--DISABLED because there is a bug in checkstyle that flags all statics variable references as violations for this check :( 
+			http://sourceforge.net/tracker/index.php?func=detail&aid=1155921&group_id=29721&atid=397078
+			http://sourceforge.net/tracker/index.php?func=detail&aid=1490844&group_id=29721&atid=397078 
+		-->
+		
+		<!--module name="RequireThis">
+			<metadata name="Description" 
+				value="Enforces that member variables are always accessed via 'this'."/>
+	    	<property name="checkMethods" value="false"/>
+		</module-->
+		
+		<module name="ArrayTypeStyle">
+			<metadata name="Description" 
+				value="Enforces java style array type definitions: 'String[] args' as opposed to 'String args[]'"/>
+		</module>
+		
+		<module name="Indentation"/>
+
+        <!-- BEGIN GRAVEYARD: Disabled checks 
+        <module name="IllegalCatch">
+            <metadata name="Description" 
+                value="Prohibits catching java.lang.Exception, java.lang.Error or java.lang.RuntimeException (which is almost never acceptable)."/>
+        </module>
+        <module name="DeclarationOrder">
+            <metadata name="Description" 
+                value="Enforces parts of a class/interface declaration to follow the standard order from the Sun specification."/>
+        </module>
+        <module name="MagicNumber">
+            <metadata name="Description" 
+                value="Checks that there are no 'magic numbers', where a magic number is a numeric literal that is not defined as a constant. By default, -1, 0, 1, and 2 are not considered to be magic numbers."/>
+            <property name="tokens" value="NUM_INT, NUM_LONG"/>
+        </module>
+             END GRAVEYARD: Disabled checks -->
+		
+	</module>
+	<module name="SuppressionCommentFilter"/>
+
+    <!-- Checks for Headers                                -->
+    <!-- See http://checkstyle.sf.net/config_header.html   -->
+    <!-- Following interprets the header file as regular expressions. -->
+    <module name="RegexpHeader">
+        <metadata name="Description"
+                  value="Validates standard header for each source file."/>
+        <property name="header"
+                  value="^/\*\s*$\n^ \* \$Id.*\$$\n^ \*\s*$\n^ \* Copyright \(c\) \d\d\d\d (Network Appliance|NetApp), Inc\.\s*$\n^ \* All rights reserved\.\s*$"/>
+    </module>
+
+    <module name="FileTabCharacter">
+        <metadata name="Description"
+                  value="Disallows tab characters (\t) in the source code."/>
+    </module>
+</module>

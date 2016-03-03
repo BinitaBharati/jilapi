@@ -21,6 +21,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import com.github.binitabharati.jilapi.sample.model.EtcPasswd;
+import com.github.binitabharati.jilapi.sample.model.InterfaceInfo;
 import com.github.binitabharati.jilapi.sample.model.RouteEntry;
 import com.github.binitabharati.jilapi.sample.model.RouteEntryWindows;
 import com.github.binitabharati.jilapi.sample.model.Uname;
@@ -70,7 +71,7 @@ public class SampleTest extends TestCase {
         System.out.println("cmnd1: actualJson = " + Utils.preetyPrintJson(actualJson));
         String expectedJson = readFile(cmndKey + "Op.json");
         System.out.println("expectedJson = " + expectedJson);
-        Type listType = new TypeToken<ArrayList<RouteEntry>>() { }.getType();
+        Type listType = new TypeToken<ArrayList<Uname>>() { }.getType();
         if (!assertEqualJsonArray(cmndKey, actualJson, expectedJson, listType)) {
             throw new AssertionFailedError("Expected json = " + Utils.preetyPrintJson(expectedJson) + ", actualJson = " + Utils.preetyPrintJson(actualJson));
         }      
@@ -96,7 +97,7 @@ public class SampleTest extends TestCase {
         System.out.println("cmnd2: actualJson = " + Utils.preetyPrintJson(actualJson));
         String expectedJson = readFile(cmndKey + "Op.json");
         System.out.println("expectedJson = " + expectedJson);
-        Type listType = new TypeToken<ArrayList<Uname>>() { }.getType();
+        Type listType = new TypeToken<ArrayList<RouteEntry>>() { }.getType();
         if (!assertEqualJsonArray(cmndKey, actualJson, expectedJson, listType)) {
             throw new AssertionFailedError("Expected json = " + Utils.preetyPrintJson(expectedJson) + ", actualJson = " + Utils.preetyPrintJson(actualJson));
         }      
@@ -152,6 +153,33 @@ public class SampleTest extends TestCase {
             throw new AssertionFailedError("Expected json = " + Utils.preetyPrintJson(expectedJson) + ", actualJson = " + Utils.preetyPrintJson(actualJson));
         }      
     }
+    
+    @Test
+    public void testSample5() throws Exception {
+        if (prop == null) {
+            prop = new Properties();
+            InputStream is1 = SampleTest.class.getClassLoader().getResourceAsStream("jilapi.properties");
+            try {
+                prop.load(is1);
+                is1.close();
+            } catch (IOException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+        }       
+        String cmndKey = "cmnd5";
+        InputStream is = this.getClass().getClassLoader().getResourceAsStream(cmndKey); //Read command output file into InputStream. 
+        Jilapi jilapi = new Jilapi(cmndKey);
+        String actualJson = jilapi.parseCommand(is);     
+        System.out.println("cmnd5: actualJson = " + Utils.preetyPrintJson(actualJson));
+        String expectedJson = readFile(cmndKey + "Op.json");
+        System.out.println("expectedJson = " + expectedJson);
+        Type listType = new TypeToken<ArrayList<InterfaceInfo>>() { }.getType();
+        if (!assertEqualJsonArray(cmndKey, actualJson, expectedJson, listType)) {
+            throw new AssertionFailedError("Expected json = " + Utils.preetyPrintJson(expectedJson) + ", actualJson = " + Utils.preetyPrintJson(actualJson));
+        }      
+    }
+    
     
     
     private <Output> boolean assertEqualJsonArray(String commandKey, String actualJson, 
