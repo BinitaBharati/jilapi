@@ -95,6 +95,25 @@ Corresponding property file entry is given below:
 cmnd4.result.entity.field.positional.map=1:userName,2:passwd,3:userId,4:grpId,5:userFullName,6:homeDirectory,7:shellAccount
 cmnd4.result.entity.field.delimiter=:
 ```
+
+##### ifconfig -a
+Executing `ifconfig -a` on a Linux system generates the following output: <br />
+![Alt text](docs/cmnd5.png "ifconfig -a")
+Now, lets understand what attributes of jilapi property file matters in this case.
+* **`<CMND_KEY>.entity.delimiter`**: Here, a complete meanigful entity, which is a interface detail, can be derived from multiple lines, with demarkation being a empty line between two entities (interfaces).Hence, entity delimiter should be set as `EMPTY_LINE`.
+* **`<CMND_KEY>.result.entity.field.delimiter`**: The delimiter between multiple fields of an entity is SPACE.Hence, default holds good.
+* **`<CMND_KEY>.result.sections`**: Not applicable here.
+* **`<CMND_KEY>.result.header`**: Not applicable here.
+* **`<CMND_KEY>.result.footer`**: Not applicable here.
+* **`<CMND_KEY>.result.ignore`**: Not applicable here.
+* **`<CMND_KEY>.result.entity.field.positional.map`**: Here each field of the entity can be found by a prefix.Hence, positional map doesnt apply.Prefix map should be applied.
+* **`<CMND_KEY>.result.entity.field.prefix.map`**: `encap:` is the prefix to extract link encapsulation value, `addr:` is teh prefix to extract IP address, and so on. <br />
+Corresponding property file entry is given below:
+```
+cmnd5.entity.delimiter=EMPTY_LINE
+cmnd5.result.entity.field.prefix.map=encap::linkEncapsulation,addr::inetAddr,Bcast::bcastAddress,Mask::mask,Scope::scope,packets::rxPackets,errors::errors,dropped::dropped,overruns::overruns,frame::frame
+
+```
 ## Jilapi property file
 
 ### File description
