@@ -41,7 +41,7 @@ Corresponding property file entry is given below:
 cmnd1.result.entity.field.positional.map=1:kernelName,2:nodeName,3:kernelVersion,4-11:buildTime,12:processorType,13:hwPlatform,14:processorArch,15:osName
 ```
 
-2. Executing `route -n` on a Linux system generates the following output:
+2. Executing `route -n` on a Linux system generates the following output: <br />
 ![Alt text](docs/cmnd2.png "route -n")
 
 Now, lets understand what attributes of jilapi property file matters in this case.
