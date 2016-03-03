@@ -1,5 +1,5 @@
 # Jilapi
-Jilapi is a Java-based native OS command line output parser.
+Jilapi is a Java library to parse command line output.
 
 ##Features
 * Line-wise parser.By default, Jilapi assumes that every output line is a meaningful entity by itself.
