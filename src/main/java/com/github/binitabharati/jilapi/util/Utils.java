@@ -27,7 +27,7 @@ public class Utils {
     public static final String CMND_RESULT_ENTITY_PREFIX_MAP = ".result.entity.field.prefix.map";
     public static final String CMND_RESULT_ENTITY_MIX_MAP = ".result.entity.field.mix.map";
     public static final String CMND_FIELD_DELIMITER_KEY = ".result.entity.field.delimiter";
-    public static final String CMND_FIELD_DELIMITER_VAL_DEFAULT_REGEX = " +"; // " +" -> one or more spaces.
+    public static final String CMND_FIELD_DELIMITER_VAL_DEFAULT_REGEX = "\\s+";
     public static final String CMND_ENTITY_DELIMITER_EMPTY_LINE = "";
 
     public static String preetyPrintJson(String uglyJson) {

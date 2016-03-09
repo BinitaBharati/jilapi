@@ -335,7 +335,7 @@ public class Jilapi {
                 logger.info("unproc footer = " + unprocessedFooter + ", line = " + line);
                 if (unprocessedFooter != null) {
                     if (!unprocessedFooter.equals("")) {
-                        if (line.matches(unprocessedFooter)) {
+                        if (line.startsWith(unprocessedFooter)) {
                             logger.info("line = " + line + " MATCHES " + unprocessedFooter);
                             stopProcessing = true;
                             footerMap.put(procStatus, true);                                   
