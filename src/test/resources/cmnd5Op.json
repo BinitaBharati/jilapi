@@ -1,15 +1,22 @@
 [
   {
+    "port": "eth0",
     "linkEncapsulation": "Ethernet",
     "inetAddr": "10.195.40.108",
     "bcastAddress": "10.195.43.255",
     "mask": "255.255.252.0",
-    "inet6Addr": "",
     "scope": "Link",
     "rxPackets": "3806600",
-    "errors": "0",
-    "dropped": "0",
-    "overruns": "0",
-    "frame": "0"
+    "errors": "0"
+  },
+  {
+    "port": "lo",
+    "linkEncapsulation": "Local",
+    "inetAddr": "127.0.0.1",
+    "bcastAddress": "N/A",
+    "mask": "255.0.0.0",
+    "scope": "Host",
+    "rxPackets": "77748",
+    "errors": "0"
   }
 ]

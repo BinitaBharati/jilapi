@@ -1,12 +1,12 @@
 /**
  * 
  * @author binita.bharati@gmail.com
- * A intermediate data structure used by Jilapi while parsing a command.
+ * A intermediate data structure used by Tabular/Chunked parser.
  *
  *
  */
 
-package com.github.binitabharati.jilapi;
+package com.github.binitabharati.jilapi.parser.ds;
 
 public class ProcessingEntity {
     private int startIndex;

@@ -19,6 +19,7 @@ import java.util.Properties;
 
 import org.junit.Test;
 
+import com.github.binitabharati.jilapi.sample.model.NestedModel;
 import com.github.binitabharati.jilapi.sample.model.EtcPasswd;
 import com.github.binitabharati.jilapi.sample.model.InterfaceInfo;
 import com.github.binitabharati.jilapi.sample.model.RouteEntry;
@@ -122,7 +123,7 @@ public class SampleTest extends TestCase {
         String actualJson = jilapi.parseCommand(is);     
         System.out.println("cmnd5: actualJson = " + Utils.preetyPrintJson(actualJson));
         String expectedJson = readFile(cmndKey + "Op.json");
-        System.out.println("expectedJson = " + expectedJson);
+        System.out.println("expectedJson = " + Utils.preetyPrintJson(expectedJson));
         Type listType = new TypeToken<ArrayList<InterfaceInfo>>() { }.getType();
         if (!assertEqualJsonArray(cmndKey, actualJson, expectedJson, listType)) {
             throw new AssertionFailedError("Expected json = " + Utils.preetyPrintJson(expectedJson) + ", actualJson = " + Utils.preetyPrintJson(actualJson));
@@ -130,6 +131,20 @@ public class SampleTest extends TestCase {
     }
     
     
+    @Test
+    public void testSample6() throws Exception {
+        loadPropertiesFromCP();
+        String cmndKey = "cmnd6";
+        InputStream is = this.getClass().getClassLoader().getResourceAsStream(cmndKey); //Read command output file into InputStream. 
+        Jilapi jilapi = new Jilapi(prop, cmndKey);
+        String actualJson = jilapi.parseCommand(is);     
+        System.out.println("cmnd6: actualJson = " + Utils.preetyPrintJson(actualJson));
+        String expectedJson = readFile(cmndKey + "Op.json");
+        System.out.println("expectedJson = " + Utils.preetyPrintJson(expectedJson));
+        if (!assertEqualJson(cmndKey, actualJson, expectedJson, NestedModel.class)) {
+            throw new AssertionFailedError("Expected json = " + Utils.preetyPrintJson(expectedJson) + ", actualJson = " + Utils.preetyPrintJson(actualJson));
+        }   
+    }
     
     private <Output> boolean assertEqualJsonArray(String commandKey, String actualJson, 
             String expectedJson, Type arrayType) throws Exception {      

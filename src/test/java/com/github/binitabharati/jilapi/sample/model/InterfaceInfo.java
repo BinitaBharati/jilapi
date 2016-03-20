@@ -1,3 +1,11 @@
+/**
+ * 
+ * @author binita.bharati@gmail.com
+ * A sample model class, used for converting json string to Java object.
+ * See com.github.binitabharati.jilapi.SampleTest:testSample5() test case.
+ *
+ */
+
 package com.github.binitabharati.jilapi.sample.model;
 
 public class InterfaceInfo {
@@ -9,12 +17,9 @@ public class InterfaceInfo {
     private String scope;
     private String rxPackets;
     private String errors;
-    private String dropped;
-    private String overruns;
-    private String frame;
     
     public InterfaceInfo(String linkEncapsulation, String inetAddr, String bcastAddress, String mask, String scope,
-            String rxPackets, String errors, String dropped, String overruns, String frame) {
+            String rxPackets, String errors) {
         super();
         this.linkEncapsulation = linkEncapsulation;
         this.inetAddr = inetAddr;
@@ -23,9 +28,6 @@ public class InterfaceInfo {
         this.scope = scope;
         this.rxPackets = rxPackets;
         this.errors = errors;
-        this.dropped = dropped;
-        this.overruns = overruns;
-        this.frame = frame;
     }
     
     @Override
@@ -36,8 +38,7 @@ public class InterfaceInfo {
             if (temp.linkEncapsulation.equals(this.linkEncapsulation) && temp.inetAddr.equals(this.inetAddr)
                     && temp.bcastAddress.equals(this.bcastAddress) && temp.mask.equals(this.mask)
                     && temp.scope.equals(this.scope) && temp.rxPackets.equals(this.rxPackets)
-                    && temp.errors.equals(this.errors) && temp.dropped.equals(this.dropped)
-                    && temp.overruns.equals(this.overruns) && temp.frame.equals(this.frame)) {
+                    && temp.errors.equals(this.errors)) {
                 return true;
             }
         }

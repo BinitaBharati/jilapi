@@ -2,7 +2,7 @@
  * 
  * @author binita.bharati@gmail.com
  * A sample model class, used for converting json string to Java object.
- *
+ * See com.github.binitabharati.jilapi.SampleTest:testSample1() test case.
  *
  */
 

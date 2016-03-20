@@ -2,10 +2,9 @@
  * 
  * @author binita.bharati@gmail.com
  * A sample model class, used for converting json string to Java object.
- *
+ * See com.github.binitabharati.jilapi.SampleTest:testSample3() test case.
  *
  */
-
 package com.github.binitabharati.jilapi.sample.model;
 
 import java.util.List;
@@ -27,7 +26,7 @@ public class RouteEntryWindows {
         if (obj instanceof RouteEntryWindows) {
             RouteEntryWindows temp = (RouteEntryWindows)obj;
             
-            if(temp.ipv4Route.containsAll(this.ipv4Route) && this.ipv4Route.containsAll(temp.ipv4Route)
+            if (temp.ipv4Route.containsAll(this.ipv4Route) && this.ipv4Route.containsAll(temp.ipv4Route)
                     && temp.ipv6Route.containsAll(this.ipv6Route) && this.ipv6Route.containsAll(temp.ipv6Route)) {
                 return true;
             }
@@ -66,6 +65,7 @@ class IpV4Route {
         // TODO Auto-generated method stub
         if (obj instanceof IpV4Route) {
             IpV4Route temp = (IpV4Route)obj;
+            System.out.println("ipv4Route equals entered for objs = {"+ this + "} and {"+temp+"}");
             if (this.destinationNw.equals(temp.destinationNw) && this.netMask.equals(temp.netMask)
                     && this.gateway.equals(temp.gateway) && this.port.equals(temp.port) 
                      && this.metric.equals(temp.metric)) {
