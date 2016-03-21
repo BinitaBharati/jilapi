@@ -26,7 +26,7 @@ This is the heart of Jilapi. For every command, the user of this library has to 
 * **`<CMND_KEY>.parser.type`**: The command parser types.Currently, 3 parser types are supported:  <br />
       * TabularParser - handles tabular data.This reads data line-wise.
       * ChunkedParser - handles data where-in a entity spans across multiple lines.ie entity data is available in chunks. See [ifconfig -a](#ifconfig--a)
-      * NestedParser - handles nested/hierarchical data.This reads data line wise.
+      * NestedParser - handles nested/hierarchical data.This reads data line wise.See [nested output](#nested-output)
 * **`<CMND_KEY>.entity.end`**: The delimiter marking end of a complete entity can be demarked.Entity is a the smallest unit of useful data. A command output can have multiple such entities.TabularParser and NestedParser currently supports a new line as entity default delimiter.So, this field need not be specified when parser is tabular/nested.Chunked parser works with blocks of meaningful data.So, entity delimiter need not be a new line.
 * **`<CMND_KEY>.result.entity.field.delimiter`**: The delimiter used to delimit across individual fields of a entity.This should be a      unique character, and should not be already present as part of the original output.The default field delimiter when not specified      is SPACE.
 * **`<CMND_KEY>.result.sections`**: Useful when the command output has multiple sections.May not be applicable for all commands.
