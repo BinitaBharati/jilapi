@@ -88,7 +88,7 @@ Now, lets understand what attributes of jilapi property file matters in this cas
 * **`<CMND_KEY>.result.footer`**: Not applicable.
 * **`<CMND_KEY>.result.ignore`**: Not applicable.
 * **`<CMND_KEY>.result.entity.field.positional.map`**: Here each field of the entity is positional.Eg at 1st position we find `Destination Network`, 2nd position we find `Gateway` etc.
-* **`<CMND_KEY>.result.stop`**: N/A. The output is just a single line. No specific line where parsing should stop.
+* **`<CMND_KEY>.result.stop`**: N/A. No specific line where parsing should stop.
 * **`<CMND_KEY>.result.entity.field.parser`**: N/A as command parser is tabular.
 * **`<CMND_KEY>.nested.hierarchy.id`**: N/A as command parser is tabular.
 * **`<CMND_KEY>.nested.hierarchy`**: N/A as command parser is tabular.
@@ -111,7 +111,7 @@ Now, lets understand what attributes of jilapi property file matters in this cas
 * **`<CMND_KEY>.result.footer`**: Each of the respective sections contain their own footers.Both IPV4 and IPV6 sections have `====` as the footer.
 * **`<CMND_KEY>.result.ignore`**: Not applicable.
 * **`<CMND_KEY>.result.entity.field.positional.map`**: Here each field of the entity is positional.Eg: In the case of IPv4 section,we find `Destination Network` at 1st position, `Gateway` at 2nd position etc.
-* **`<CMND_KEY>.result.stop`**: N/A. The output is just a single line. No specific line where parsing should stop.
+* **`<CMND_KEY>.result.stop`**: N/A. No specific line where parsing should stop.
 * **`<CMND_KEY>.result.entity.field.parser`**: N/A as command parser is tabular.
 * **`<CMND_KEY>.nested.hierarchy.id`**: N/A as command parser is tabular.
 * **`<CMND_KEY>.nested.hierarchy`**: N/A as command parser is tabular.
@@ -137,7 +137,7 @@ Now, lets understand what attributes of jilapi property file matters in this cas
 * **`<CMND_KEY>.result.footer`**: Not applicable here.
 * **`<CMND_KEY>.result.ignore`**: Not applicable.
 * **`<CMND_KEY>.result.entity.field.positional.map`**: Here each field of the entity is positional.Eg: at 1st position we find the user name, 2nd position is the password and so on.
-* **`<CMND_KEY>.result.stop`**: N/A. The output is just a single line. No specific line where parsing should stop.
+* **`<CMND_KEY>.result.stop`**: N/A. No specific line where parsing should stop, as the required data has to be extracted till the EOF.
 * **`<CMND_KEY>.result.entity.field.parser`**: N/A as command parser is tabular.
 * **`<CMND_KEY>.nested.hierarchy.id`**: N/A as command parser is tabular.
 * **`<CMND_KEY>.nested.hierarchy`**: N/A as command parser is tabular.
