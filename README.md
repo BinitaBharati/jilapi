@@ -173,6 +173,37 @@ cmnd5.entity.end=EMPTY_LINE
 cmnd5.result.entity.field.parser=com.github.binitabharati.jilapi.entity.parser.impl.IfConfigParser
 
 ```
+##### nested output
+Consider the below nested output: <br />
+![Alt text](docs/cmnd6.png "nested output")
+Now, lets understand what attributes of jilapi property file matters in this case.
+* **`<CMND_KEY>.parser.type`**: The data can be visialized as nested data.
+* **`<CMND_KEY>.entity.end`**: Here, a complete meaningful entity, which is a route entry, can be derived from a single line.Hence, entity delimiter is a new line, which is also the default entity delimiter.Hence, this attribute doesn't apply.
+* **`<CMND_KEY>.result.entity.field.delimiter`**: The delimiter between multiple fields of an entity is SPACE.Hence, default holds good.
+* **`<CMND_KEY>.result.sections`**: Not applicable here.
+* **`<CMND_KEY>.result.header`**: Not applicable here.
+* **`<CMND_KEY>.result.footer`**: Not applicable here.
+* **`<CMND_KEY>.result.ignore`**: Not applicable here.
+* **`<CMND_KEY>.result.entity.field.positional.map`**: In this command output, there is a nested tabular data for element `RAID Disk`.
+* **`<CMND_KEY>.result.stop`**: In this command output, there are `RAID Disk` under element `Local spares` too. But, we do not want to consider those.So, parsing must stop when we encounter the String `Local spares`
+* **`<CMND_KEY>.result.entity.field.parser`**: There are multiple entities involved here. Aggregate, Plex, RAID Group require their own implementations of `com.github.binitabharati.jilapi.entity.parser.EntityParser`.Whereas, `RAID Disk` represents a tabular data. and can be handled by the OOB `com.github.binitabharati.jilapi.parser.impl.TabularParser`.
+* **`<CMND_KEY>.nested.hierarchy.id`**: Defines a way to identify each element in hierarchy. Must implement `com.github.binitabharati.jilapi.parser.worker.NestedHierarchyIdentifier`.
+* **`<CMND_KEY>.nested.hierarchy`**: Should define the hierarchy as per the guidelines.
+<br />
+Corresponding property file entry is given below:
+```
+cmnd6.parser.type=nested
+cmnd6.nested.hierarchy.id=com.github.binitabharati.jilapi.parser.worker.impl.NestedHierarchyIdImpl
+cmnd6.nested.hierarchy=%Aggregate%->[%Plex%->[%RAID group%->[%RAID Disk%]]]
+cmnd6.result.entity.field.parser=Aggregate=com.github.binitabharati.jilapi.entity.parser.impl.AggregateParser;\
+                                  Plex=com.github.binitabharati.jilapi.entity.parser.impl.PlexParser;\
+                                  RAID group=com.github.binitabharati.jilapi.entity.parser.impl.RaidGroupParser;\
+                                  RAID Disk=com.github.binitabharati.jilapi.parser.impl.TabularParser
+cmnd6.result.entity.field.positional.map=RAID Disk=1:raidDisk,2:device,3:ha,4:shelf,5:bay,6:chan,7:pool,8:type,9:rpm,10:usedInMbPerBlocks,11:physicalInMbPerBlocks
+cmnd6.result.footer=RAID Disk=EMPTY_LINE
+cmnd6.result.ignore=RAID Disk=-
+cmnd6.result.stop=Local spares
+```
 
 
 
