@@ -37,11 +37,12 @@ public class Utils {
     public static final String CMND_RESULT_ENTITY_MIX_MAP = ".result.entity.field.mix.map";
     public static final String CMND_FIELD_DELIMITER_KEY = ".result.entity.field.delimiter";
     public static final String CMND_FIELD_DELIMITER_VAL_DEFAULT_REGEX = "\\s+";
-    public static final String CMND_CHUNKED_ENTITY_PARSER = ".result.entity.field.chunk.parser";
-    public static final String CMND_NESTED_HIERARCHY_ID_TYPE= ".nested.hierarchy.id.type";
+    public static final String CMND_CHUNKED_ENTITY_PARSER = ".result.entity.field.parser";
+    public static final String CMND_NESTED_HIERARCHY_ID_TYPE= ".nested.hierarchy.id";
     public static final String CMND_NESTED_HIERARCHY_PREFIX = ".nested.hierarchy";
-    public static final String CMND_NESTED_ENTITY_PARSER = ".result.entity.field.nested.parser";
-    public static final String[] CMND_OOB_PARSER_KLASS = new String[]{"com.github.binitabharati.jilapi.parser.impl.TabularParser"};
+    public static final String CMND_NESTED_ENTITY_PARSER = ".result.entity.field.parser";
+    public static final String[] CMND_OOB_PARSER_KLASS = new String[]{"com.github.binitabharati.jilapi.parser.impl.TabularParser",
+        "com.github.binitabharati.jilapi.parser.impl.ChunkedParser"};
     public static final String[] CMND_TRICKY_FOOTERS = new String[]{"EMPTY_LINE"};
     public static final Map<String, String> CMND_FOOTER_MAP = new LinkedHashMap<String, String>();
     public static final String CMND_PARSING_STOP = ".result.stop";

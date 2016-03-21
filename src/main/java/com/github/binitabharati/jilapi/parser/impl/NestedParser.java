@@ -21,18 +21,20 @@ import java.util.Stack;
 import com.github.binitabharati.jilapi.entity.parser.EntityParser;
 import com.github.binitabharati.jilapi.parser.CommandParser;
 import com.github.binitabharati.jilapi.parser.ds.NestedParserModel;
+import com.github.binitabharati.jilapi.parser.worker.NestedHierarchyIdentifier;
 import com.github.binitabharati.jilapi.util.Utils;
 import com.google.gson.Gson;
 
 public class NestedParser extends CommandParser {
     
-    private String nestedHierarchyIdentifierType;
+    //private String nestedHierarchyIdentifierType;
     private Map<String, String> entityParserMap;
     private BufferedReader br;
     private String commandKey;
     private Properties prop;
     private NestedParserModel parserModel;
-    private String stop;
+    //private String stop;
+    private NestedHierarchyIdentifier hierachyId;
     
     @Override
     public void init(String commandKey, Properties prop) throws Exception {
@@ -42,9 +44,17 @@ public class NestedParser extends CommandParser {
         String  tmpProp = null;
         List<String> tmpList = null;
         
-        stop = prop.getProperty(commandKey + Utils.CMND_PARSING_STOP);
+        tmpProp = prop.getProperty(commandKey + Utils.CMND_PARSING_STOP);
+        if (tmpProp != null) {
+            stop = tmpProp;
+        }
        
-        nestedHierarchyIdentifierType = prop.getProperty(commandKey + Utils.CMND_NESTED_HIERARCHY_ID_TYPE);
+        //nestedHierarchyIdentifierType = prop.getProperty(commandKey + Utils.CMND_NESTED_HIERARCHY_ID_TYPE);
+        tmpProp = prop.getProperty(commandKey + Utils.CMND_NESTED_HIERARCHY_ID_TYPE);
+        if (tmpProp != null) {
+            Class<?> x = Class.forName(tmpProp);
+            hierachyId = (NestedHierarchyIdentifier)x.newInstance();
+        }
         tmpProp = prop.getProperty(commandKey + Utils.CMND_NESTED_HIERARCHY_PREFIX); //Multiple independent hierarchies are seperated by semi-colon in property
         
         parserModel = new NestedParserModel();
@@ -112,7 +122,9 @@ public class NestedParser extends CommandParser {
                 break;
             }
             if (!stopFound) {
-                String retTopMostEntity = lineStartsWithAnyTopMostEntity(line);            
+                //String retTopMostEntity = lineStartsWithAnyTopMostEntity(line);  
+                String retTopMostEntity = hierachyId.lineMatchesAnyTopMostEntity(parserModel, line);
+                
                 if (currentTopMostEntity != null) {
                     if (retTopMostEntity != null) { //implies same hierarchy another block started / another independent hierarchy started.
                         if (currentTopMostEntity.equals(retTopMostEntity)) {
@@ -137,7 +149,8 @@ public class NestedParser extends CommandParser {
                         }
                         
                     } else { //current line not a top most entity.
-                        String retEntity2 = lineStartsWithElementInList(currentHierList, line);
+                        //String retEntity2 = lineStartsWithElementInList(currentHierList, line);
+                        String retEntity2 = hierachyId.lineMatchesAnyHierarchicalEntity(currentHierList, line);
                         if (retEntity2 != null) {
                             currentEntity = retEntity2;
                             Object entityData = parseEntity(line, currentEntity);
@@ -299,14 +312,49 @@ public class NestedParser extends CommandParser {
         } else {
             Class<?> cmndParserKlass = Class.forName(parserKlass);
             CommandParser cmndParser = (CommandParser)cmndParserKlass.newInstance();
-            cmndParser.init(commandKey, prop);
+            Properties prop1 = null;
+            if (parserKlass.equals(Utils.CMND_OOB_PARSER_KLASS[0])) { //TabularParser 
+                List<String> tabularParserProp = new ArrayList<String>();
+                tabularParserProp.add(Utils.CMND_RESULT_SECTIONS);
+                tabularParserProp.add(Utils.CMND_RESULT_HEADER);
+                tabularParserProp.add(Utils.CMND_RESULT_FOOTER);
+                tabularParserProp.add(Utils.CMND_RESULT_IGNORE);
+                tabularParserProp.add(Utils.CMND_RESULT_ENTITY_POSITIONAL_MAP);                
+                prop1 = populatePropertyForOOBCommandParser(prop, entity, tabularParserProp);
+                
+            }
+                
+            cmndParser.init(commandKey, prop1);
             entityData = cmndParser.parseCommand2(br); 
         }
         return entityData;
     }
     
-    private String lineStartsWithAnyTopMostEntity(String line) {
-        return lineStartsWithElementInList(parserModel.getTopMostEntity(), line);
+    private Properties populatePropertyForOOBCommandParser(Properties origProp, String entity, 
+            List<String> propKeys) {
+        Properties prop = new Properties();
+        for (String each : propKeys) {
+            if (origProp.containsKey(commandKey + each)) {
+                String tmp = origProp.getProperty(commandKey + each);
+                int entityIdx = tmp.indexOf(entity);
+                if (entityIdx != -1) {
+                    int semiColonIdx = tmp.indexOf(";", entityIdx);
+                    String propVal = null;
+                    if (semiColonIdx != -1) {
+                        propVal  = tmp.substring(entityIdx + entity.length() + 1, semiColonIdx);
+                    } else {
+                        propVal  = tmp.substring(entityIdx + entity.length() + 1);
+                    }
+                    
+                    if (propVal != null) {
+                        prop.put(commandKey + each, propVal);
+                    }
+                    
+                }
+                
+            }
+        }
+        return prop;
     }
     
     private List<String> getHierarchy(String topMostEntity) {
@@ -330,19 +378,7 @@ public class NestedParser extends CommandParser {
         }
         return null;
     }
-    private String lineStartsWithElementInList(List<String> inputList, String line) {
-        for (String each : inputList) {
-            if (line != null) {
-                if (line.trim().startsWith(each)) {
-                    return each;
-                }
-                   
-            }
-            
-        }
-        return null;
-    }
-    
+   
     private String matchBracket(String input) {
         Stack<String> bracketCollector = new Stack<String>();
         char[] inputChar = input.toCharArray();

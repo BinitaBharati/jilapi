@@ -47,6 +47,11 @@ public class ChunkedParser extends CommandParser {
         String  tmpProp = null;
         List<String> tmpList = null;
         
+        tmpProp = prop.getProperty(commandKey + Utils.CMND_PARSING_STOP);
+        if (tmpProp != null) {
+            stop = tmpProp;
+        }
+        
         entityDelimter = prop.getProperty(commandKey + Utils.CMND_ENTITY_DELIMITER);
         if (PROP_UNWRITABLE_DELIMITS.containsKey(entityDelimter)) {
             entityDelimter = PROP_UNWRITABLE_DELIMITS.get(entityDelimter);
@@ -117,6 +122,9 @@ public class ChunkedParser extends CommandParser {
         Map<String, List<Map<String, ?>>> sectionData = new LinkedHashMap<String, List<Map<String, ?>>>();  
         String line = null;
         while ((line = br.readLine()) != null) {
+            if (stop!= null && line.startsWith(stop)) {
+                break;
+            }
             if (startFound) {
                 if (line.trim().equals(entityDelimter)) {
                     Map<String, ?> entityData = parseEntity(tmp.toString());

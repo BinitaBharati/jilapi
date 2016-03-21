@@ -36,6 +36,11 @@ public class TabularParser extends CommandParser {
     public void init(String commandKey, Properties prop) throws Exception {
         String  tmpProp = null;
         List<String> tmpList = null;
+        
+        tmpProp = prop.getProperty(commandKey + Utils.CMND_PARSING_STOP);
+        if (tmpProp != null) {
+            stop = tmpProp;
+        }
 
         tmpProp = prop.getProperty(commandKey + Utils.CMND_RESULT_HEADER);
         if (tmpProp != null) {
@@ -117,7 +122,9 @@ public class TabularParser extends CommandParser {
         //Below structure only used when there are sections.
         Map<String, List<Map<String, Object>>> tmp2 = new LinkedHashMap<String, List<Map<String, Object>>>();
         while ((line = br.readLine()) != null) {
-                
+            if (stop!= null && line.startsWith(stop)) {
+                break;
+            }
             logger.info("parseLine: entered with line = " + line + ", startFound = " + startFound);
             if (!startFound) {
                 startFound = isStartFound(line);

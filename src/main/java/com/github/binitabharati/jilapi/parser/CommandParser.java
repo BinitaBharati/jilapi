@@ -38,6 +38,7 @@ public abstract class CommandParser {
     protected  String fieldDelimterRegex;
     protected  String entityDelimter;
     protected  boolean startFound;
+    protected String stop;
     
     public abstract void init(String commandKey, Properties prop) throws Exception;
     
