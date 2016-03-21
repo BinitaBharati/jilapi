@@ -1,5 +1,5 @@
 # Jilapi
-Jilapi is a Java library to parse OS command line output.
+Jilapi is a Java library to parse unstructured, plain text data, and transform it into structured data. Jilapi was originally written to parse Linux command line output, but it has evolved to handle varying kinds of unstructured data.
 
 ##How it works
 * Line-wise parser. By default, Jilapi assumes that every output line is a meaningful entity by itself.
