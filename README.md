@@ -176,7 +176,7 @@ cmnd5.result.entity.field.parser=com.github.binitabharati.jilapi.entity.parser.i
 ##### nested output
 Consider the below nested output: <br />
 ![Alt text](docs/cmnd6.png "nested output")
-Now, lets understand what attributes of jilapi property file matters in this case.
+<br /> Now, lets understand what attributes of jilapi property file matters in this case.
 * **`<CMND_KEY>.parser.type`**: The data can be visialized as nested data.
 * **`<CMND_KEY>.entity.end`**: Here, a complete meaningful entity, which is a route entry, can be derived from a single line.Hence, entity delimiter is a new line, which is also the default entity delimiter.Hence, this attribute doesn't apply.
 * **`<CMND_KEY>.result.entity.field.delimiter`**: The delimiter between multiple fields of an entity is SPACE.Hence, default holds good.
