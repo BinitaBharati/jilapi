@@ -38,7 +38,7 @@ This is the heart of Jilapi. For every command, the user of this library has to 
       is mutually exclusive with result.entity.field.prefix.map.s. The map should contain the field positions in ascending order. 
       Eg -> 1:fieldA,4:fieldB,10:fieldC is valid. But, 1:fieldA,10:fieldC,4:fieldB is invalid.
       A single field can spawn across multiple positions (columns) in the output line.See cmnd1's buildTime for a sample of the same.
-* **`<CMND_KEY>.result.stop`**: If present, indicates where to stop parsing the given command output.
+* **`<CMND_KEY>.result.stop`**: If present, indicates where to stop parsing the given command output.Do not confuse this with footer,       as with footer parsing will keep continuing till EOF, but with stop, parsing completely stops.
 * **`<CMND_KEY>.result.entity.field.parser`**: Implementation of com.github.binitabharati.jilapi.entity.parser.EntityParser. Applicable when the command parser type is chunked/nested. 
 * **`<CMND_KEY>.nested.hierarchy.id`**: Implementation of `com.github.binitabharati.jilapi.parser.worker.NestedHierarchyIdentifier`. Applicable when command parser type is Nested. This property gives a way to identify each element in a nested hierarchy.
 * **`<CMND_KEY>.nested.hierarchy`**: A String representing the nested hierarchy. This entry has the following rules: <br />
