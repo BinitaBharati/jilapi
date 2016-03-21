@@ -25,7 +25,7 @@ Jilapi is a Java library to parse OS command line output.
 This is the heart of Jilapi. For every command, the user of this library has to pass appropriate [Properties](https://docs.oracle.com/javase/8/docs/api/java/util/Properties.html "java.util.Properties") loaded with command parsing rules. Below is a summary of all the possible properties: <br /> 
 * **`<CMND_KEY>.parser.type`**: The command parser types.Currently, 3 parser types are supported:  <br />
       * TabularParser - handles tabular data.This reads data line-wise.
-      * ChunkedParser - handles data where-in a entity spans across multiple lines.ie entity data is available in chunks.
+      * ChunkedParser - handles data where-in a entity spans across multiple lines.ie entity data is available in chunks. See [ifconfig -a](##### ifconfig -a)
       * NestedParser - handles nested/hierarchical data.This reads data line wise.
 * **`<CMND_KEY>.entity.end`**: The delimiter marking end of a complete entity can be demarked.Entity is a the smallest unit of useful data. A command output can have multiple such entities.TabularParser and NestedParser currently supports a new line as entity default delimiter.So, this field need not be specified when parser is tabular/nested.Chunked parser works with blocks of meaningful data.So, entity delimiter need not be a new line.
 * **`<CMND_KEY>.result.entity.field.delimiter`**: The delimiter used to delimit across individual fields of a entity.This should be a      unique character, and should not be already present as part of the original output.The default field delimiter when not specified      is SPACE.
@@ -165,7 +165,6 @@ Now, lets understand what attributes of jilapi property file matters in this cas
 * **`<CMND_KEY>.result.entity.field.parser`**: `com.github.binitabharati.jilapi.entity.parser.impl.IfConfigParser`. This parser decides how best  to extract the data per entity (interface).
 * **`<CMND_KEY>.nested.hierarchy.id`**: N/A as command parser is chunked.
 * **`<CMND_KEY>.nested.hierarchy`**: N/A as command parser is chunked.
-* 
 <br />
 Corresponding property file entry is given below:
 ```
