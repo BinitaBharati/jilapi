@@ -8,7 +8,7 @@ Jilapi is a Java library to parse OS command line output.
 * Takes the following types of inputs:
      * InputStream
      * A single String with a new line delimiter to mark individual lines.
-* The result of the command output parsing is given out in JSON format.
+* The result of the command output parsing is given out either in Java Object or in JSON format.
 * It is a standalone jar
 * The user of the library is required to provide a [Properties](https://docs.oracle.com/javase/8/docs/api/java/util/Properties.html "java.util.Properties") reference which has command parsing rules. The Properties reference can be instantiated as considered apt by the user, ie sourced from a file/DB etc. Please check the sample [jilapi.properties](src/test/resources/jilapi.properties) file for reference.
 
