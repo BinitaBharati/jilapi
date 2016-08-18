@@ -122,7 +122,7 @@ public class TabularParser extends CommandParser {
         //Below structure only used when there are sections.
         Map<String, List<Map<String, Object>>> tmp2 = new LinkedHashMap<String, List<Map<String, Object>>>();
         while ((line = br.readLine()) != null) {
-            if (stop!= null && line.startsWith(stop)) {
+            if (stop!= null && line.matches(stop)) {
                 break;
             }
             logger.info("parseLine: entered with line = " + line + ", startFound = " + startFound);
@@ -135,7 +135,6 @@ public class TabularParser extends CommandParser {
                 if (sectionMap != null && sectionMap.size() != 0) { //section and footer present.                       
                     ProcessingEntity unprocessedSection = allDataProcessed(sectionMap);  
                     logger.info("endFound , unprocessedSection = " + unprocessedSection);
-                    //logger.info("end found, data = " + data);
                     if (unprocessedSection != null) {
                         String key = unprocessedSection.getKey();
                         if (!key.equals("")) {

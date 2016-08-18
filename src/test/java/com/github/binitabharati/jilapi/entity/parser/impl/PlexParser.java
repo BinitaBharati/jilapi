@@ -21,6 +21,7 @@ public class PlexParser implements EntityParser {
         String tmp = input.trim();
         
         String plexName = tmp.substring(0, tmp.indexOf("(")).trim();
+        plexName = plexName.substring("Plex".length() + 1).trim();
         out.put("plexName", plexName);
         
         int idx1 = tmp.indexOf("(");

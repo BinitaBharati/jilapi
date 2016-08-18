@@ -23,6 +23,9 @@ public class AggregateParser implements EntityParser{
         Map<String, Object> out = new LinkedHashMap<String, Object>();
         
         String aggrName = tmp.substring(0, tmp.indexOf("(")).trim();
+        if(aggrName.startsWith("Aggregate")) {
+            aggrName = aggrName.substring("Aggregate".length() + 1).trim();
+        }
         out.put("aggrName", aggrName);
         
         int idx1 = tmp.indexOf("(");

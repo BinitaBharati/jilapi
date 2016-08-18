@@ -1,16 +1,16 @@
 {
   "Aggregate": [
     {
-      "aggrName": "Aggregate aggr_zeus_01_root",
+      "aggrName": "aggr_zeus_01_root",
       "aggrField1": "online, raid_dp, mirrored",
       "aggrField2": "block checksums",
       "Plex": [
         {
-          "plexName": "Plex /aggr_zeus_01_root/plex0",
+          "plexName": "/aggr_zeus_01_root/plex0",
           "plexField1": "online, normal, active, pool0",
           "RAIDgroup": [
             {
-              "raidGrpName": "RAID group /aggr_zeus_01_root/plex0/rg0",
+              "raidGrpName": "/aggr_zeus_01_root/plex0/rg0",
               "raidGrpField1": "normal, block checksums",
               "RAIDDisk": [
                 {
@@ -57,11 +57,11 @@
           ]
         },
         {
-          "plexName": "Plex /aggr_zeus_01_root/plex2",
+          "plexName": "/aggr_zeus_01_root/plex2",
           "plexField1": "online, normal, active, pool1",
           "RAIDgroup": [
             {
-              "raidGrpName": "RAID group /aggr_zeus_01_root/plex2/rg0",
+              "raidGrpName": "/aggr_zeus_01_root/plex2/rg0",
               "raidGrpField1": "normal, block checksums",
               "RAIDDisk": [
                 {
@@ -110,16 +110,16 @@
       ]
     },
     {
-      "aggrName": "Aggregate aggr_zeus_01_sasfp_data_01",
+      "aggrName": "aggr_zeus_01_sasfp_data_01",
       "aggrField1": "online, mixed_raid_type, mirrored, hybrid",
       "aggrField2": "block checksums",
       "Plex": [
         {
-          "plexName": "Plex /aggr_zeus_01_sasfp_data_01/plex0",
+          "plexName": "/aggr_zeus_01_sasfp_data_01/plex0",
           "plexField1": "online, normal, active, pool0",
           "RAIDgroup": [
             {
-              "raidGrpName": "RAID group /aggr_zeus_01_sasfp_data_01/plex0/rg0",
+              "raidGrpName": "/aggr_zeus_01_sasfp_data_01/plex0/rg0",
               "raidGrpField1": "normal, block checksums, raid_dp",
               "RAIDDisk": [
                 {
@@ -346,7 +346,7 @@
               ]
             },
             {
-              "raidGrpName": "RAID group /aggr_zeus_01_sasfp_data_01/plex0/rg1",
+              "raidGrpName": "/aggr_zeus_01_sasfp_data_01/plex0/rg1",
               "raidGrpField1": "normal, block checksums, raid_dp",
               "RAIDDisk": [
                 {
@@ -573,7 +573,7 @@
               ]
             },
             {
-              "raidGrpName": "RAID group /aggr_zeus_01_sasfp_data_01/plex0/rg2",
+              "raidGrpName": "/aggr_zeus_01_sasfp_data_01/plex0/rg2",
               "raidGrpField1": "normal, block checksums, raid4",
               "RAIDDisk": [
                 {
@@ -670,7 +670,7 @@
               ]
             },
             {
-              "raidGrpName": "RAID group /aggr_zeus_01_sasfp_data_01/plex0/rg3",
+              "raidGrpName": "/aggr_zeus_01_sasfp_data_01/plex0/rg3",
               "raidGrpField1": "normal, block checksums, raid_dp",
               "RAIDDisk": [
                 {
@@ -899,11 +899,11 @@
           ]
         },
         {
-          "plexName": "Plex /aggr_zeus_01_sasfp_data_01/plex3",
+          "plexName": "/aggr_zeus_01_sasfp_data_01/plex3",
           "plexField1": "online, normal, active, pool1",
           "RAIDgroup": [
             {
-              "raidGrpName": "RAID group /aggr_zeus_01_sasfp_data_01/plex3/rg0",
+              "raidGrpName": "/aggr_zeus_01_sasfp_data_01/plex3/rg0",
               "raidGrpField1": "normal, block checksums, raid_dp",
               "RAIDDisk": [
                 {
@@ -1130,7 +1130,7 @@
               ]
             },
             {
-              "raidGrpName": "RAID group /aggr_zeus_01_sasfp_data_01/plex3/rg1",
+              "raidGrpName": "/aggr_zeus_01_sasfp_data_01/plex3/rg1",
               "raidGrpField1": "normal, block checksums, raid_dp",
               "RAIDDisk": [
                 {
@@ -1357,7 +1357,7 @@
               ]
             },
             {
-              "raidGrpName": "RAID group /aggr_zeus_01_sasfp_data_01/plex3/rg2",
+              "raidGrpName": "/aggr_zeus_01_sasfp_data_01/plex3/rg2",
               "raidGrpField1": "normal, block checksums, raid4",
               "RAIDDisk": [
                 {
@@ -1454,7 +1454,7 @@
               ]
             },
             {
-              "raidGrpName": "RAID group /aggr_zeus_01_sasfp_data_01/plex3/rg3",
+              "raidGrpName": "/aggr_zeus_01_sasfp_data_01/plex3/rg3",
               "raidGrpField1": "normal, block checksums, raid_dp",
               "RAIDDisk": [
                 {

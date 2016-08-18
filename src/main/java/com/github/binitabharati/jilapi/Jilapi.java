@@ -3,7 +3,7 @@
  * @author binita.bharati@gmail.com
  * Entry point to Jilapi.
  * 
- * Jilapi is a CLI command line parser.It parses the CLI command output line wise.
+ * Jilapi is a unstructured data parser.
  *
  *
  */

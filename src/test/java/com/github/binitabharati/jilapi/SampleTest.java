@@ -146,6 +146,21 @@ public class SampleTest extends TestCase {
         }   
     }
     
+    @Test
+    public void testSample7() throws Exception {
+        loadPropertiesFromCP();
+        String cmndKey = "cmnd7";
+        InputStream is = this.getClass().getClassLoader().getResourceAsStream(cmndKey); //Read command output file into InputStream. 
+        Jilapi jilapi = new Jilapi(prop, cmndKey);
+        String actualJson = jilapi.parseCommand(is);     
+        System.out.println("cmnd7: actualJson = " + Utils.preetyPrintJson(actualJson));
+        /*String expectedJson = readFile(cmndKey + "Op.json");
+        System.out.println("expectedJson = " + Utils.preetyPrintJson(expectedJson));
+        if (!assertEqualJson(cmndKey, actualJson, expectedJson, NestedModel.class)) {
+            throw new AssertionFailedError("Expected json = " + Utils.preetyPrintJson(expectedJson) + ", actualJson = " + Utils.preetyPrintJson(actualJson));
+        } */  
+    }
+    
     private <Output> boolean assertEqualJsonArray(String commandKey, String actualJson, 
             String expectedJson, Type arrayType) throws Exception {      
         Gson gson = new Gson();

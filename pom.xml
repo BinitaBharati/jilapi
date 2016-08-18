@@ -4,7 +4,7 @@
 
   <groupId>com.github.binitabharati</groupId>
   <artifactId>jilapi</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>jar</packaging>
 
   <name>jilapi</name>
@@ -21,21 +21,23 @@
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
     <dependency>
         <groupId>org.slf4j</groupId>
-        <artifactId>slf4j-log4j12</artifactId>
-        <version>1.7.14</version>
-    </dependency>
-    <dependency>
-        <groupId>log4j</groupId>
-        <artifactId>log4j</artifactId>
-        <version>1.2.17</version>
+        <artifactId>slf4j-api</artifactId>
+        <version>1.7.7</version>
+        <!-- 
+        Ref: http://stackoverflow.com/questions/8921382/maven-slf4j-version-conflict-when-using-two-different-dependencies-that-requi/39021645#39021645
+        To be safe, we are not including slf4j jars in the runtime.Expecting the user of this library
+        to include the slf4j-api jar and its underlying implementation
+          -->
+        <scope>provided</scope>
     </dependency>
     <dependency>
         <groupId>com.google.code.gson</groupId>
         <artifactId>gson</artifactId>
         <version>2.6.1</version>
-    </dependency>  
+    </dependency>
   </dependencies>
   
    <build>
@@ -49,7 +51,7 @@
             <phase>package</phase>
             <goals>
               <goal>shade</goal>
-            </goals>
+            </goals>          
           </execution>
         </executions>
       </plugin>

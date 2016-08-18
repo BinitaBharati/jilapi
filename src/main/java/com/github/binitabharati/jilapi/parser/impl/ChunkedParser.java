@@ -47,6 +47,14 @@ public class ChunkedParser extends CommandParser {
         String  tmpProp = null;
         List<String> tmpList = null;
         
+        tmpProp = prop.getProperty(commandKey + Utils.CMND_FIELD_DELIMITER_KEY);
+        if (tmpProp == null) {
+            fieldDelimterRegex = " ";
+        } else {
+            fieldDelimterRegex = tmpProp;
+        }
+        
+        
         tmpProp = prop.getProperty(commandKey + Utils.CMND_PARSING_STOP);
         if (tmpProp != null) {
             stop = tmpProp;
@@ -122,7 +130,7 @@ public class ChunkedParser extends CommandParser {
         Map<String, List<Map<String, ?>>> sectionData = new LinkedHashMap<String, List<Map<String, ?>>>();  
         String line = null;
         while ((line = br.readLine()) != null) {
-            if (stop!= null && line.startsWith(stop)) {
+            if (stop!= null && line.matches(stop)) {
                 break;
             }
             if (startFound) {
@@ -138,13 +146,14 @@ public class ChunkedParser extends CommandParser {
                     ProcessingEntity unprocessedIgnore = allDataProcessed(ignoreMap); 
                     if (unprocessedIgnore != null) {
                         String ignore = unprocessedIgnore.getKey();
-                        if (line.startsWith(ignore)) {
+                        if (line.trim().startsWith(ignore)) {
                             ignoreMap.put(unprocessedIgnore, true);
                             continue;
                             
                         }
                     }
-                    tmp.append(line);
+                    tmp.append(line.trim());                   
+                    tmp.append(fieldDelimterRegex);//entity field delimiter
                 }
             } else  {
                 startFound = isStartFound(line);

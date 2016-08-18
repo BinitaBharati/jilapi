@@ -1,0 +1,5510 @@
+
+Disk Qualification Package Details:
+ Package Date:  Unable to load any package (Package version not supported)
+ Header Information 
+   FileName   = N/A 
+   FileVersion = N/A 
+   DriveRecordCount = N/A 
+   AliasRecordCount = N/A 
+   DeviceRecordCount = N/A 
+   SystemRecordCount = N/A 
+
+Disk: 0b.02.0
+Shelf: 2  
+Bay: 0 
+Serial: HZ0BAPJL
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:310024
+UID: 500605BA:00310024:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 5a.02.0
+Sec Port: B
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+Dongle Revision: 6E03
+
+Disk: 5a.02.1
+Shelf: 2  
+Bay: 1 
+Serial: HZ0M86HL
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:3101fc
+UID: 500605BA:003101FC:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 0b.02.1
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+Dongle Revision: 6E03
+
+Disk: 0b.02.2
+Shelf: 2  
+Bay: 2 
+Serial: HZ0ME0JL
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:31000c
+UID: 500605BA:0031000C:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 5a.02.2
+Sec Port: B
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+Dongle Revision: 6E03
+
+Disk: 5a.02.3
+Shelf: 2  
+Bay: 3 
+Serial: HZ0M934L
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:30ffe4
+UID: 500605BA:0030FFE4:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 0b.02.3
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+Dongle Revision: 6E03
+
+Disk: 0b.02.4
+Shelf: 2  
+Bay: 4 
+Serial: HZ0BX87L
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:3101b0
+UID: 500605BA:003101B0:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 5a.02.4
+Sec Port: B
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+Dongle Revision: 6E03
+
+Disk: 5a.02.5
+Shelf: 2  
+Bay: 5 
+Serial: HZ0LZD2L
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:323e94
+UID: 500605BA:00323E94:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 0b.02.5
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+Dongle Revision: 6E03
+
+Disk: 0b.02.6
+Shelf: 2  
+Bay: 6 
+Serial: HZ0MGANL
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:30fff0
+UID: 500605BA:0030FFF0:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 5a.02.6
+Sec Port: B
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+Dongle Revision: 6E03
+
+Disk: 5a.02.7
+Shelf: 2  
+Bay: 7 
+Serial: HZ0M8U8L
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:310180
+UID: 500605BA:00310180:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 0b.02.7
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+Dongle Revision: 6E03
+
+Disk: 0b.02.8
+Shelf: 2  
+Bay: 8 
+Serial: HZ0M90BL
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:323e5c
+UID: 500605BA:00323E5C:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 5a.02.8
+Sec Port: B
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+Dongle Revision: 6E03
+
+Disk: 5a.02.9
+Shelf: 2  
+Bay: 9 
+Serial: HZ0K858L
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:30ffcc
+UID: 500605BA:0030FFCC:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 0b.02.9
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+Dongle Revision: 6E03
+
+Disk: 0b.02.10
+Shelf: 2  
+Bay: 10
+Serial: HZ0MG11L
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:3101d8
+UID: 500605BA:003101D8:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 5a.02.10
+Sec Port: B
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+Dongle Revision: 6E03
+
+Disk: 5a.02.11
+Shelf: 2  
+Bay: 11
+Serial: HZ0LZPKL
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:328418
+UID: 500605BA:00328418:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 0b.02.11
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+Dongle Revision: 6E03
+
+Disk: 0b.02.12
+Shelf: 2  
+Bay: 12
+Serial: HZ0M8WTL
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:3101e0
+UID: 500605BA:003101E0:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 5a.02.12
+Sec Port: B
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+Dongle Revision: 6E03
+
+Disk: 5a.02.13
+Shelf: 2  
+Bay: 13
+Serial: HZ0M85VL
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:310004
+UID: 500605BA:00310004:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 0b.02.13
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+Dongle Revision: 6E03
+
+Disk: 0b.02.14
+Shelf: 2  
+Bay: 14
+Serial: HZ0M8W7L
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:323e54
+UID: 500605BA:00323E54:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 5a.02.14
+Sec Port: B
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+Dongle Revision: 6E03
+
+Disk: 5a.02.15
+Shelf: 2  
+Bay: 15
+Serial: HZ0MMSPL
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:30fff8
+UID: 500605BA:0030FFF8:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 0b.02.15
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+Dongle Revision: 6E03
+
+Disk: 0b.02.16
+Shelf: 2  
+Bay: 16
+Serial: HZ0MG9LL
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:310178
+UID: 500605BA:00310178:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 5a.02.16
+Sec Port: B
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+Dongle Revision: 6E03
+
+Disk: 5a.02.17
+Shelf: 2  
+Bay: 17
+Serial: HZ0M8Z3L
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:325938
+UID: 500605BA:00325938:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 0b.02.17
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+Dongle Revision: 6E03
+
+Disk: 0b.02.18
+Shelf: 2  
+Bay: 18
+Serial: HZ0MDEKL
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:31002c
+UID: 500605BA:0031002C:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 5a.02.18
+Sec Port: B
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+Dongle Revision: 6E03
+
+Disk: 5a.02.19
+Shelf: 2  
+Bay: 19
+Serial: HZ0M904L
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:325cc8
+UID: 500605BA:00325CC8:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 0b.02.19
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+Dongle Revision: 6E03
+
+Disk: 0b.02.20
+Shelf: 2  
+Bay: 20
+Serial: HZ0MG0SL
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:325930
+UID: 500605BA:00325930:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 5a.02.20
+Sec Port: B
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+Dongle Revision: 6E03
+
+Disk: 5a.02.21
+Shelf: 2  
+Bay: 21
+Serial: HZ0M7XAL
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:323e74
+UID: 500605BA:00323E74:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 0b.02.21
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+Dongle Revision: 6E03
+
+Disk: 0b.02.22
+Shelf: 2  
+Bay: 22
+Serial: HZ0M8X1L
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:3283b8
+UID: 500605BA:003283B8:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 5a.02.22
+Sec Port: B
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+Dongle Revision: 6E03
+
+Disk: 5a.02.23
+Shelf: 2  
+Bay: 23
+Serial: HZ0BN7XL
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:30ffe8
+UID: 500605BA:0030FFE8:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 0b.02.23
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+Dongle Revision: 6E03
+
+Disk: 6b.16
+Shelf: 1  
+Bay: 0 
+Serial: 29V4ULJN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:037:000cca:08c64c
+UID: 2037000C:CA08C64C:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0c.16
+Sec Port: B
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.17
+Shelf: 1  
+Bay: 1 
+Serial: 3QQ1JZVT00009953SYPN
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:0024b6:09791b
+UID: 20000024:B609791B:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.17
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 0
+
+Disk: 0c.18
+Shelf: 1  
+Bay: 2 
+Serial: CWX9A56N
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:040:000cca:81b210
+UID: 2040000C:CA81B210:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.18
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 6b.19
+Shelf: 1  
+Bay: 3 
+Serial: CWV7HANN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:040:000cca:0da0c8
+UID: 2040000C:CA0DA0C8:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0c.19
+Sec Port: B
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.20
+Shelf: 1  
+Bay: 4 
+Serial: 6SK2HE3J0000B4350B2F
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:af32e8
+UID: 2000B452:53AF32E8:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.20
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.21
+Shelf: 1  
+Bay: 5 
+Serial: J1XN00LN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:01e:000cca:951a00
+UID: 201E000C:CA951A00:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.21
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.22
+Shelf: 1  
+Bay: 6 
+Serial: J1WDTE4L
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:01e:000cca:4f9e90
+UID: 201E000C:CA4F9E90:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.22
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.23
+Shelf: 1  
+Bay: 7 
+Serial: 3QQ1M56800009953SWVK
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:0024b6:096eaa
+UID: 20000024:B6096EAA:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.23
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.24
+Shelf: 1  
+Bay: 8 
+Serial: 6SK2SZQ20000N53548E9
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:caca0f
+UID: 2000B452:53CACA0F:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.24
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.25
+Shelf: 1  
+Bay: 9 
+Serial: 6SK2JMSR0000B4390GRB
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:b0f043
+UID: 2000B452:53B0F043:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.25
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 6b.26
+Shelf: 1  
+Bay: 10
+Serial: CWX5BULN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:040:000cca:7a8504
+UID: 2040000C:CA7A8504:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0c.26
+Sec Port: B
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.27
+Shelf: 1  
+Bay: 11
+Serial: 6SK20TGH0000B321043E
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:9b7bdf
+UID: 2000B452:539B7BDF:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.27
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.28
+Shelf: 1  
+Bay: 12
+Serial: 3QQ1L2BW00009952F7T5
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:0024b6:09727d
+UID: 20000024:B609727D:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.28
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.29
+Shelf: 1  
+Bay: 13
+Serial: 29VLRHVN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:037:000cca:220cbc
+UID: 2037000C:CA220CBC:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.29
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 6b.32
+Shelf: 2  
+Bay: 0 
+Serial: LWV7LLVN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:029:000cca:0dd1cc
+UID: 2029000C:CA0DD1CC:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0c.32
+Sec Port: B
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 0
+
+Disk: 6b.33
+Shelf: 2  
+Bay: 1 
+Serial: 3QQ1JZWR00009953FURU
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:0024b6:0958ea
+UID: 20000024:B60958EA:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0c.33
+Sec Port: B
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.34
+Shelf: 2  
+Bay: 2 
+Serial: 6SK2VRJF0000N54520BD
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:ce847f
+UID: 2000B452:53CE847F:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.34
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 6b.35
+Shelf: 2  
+Bay: 3 
+Serial: 29VL9J6N
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:037:000cca:2149b4
+UID: 2037000C:CA2149B4:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0c.35
+Sec Port: B
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.36
+Shelf: 2  
+Bay: 4 
+Serial: 6SK15BD10000B21038EX
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:7f3dc1
+UID: 2000B452:537F3DC1:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.36
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.37
+Shelf: 2  
+Bay: 5 
+Serial: 6SK2NAB00000N5022H9V
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:c34297
+UID: 2000B452:53C34297:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.37
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.38
+Shelf: 2  
+Bay: 6 
+Serial: 3QQ1M78F00009953UQU9
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:0024b6:097fb8
+UID: 20000024:B6097FB8:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.38
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.39
+Shelf: 2  
+Bay: 7 
+Serial: 6SK1C3290000B21814R9
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:7f3df5
+UID: 2000B452:537F3DF5:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.39
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.40
+Shelf: 2  
+Bay: 8 
+Serial: 29VMD19N
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:037:000cca:234104
+UID: 2037000C:CA234104:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.40
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.41
+Shelf: 2  
+Bay: 9 
+Serial: 6SK2HMJA0000B43501NX
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:af4f23
+UID: 2000B452:53AF4F23:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.41
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 6b.42
+Shelf: 2  
+Bay: 10
+Serial: CWX5BZGN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:040:000cca:7a8760
+UID: 2040000C:CA7A8760:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0c.42
+Sec Port: B
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.43
+Shelf: 2  
+Bay: 11
+Serial: CWW8B4XN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:040:000cca:479170
+UID: 2040000C:CA479170:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.43
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.44
+Shelf: 2  
+Bay: 12
+Serial: 6SK2NFPR0000N5053YH7
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:c355da
+UID: 2000B452:53C355DA:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.44
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.45
+Shelf: 2  
+Bay: 13
+Serial: 3QQ1H6L500009950Q0RK
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:0024b6:06c316
+UID: 20000024:B606C316:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.45
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.48
+Shelf: 3  
+Bay: 0 
+Serial: CWWBSU3N
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:040:000cca:4dc3dc
+UID: 2040000C:CA4DC3DC:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.48
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 0
+
+Disk: 0c.49
+Shelf: 3  
+Bay: 1 
+Serial: 29VL9S7N
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:037:000cca:214d1c
+UID: 2037000C:CA214D1C:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.49
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 6b.50
+Shelf: 3  
+Bay: 2 
+Serial: 6SK205N80000B31911C0
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:996ee9
+UID: 2000B452:53996EE9:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0c.50
+Sec Port: B
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.51
+Shelf: 3  
+Bay: 3 
+Serial: CWWBRN5N
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:040:000cca:4db274
+UID: 2040000C:CA4DB274:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.51
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.52
+Shelf: 3  
+Bay: 4 
+Serial: 29V4UVZN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:037:000cca:08ca64
+UID: 2037000C:CA08CA64:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.52
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.53
+Shelf: 3  
+Bay: 5 
+Serial: 6SK2CJQE0000B41400NP
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:a846a4
+UID: 2000B452:53A846A4:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.53
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.54
+Shelf: 3  
+Bay: 6 
+Serial: 6SK2HCW50000B437065G
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:b018b6
+UID: 2000B452:53B018B6:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.54
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.55
+Shelf: 3  
+Bay: 7 
+Serial: 29VLV2EN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:037:000cca:22424c
+UID: 2037000C:CA22424C:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.55
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 6b.56
+Shelf: 3  
+Bay: 8 
+Serial: CWVBMBPN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:040:000cca:152348
+UID: 2040000C:CA152348:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0c.56
+Sec Port: B
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.57
+Shelf: 3  
+Bay: 9 
+Serial: CWVJLRVN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:040:000cca:1e3118
+UID: 2040000C:CA1E3118:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.57
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.58
+Shelf: 3  
+Bay: 10
+Serial: JYWUT1DM
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:017:000cca:673c2c
+UID: 2017000C:CA673C2C:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.58
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.59
+Shelf: 3  
+Bay: 11
+Serial: 6SK2PMPE0000N5111BFS
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:c4a970
+UID: 2000B452:53C4A970:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.59
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.60
+Shelf: 3  
+Bay: 12
+Serial: CWY4EMZN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:040:000cca:b12cdc
+UID: 2040000C:CAB12CDC:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.60
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.61
+Shelf: 3  
+Bay: 13
+Serial: J1WYP22N
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:01e:000cca:6e5564
+UID: 201E000C:CA6E5564:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.61
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.64
+Shelf: 4  
+Bay: 0 
+Serial: 3QQ1J63C00009953VT26
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:0024b6:097aec
+UID: 20000024:B6097AEC:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.64
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.65
+Shelf: 4  
+Bay: 1 
+Serial: 3QQ1PE1400009951UA53
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:0024b6:0bb8f7
+UID: 20000024:B60BB8F7:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.65
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 0
+
+Disk: 6b.66
+Shelf: 4  
+Bay: 2 
+Serial: 29V4UYRN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:037:000cca:08cbb8
+UID: 2037000C:CA08CBB8:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0c.66
+Sec Port: B
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.67
+Shelf: 4  
+Bay: 3 
+Serial: CWYEGMVN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:040:000cca:c1992c
+UID: 2040000C:CAC1992C:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.67
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.68
+Shelf: 4  
+Bay: 4 
+Serial: CWVJLZ8N
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:040:000cca:1e34b0
+UID: 2040000C:CA1E34B0:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.68
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.69
+Shelf: 4  
+Bay: 5 
+Serial: 6SK2MK4M0000N5032M6T
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:c34254
+UID: 2000B452:53C34254:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.69
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 6b.70
+Shelf: 4  
+Bay: 6 
+Serial: 6SK2SNZ30000N5250G29
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:c7f4cd
+UID: 2000B452:53C7F4CD:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0c.70
+Sec Port: B
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.71
+Shelf: 4  
+Bay: 7 
+Serial: 3QQ1LLDZ00009953FUMG
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:0024b6:09786b
+UID: 20000024:B609786B:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.71
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.72
+Shelf: 4  
+Bay: 8 
+Serial: 6SK2K9VL0000B4400F7U
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:b17274
+UID: 2000B452:53B17274:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.72
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.73
+Shelf: 4  
+Bay: 9 
+Serial: 6SK2VJ250000N5451Z6P
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:ce618b
+UID: 2000B452:53CE618B:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.73
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.74
+Shelf: 4  
+Bay: 10
+Serial: CWXH1LLN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:040:000cca:8c1a50
+UID: 2040000C:CA8C1A50:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.74
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.75
+Shelf: 4  
+Bay: 11
+Serial: 3QQ1L2LB000099530ZAT
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:0024b6:097783
+UID: 20000024:B6097783:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.75
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.76
+Shelf: 4  
+Bay: 12
+Serial: J1VG2VHN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:01e:000cca:199fa4
+UID: 201E000C:CA199FA4:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.76
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.77
+Shelf: 4  
+Bay: 13
+Serial: 29V4UN9N
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:037:000cca:08c728
+UID: 2037000C:CA08C728:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.77
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.80
+Shelf: 5  
+Bay: 0 
+Serial: 6SK2SQ660000N5251XBC
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:c7e3cb
+UID: 2000B452:53C7E3CB:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.80
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 0
+
+Disk: 0c.81
+Shelf: 5  
+Bay: 1 
+Serial: 6SK2VBET0000N5430JKQ
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:cd6fbe
+UID: 2000B452:53CD6FBE:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.81
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 6b.82
+Shelf: 5  
+Bay: 2 
+Serial: CWV5YTZN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:040:000cca:0ad6f8
+UID: 2040000C:CA0AD6F8:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0c.82
+Sec Port: B
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.83
+Shelf: 5  
+Bay: 3 
+Serial: 29VL9MGN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:037:000cca:214b48
+UID: 2037000C:CA214B48:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.83
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.84
+Shelf: 5  
+Bay: 4 
+Serial: 6SK2JGC00000B438042R
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:b08caf
+UID: 2000B452:53B08CAF:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.84
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.85
+Shelf: 5  
+Bay: 5 
+Serial: 6SK208860000B3190CJS
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:9a78fe
+UID: 2000B452:539A78FE:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.85
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.86
+Shelf: 5  
+Bay: 6 
+Serial: LWV9AXMN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:029:000cca:110160
+UID: 2029000C:CA110160:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.86
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.87
+Shelf: 5  
+Bay: 7 
+Serial: 3QQ1G9NQ00009953SX70
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:0024b6:095c9d
+UID: 20000024:B6095C9D:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.87
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 6b.88
+Shelf: 5  
+Bay: 8 
+Serial: 6SK2SX0C0000N5350YQP
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:cae526
+UID: 2000B452:53CAE526:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0c.88
+Sec Port: B
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.89
+Shelf: 5  
+Bay: 9 
+Serial: CWXX3N2N
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:040:000cca:a3dc5c
+UID: 2040000C:CAA3DC5C:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.89
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.90
+Shelf: 5  
+Bay: 10
+Serial: 3QQ1M6QY00009953SY9Z
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:0024b6:0966f3
+UID: 20000024:B60966F3:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.90
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.91
+Shelf: 5  
+Bay: 11
+Serial: CWX5XHRN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:040:000cca:7b7f80
+UID: 2040000C:CA7B7F80:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.91
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 6b.92
+Shelf: 5  
+Bay: 12
+Serial: 6SK0CJS50000B134081N
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:0024b6:6d6295
+UID: 20000024:B66D6295:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0c.92
+Sec Port: B
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0c.93
+Shelf: 5  
+Bay: 13
+Serial: 3QQ0NKV0000099062DK7
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:b45253:13178a
+UID: 2000B452:5313178A:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6b.93
+Sec Port: A
+Power-on Hours: N/A
+Blocks read:      0
+Blocks written:   0
+Time interval: 00:00:00
+Glist count: 0
+Scrub last done: 00:00:00
+Scrub count: 0
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573980176
+Home owner: 1573980176
+Reservation owner: 1573980176
+
+Disk: 0a.01.0
+Shelf: 1  
+Bay: 0 
+Serial: HZ0B3M2L
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:2ee704
+UID: 500605BA:002EE704:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 5d.01.0
+Sec Port: B
+Power-on Hours: 44356
+Blocks read:      49393923365
+Blocks written:   19972580104
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:11:50
+Scrub count: 14
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+Dongle Revision: 6E03
+
+Disk: 5d.01.1
+Shelf: 1  
+Bay: 1 
+Serial: HZ0JLUDL
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:2e9704
+UID: 500605BA:002E9704:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 0a.01.1
+Sec Port: A
+Power-on Hours: 44356
+Blocks read:      48860807612
+Blocks written:   20024129064
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:11:50
+Scrub count: 14
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+Dongle Revision: 6E03
+
+Disk: 0a.01.2
+Shelf: 1  
+Bay: 2 
+Serial: HZ0JZR1L
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:3186d0
+UID: 500605BA:003186D0:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 5d.01.2
+Sec Port: B
+Power-on Hours: 44356
+Blocks read:      87978424709
+Blocks written:   11771261245
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:11:50
+Scrub count: 14
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+Dongle Revision: 6E03
+
+Disk: 5d.01.3
+Shelf: 1  
+Bay: 3 
+Serial: HZ0JLU0L
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:3178cc
+UID: 500605BA:003178CC:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 0a.01.3
+Sec Port: A
+Power-on Hours: 44357
+Blocks read:      87771852704
+Blocks written:   11718720789
+Time interval: 203:01:51
+Glist count: 16
+Scrub last done: 00:11:50
+Scrub count: 14
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+Dongle Revision: 6E03
+
+Disk: 0a.01.4
+Shelf: 1  
+Bay: 4 
+Serial: HZ0DXUML
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:3185e0
+UID: 500605BA:003185E0:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 5d.01.4
+Sec Port: B
+Power-on Hours: 44356
+Blocks read:      87816618596
+Blocks written:   11708462413
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:11:50
+Scrub count: 14
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+Dongle Revision: 6E03
+
+Disk: 5d.01.5
+Shelf: 1  
+Bay: 5 
+Serial: HZ0JZNSL
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:31902c
+UID: 500605BA:0031902C:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 0a.01.5
+Sec Port: A
+Power-on Hours: 44357
+Blocks read:      87904238654
+Blocks written:   11721486781
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:11:50
+Scrub count: 14
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+Dongle Revision: 6E03
+
+Disk: 0a.01.6
+Shelf: 1  
+Bay: 6 
+Serial: HZ0JLTPL
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:31788c
+UID: 500605BA:0031788C:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 5d.01.6
+Sec Port: B
+Power-on Hours: 44357
+Blocks read:      88041430550
+Blocks written:   11716044328
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:11:50
+Scrub count: 14
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+Dongle Revision: 6E03
+
+Disk: 5d.01.7
+Shelf: 1  
+Bay: 7 
+Serial: HZ0JE01L
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:2f0120
+UID: 500605BA:002F0120:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 0a.01.7
+Sec Port: A
+Power-on Hours: 44356
+Blocks read:      87854223503
+Blocks written:   11714846689
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:11:50
+Scrub count: 14
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+Dongle Revision: 6E03
+
+Disk: 0a.01.8
+Shelf: 1  
+Bay: 8 
+Serial: HZ0AHSDL
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:2e8a54
+UID: 500605BA:002E8A54:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 5d.01.8
+Sec Port: B
+Power-on Hours: 44357
+Blocks read:      87877846892
+Blocks written:   11717838307
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:11:50
+Scrub count: 14
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+Dongle Revision: 6E03
+
+Disk: 5d.01.9
+Shelf: 1  
+Bay: 9 
+Serial: HZ0JDARL
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:2ef9c4
+UID: 500605BA:002EF9C4:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 0a.01.9
+Sec Port: A
+Power-on Hours: 44357
+Blocks read:      87866202809
+Blocks written:   11723578912
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:11:50
+Scrub count: 14
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+Dongle Revision: 6E03
+
+Disk: 0a.01.10
+Shelf: 1  
+Bay: 10
+Serial: HZ0JZT2L
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:30bdbc
+UID: 500605BA:0030BDBC:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 5d.01.10
+Sec Port: B
+Power-on Hours: 44357
+Blocks read:      87833417681
+Blocks written:   11715479461
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:11:50
+Scrub count: 14
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+Dongle Revision: 6E03
+
+Disk: 5d.01.11
+Shelf: 1  
+Bay: 11
+Serial: HZ0JLS7L
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:31928c
+UID: 500605BA:0031928C:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 0a.01.11
+Sec Port: A
+Power-on Hours: 44356
+Blocks read:      87714032276
+Blocks written:   11720743129
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:11:50
+Scrub count: 14
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+Dongle Revision: 6E03
+
+Disk: 0a.01.12
+Shelf: 1  
+Bay: 12
+Serial: HZ0DXV2L
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:310798
+UID: 500605BA:00310798:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 5d.01.12
+Sec Port: B
+Power-on Hours: 44357
+Blocks read:      87855947561
+Blocks written:   11721241783
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:11:50
+Scrub count: 14
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+Dongle Revision: 6E03
+
+Disk: 5d.01.13
+Shelf: 1  
+Bay: 13
+Serial: HZ01DVEL
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:316ad4
+UID: 500605BA:00316AD4:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 0a.01.13
+Sec Port: A
+Power-on Hours: 44356
+Blocks read:      87754207889
+Blocks written:   11722183750
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:11:50
+Scrub count: 14
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+Dongle Revision: 6E03
+
+Disk: 0a.01.14
+Shelf: 1  
+Bay: 14
+Serial: HZ0JZJTL
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:317964
+UID: 500605BA:00317964:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 5d.01.14
+Sec Port: B
+Power-on Hours: 44356
+Blocks read:      87980619719
+Blocks written:   11719145206
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:11:50
+Scrub count: 14
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+Dongle Revision: 6E03
+
+Disk: 5d.01.15
+Shelf: 1  
+Bay: 15
+Serial: N019PLSL
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSA
+Rev: NA02
+RPM: 7200
+WWN: 5:000:0c9000:1fbd4c
+UID: 50000C90:001FBD4C:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 0a.01.15
+Sec Port: A
+Power-on Hours: 32060
+Blocks read:      87749783669
+Blocks written:   11721253411
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:11:50
+Scrub count: 14
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+Dongle Revision: 2168
+
+Disk: 0a.01.16
+Shelf: 1  
+Bay: 16
+Serial: HZ0JLTUL
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:3186e8
+UID: 500605BA:003186E8:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 5d.01.16
+Sec Port: B
+Power-on Hours: 44357
+Blocks read:      87843305360
+Blocks written:   11718575281
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:11:50
+Scrub count: 14
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+Dongle Revision: 6E03
+
+Disk: 5d.01.17
+Shelf: 1  
+Bay: 17
+Serial: HZ0JZMJL
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:317f00
+UID: 500605BA:00317F00:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 0a.01.17
+Sec Port: A
+Power-on Hours: 44357
+Blocks read:      87866669621
+Blocks written:   11717466076
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:11:50
+Scrub count: 14
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+Dongle Revision: 6E03
+
+Disk: 0a.01.18
+Shelf: 1  
+Bay: 18
+Serial: HZ0JZRVL
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:2ee720
+UID: 500605BA:002EE720:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 5d.01.18
+Sec Port: B
+Power-on Hours: 44357
+Blocks read:      87878150795
+Blocks written:   11717194168
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:11:50
+Scrub count: 14
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+Dongle Revision: 6E03
+
+Disk: 5d.01.19
+Shelf: 1  
+Bay: 19
+Serial: HZ0JLURL
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:3106b4
+UID: 500605BA:003106B4:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 0a.01.19
+Sec Port: A
+Power-on Hours: 44357
+Blocks read:      87758069213
+Blocks written:   11715302782
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:11:50
+Scrub count: 14
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+Dongle Revision: 6E03
+
+Disk: 0a.01.20
+Shelf: 1  
+Bay: 20
+Serial: HZ0EKV8L
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:2ee6dc
+UID: 500605BA:002EE6DC:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 5d.01.20
+Sec Port: B
+Power-on Hours: 44357
+Blocks read:      273032
+Blocks written:   288
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 01:07:50
+Scrub count: 20
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+Dongle Revision: 6E03
+
+Disk: 5d.01.21
+Shelf: 1  
+Bay: 21
+Serial: HZ0JZRHL
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:3105e0
+UID: 500605BA:003105E0:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 0a.01.21
+Sec Port: A
+Power-on Hours: 44357
+Blocks read:      273032
+Blocks written:   288
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 01:08:56
+Scrub count: 20
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+Dongle Revision: 6E03
+
+Disk: 0a.01.22
+Shelf: 1  
+Bay: 22
+Serial: HZ0JLTHL
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:2e9ce0
+UID: 500605BA:002E9CE0:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 5d.01.22
+Sec Port: B
+Power-on Hours: 44357
+Blocks read:      273032
+Blocks written:   288
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 01:05:32
+Scrub count: 20
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+Dongle Revision: 6E03
+
+Disk: 5d.01.23
+Shelf: 1  
+Bay: 23
+Serial: HZ0B5BKL
+Vendor: NETAPP  
+Model: X302_HJUPI01TSSM
+Rev: NA04
+RPM: 7200
+WWN: 5:006:05ba00:3186fc
+UID: 500605BA:003186FC:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 0a.01.23
+Sec Port: A
+Power-on Hours: 44357
+Blocks read:      273032
+Blocks written:   288
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 01:06:26
+Scrub count: 20
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+Dongle Revision: 6E03
+
+Disk: 6a.16
+Shelf: 1  
+Bay: 0 
+Serial: 6SK2RQWK0000N519BN0Q
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:c76964
+UID: 2000B452:53C76964:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.16
+Sec Port: B
+Power-on Hours: 2959
+Blocks read:      27465008701
+Blocks written:   2784593776
+Time interval: 203:02:04
+Glist count: 0
+Scrub last done: 00:13:14
+Scrub count: 36
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 1
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.17
+Shelf: 1  
+Bay: 1 
+Serial: 6SK1ZW6V0000B3190LPK
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:9970b9
+UID: 2000B452:539970B9:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.17
+Sec Port: A
+Power-on Hours: 24304
+Blocks read:      28679583724
+Blocks written:   3252647967
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:12:02
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 0
+
+Disk: 0d.18
+Shelf: 1  
+Bay: 2 
+Serial: JYX6JMGM
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:017:000cca:7c9e9c
+UID: 2017000C:CA7C9E9C:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.18
+Sec Port: A
+Power-on Hours: 7087
+Blocks read:      30937609282
+Blocks written:   6236446421
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 01:14:20
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.19
+Shelf: 1  
+Bay: 3 
+Serial: 3QQ0X83G00009932TCP3
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:001d38:4a6284
+UID: 2000001D:384A6284:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.19
+Sec Port: B
+Power-on Hours: 61249
+Blocks read:      28889410492
+Blocks written:   3263836265
+Time interval: 203:01:51
+Glist count: 5
+Scrub last done: 00:12:02
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.20
+Shelf: 1  
+Bay: 4 
+Serial: 3QQ0X7ZC00009933JC65
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:001d38:4a63a1
+UID: 2000001D:384A63A1:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.20
+Sec Port: B
+Power-on Hours: 61241
+Blocks read:      28887144287
+Blocks written:   3262386581
+Time interval: 203:01:51
+Glist count: 23
+Scrub last done: 00:12:02
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.21
+Shelf: 1  
+Bay: 5 
+Serial: 3SK1M8NA00009051ZRV5
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:0024b6:da7235
+UID: 20000024:B6DA7235:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.21
+Sec Port: B
+Power-on Hours: 42787
+Blocks read:      28306390657
+Blocks written:   3260670233
+Time interval: 203:01:51
+Glist count: 157
+Scrub last done: 00:13:14
+Scrub count: 38
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.22
+Shelf: 1  
+Bay: 6 
+Serial: 6SK2HCHS0000B434099C
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:aee38d
+UID: 2000B452:53AEE38D:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.22
+Sec Port: B
+Power-on Hours: 12964
+Blocks read:      28673795258
+Blocks written:   3253201271
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:12:02
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.23
+Shelf: 1  
+Bay: 7 
+Serial: 6SK2V8KN0000N543136C
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:cd9b32
+UID: 2000B452:53CD9B32:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.23
+Sec Port: B
+Power-on Hours: 1563
+Blocks read:      20960230965
+Blocks written:   3856514168
+Time interval: 203:02:15
+Glist count: 0
+Scrub last done: 01:14:20
+Scrub count: 21
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 1
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.24
+Shelf: 1  
+Bay: 8 
+Serial: 3QQ28WSP00009012PQ0X
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:0024b6:27becc
+UID: 20000024:B627BECC:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.24
+Sec Port: A
+Power-on Hours: 52709
+Blocks read:      28543431369
+Blocks written:   3266981550
+Time interval: 203:01:51
+Glist count: 495
+Scrub last done: 00:13:14
+Scrub count: 38
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.25
+Shelf: 1  
+Bay: 9 
+Serial: 3QQ0W61V00009932SV28
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:001d38:211cc5
+UID: 2000001D:38211CC5:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.25
+Sec Port: A
+Power-on Hours: 61268
+Blocks read:      215592
+Blocks written:   288
+Time interval: 203:01:51
+Glist count: 65
+Scrub last done: 04:14:32
+Scrub count: 40
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.26
+Shelf: 1  
+Bay: 10
+Serial: 3QQ278GN00009005PWLT
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:b45253:135bbe
+UID: 2000B452:53135BBE:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.26
+Sec Port: A
+Power-on Hours: 46050
+Blocks read:      30027794498
+Blocks written:   3264972365
+Time interval: 203:01:51
+Glist count: 56
+Scrub last done: 01:14:20
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.27
+Shelf: 1  
+Bay: 11
+Serial: J1VERN5N
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:01e:000cca:18f768
+UID: 201E000C:CA18F768:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.27
+Sec Port: A
+Power-on Hours: 37769
+Blocks read:      29809588444
+Blocks written:   3258209083
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 01:14:20
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.28
+Shelf: 1  
+Bay: 12
+Serial: CWX85VBN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:040:000cca:7f9fc0
+UID: 2040000C:CA7F9FC0:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.28
+Sec Port: A
+Power-on Hours: 24422
+Blocks read:      18686084878
+Blocks written:   3282301266
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 01:18:38
+Scrub count: 26
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 4
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.29
+Shelf: 1  
+Bay: 13
+Serial: CWV5NAUN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:040:000cca:0a48f8
+UID: 2040000C:CA0A48F8:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.29
+Sec Port: B
+Power-on Hours: 24498
+Blocks read:      28309897068
+Blocks written:   3260519245
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:13:14
+Scrub count: 38
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.32
+Shelf: 2  
+Bay: 0 
+Serial: 6SK2NG6N0000N5053UFL
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:c354ff
+UID: 2000B452:53C354FF:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.32
+Sec Port: A
+Power-on Hours: 10943
+Blocks read:      29795355228
+Blocks written:   3260961406
+Time interval: 203:01:51
+Glist count: 1
+Scrub last done: 01:14:20
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.33
+Shelf: 2  
+Bay: 1 
+Serial: 6SK1YVWR0000B3170TH6
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:98d13b
+UID: 2000B452:5398D13B:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.33
+Sec Port: A
+Power-on Hours: 24507
+Blocks read:      28686173213
+Blocks written:   3254298712
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:12:02
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 0
+
+Disk: 6a.34
+Shelf: 2  
+Bay: 2 
+Serial: 3QQ1L27R00009953UP9B
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:0024b6:0973cd
+UID: 20000024:B60973CD:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.34
+Sec Port: B
+Power-on Hours: 58233
+Blocks read:      28891742718
+Blocks written:   3257627942
+Time interval: 203:01:51
+Glist count: 760
+Scrub last done: 00:12:02
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.35
+Shelf: 2  
+Bay: 3 
+Serial: 3SK1EKEW00009105N8XB
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:0024b6:ca7590
+UID: 20000024:B6CA7590:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.35
+Sec Port: B
+Power-on Hours: 44684
+Blocks read:      28687665972
+Blocks written:   3253447644
+Time interval: 203:01:51
+Glist count: 6
+Scrub last done: 00:12:02
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.36
+Shelf: 2  
+Bay: 4 
+Serial: CWYST6DN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:040:000cca:d457a8
+UID: 2040000C:CAD457A8:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.36
+Sec Port: B
+Power-on Hours: 15479
+Blocks read:      28673579232
+Blocks written:   3252872883
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:12:02
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.37
+Shelf: 2  
+Bay: 5 
+Serial: 6SK2VZQ70000N5451VT4
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:ce6fc5
+UID: 2000B452:53CE6FC5:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.37
+Sec Port: B
+Power-on Hours: 604
+Blocks read:      19791763714
+Blocks written:   3265381332
+Time interval: 203:02:23
+Glist count: 0
+Scrub last done: 00:15:56
+Scrub count: 5
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.38
+Shelf: 2  
+Bay: 6 
+Serial: 6SK2Q1CW0000N5157HXV
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:c5f294
+UID: 2000B452:53C5F294:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.38
+Sec Port: B
+Power-on Hours: 12793
+Blocks read:      28306303623
+Blocks written:   3263236930
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:13:14
+Scrub count: 38
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.39
+Shelf: 2  
+Bay: 7 
+Serial: CWYSV1LN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:040:000cca:d4735c
+UID: 2040000C:CAD4735C:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.39
+Sec Port: A
+Power-on Hours: 18031
+Blocks read:      28323281921
+Blocks written:   3259791770
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:13:14
+Scrub count: 38
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.40
+Shelf: 2  
+Bay: 8 
+Serial: CWVAA7EN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:040:000cca:12c898
+UID: 2040000C:CA12C898:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.40
+Sec Port: B
+Power-on Hours: 27496
+Blocks read:      28310350067
+Blocks written:   3262617911
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:13:14
+Scrub count: 38
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.41
+Shelf: 2  
+Bay: 9 
+Serial: 6SK2T0TA0000N535465B
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:cac5ed
+UID: 2000B452:53CAC5ED:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.41
+Sec Port: A
+Power-on Hours: 6266
+Blocks read:      28681499192
+Blocks written:   3254472568
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:12:02
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.42
+Shelf: 2  
+Bay: 10
+Serial: 6SK0WPB30000B148Q14L
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:5b11da
+UID: 2000B452:535B11DA:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.42
+Sec Port: A
+Power-on Hours: 36481
+Blocks read:      29814070631
+Blocks written:   3254719093
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 01:14:20
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.43
+Shelf: 2  
+Bay: 11
+Serial: J1W6L5YN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:01e:000cca:445814
+UID: 201E000C:CA445814:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.43
+Sec Port: B
+Power-on Hours: 35893
+Blocks read:      29798268846
+Blocks written:   3258767294
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 01:14:20
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.44
+Shelf: 2  
+Bay: 12
+Serial: 6SK2VGS00000N5451ZFL
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:ce6681
+UID: 2000B452:53CE6681:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.44
+Sec Port: A
+Power-on Hours: 603
+Blocks read:      21587673609
+Blocks written:   3263501363
+Time interval: 203:02:23
+Glist count: 0
+Scrub last done: 00:15:38
+Scrub count: 5
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.45
+Shelf: 2  
+Bay: 13
+Serial: 3QQ1LL4H00009936MA3W
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:0024b6:094102
+UID: 20000024:B6094102:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.45
+Sec Port: B
+Power-on Hours: 58307
+Blocks read:      40505521462
+Blocks written:   4604025730
+Time interval: 203:01:51
+Glist count: 727
+Scrub last done: 02:21:26
+Scrub count: 51
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.48
+Shelf: 3  
+Bay: 0 
+Serial: 3QQ0TR8T00009928QSFW
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:001d38:12ed82
+UID: 2000001D:3812ED82:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.48
+Sec Port: A
+Power-on Hours: 61136
+Blocks read:      12043586620
+Blocks written:   870609880
+Time interval: 203:01:51
+Glist count: 969
+Scrub last done: 01:14:20
+Scrub count: 51
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.49
+Shelf: 3  
+Bay: 1 
+Serial: 3QQ0Z5E300009935YNNM
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:001d38:4e0cf6
+UID: 2000001D:384E0CF6:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.49
+Sec Port: A
+Power-on Hours: 61933
+Blocks read:      28919863210
+Blocks written:   3299198440
+Time interval: 203:01:51
+Glist count: 24
+Scrub last done: 00:12:02
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 0
+
+Disk: 0d.50
+Shelf: 3  
+Bay: 2 
+Serial: CWYEGMTN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:040:000cca:c19924
+UID: 2040000C:CAC19924:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.50
+Sec Port: A
+Power-on Hours: 23790
+Blocks read:      28681425801
+Blocks written:   3255534400
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:12:02
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.51
+Shelf: 3  
+Bay: 3 
+Serial: 3QQ0Z5G300009935ZDTB
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:001d38:4e0d9e
+UID: 2000001D:384E0D9E:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.51
+Sec Port: B
+Power-on Hours: 61817
+Blocks read:      28885522956
+Blocks written:   3261031209
+Time interval: 203:01:51
+Glist count: 482
+Scrub last done: 00:12:02
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 2
+Power cycle on error: 2
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.52
+Shelf: 3  
+Bay: 4 
+Serial: 3QQ0Z5ED00009935WGXZ
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:001d38:4e0d01
+UID: 2000001D:384E0D01:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.52
+Sec Port: B
+Power-on Hours: 62065
+Blocks read:      28902564596
+Blocks written:   3265307245
+Time interval: 203:01:51
+Glist count: 22
+Scrub last done: 00:12:02
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.53
+Shelf: 3  
+Bay: 5 
+Serial: 3SK0R4Z300009036DNCT
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:0024b6:9cdce7
+UID: 20000024:B69CDCE7:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.53
+Sec Port: B
+Power-on Hours: 48886
+Blocks read:      29442808218
+Blocks written:   6235884721
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:13:14
+Scrub count: 38
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.54
+Shelf: 3  
+Bay: 6 
+Serial: 3QQ07H4Z00009030GL2T
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:b45253:13554e
+UID: 2000B452:5313554E:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.54
+Sec Port: A
+Power-on Hours: 44773
+Blocks read:      28529341560
+Blocks written:   3266284722
+Time interval: 203:01:51
+Glist count: 68
+Scrub last done: 00:13:14
+Scrub count: 38
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 1
+Power cycle on error: 1
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.55
+Shelf: 3  
+Bay: 7 
+Serial: 6SK2Q1F50000N5157K1E
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:c5f249
+UID: 2000B452:53C5F249:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.55
+Sec Port: B
+Power-on Hours: 12891
+Blocks read:      28313733346
+Blocks written:   3263616842
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:13:14
+Scrub count: 38
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.56
+Shelf: 3  
+Bay: 8 
+Serial: 3QQ0Z5EX00009935V3FZ
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:001d38:4e0d3b
+UID: 2000001D:384E0D3B:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.56
+Sec Port: A
+Power-on Hours: 61955
+Blocks read:      28551700857
+Blocks written:   3267144728
+Time interval: 203:01:51
+Glist count: 1748
+Scrub last done: 00:13:14
+Scrub count: 38
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 1
+Power cycle on error: 1
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.57
+Shelf: 3  
+Bay: 9 
+Serial: LWXPM6UN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:029:000cca:980bcc
+UID: 2029000C:CA980BCC:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.57
+Sec Port: A
+Power-on Hours: 25665
+Blocks read:      29797377669
+Blocks written:   3255374721
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 01:14:20
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.58
+Shelf: 3  
+Bay: 10
+Serial: 3QQ0W9WH00009929KX0H
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:001d38:1d3dbe
+UID: 2000001D:381D3DBE:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.58
+Sec Port: B
+Power-on Hours: 61926
+Blocks read:      30029885451
+Blocks written:   3261537739
+Time interval: 203:01:51
+Glist count: 2
+Scrub last done: 01:14:20
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.59
+Shelf: 3  
+Bay: 11
+Serial: J1WXDHWN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:01e:000cca:6c0374
+UID: 201E000C:CA6C0374:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.59
+Sec Port: A
+Power-on Hours: 34632
+Blocks read:      29808514132
+Blocks written:   3258050611
+Time interval: 203:01:51
+Glist count: 9
+Scrub last done: 01:14:20
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.60
+Shelf: 3  
+Bay: 12
+Serial: 6SK2PECB0000N51202JN
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:c5188d
+UID: 2000B452:53C5188D:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.60
+Sec Port: A
+Power-on Hours: 10827
+Blocks read:      28304595804
+Blocks written:   3262251237
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:13:14
+Scrub count: 38
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.61
+Shelf: 3  
+Bay: 13
+Serial: 6SK2VHM80000N5451KU1
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:ce630a
+UID: 2000B452:53CE630A:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.61
+Sec Port: A
+Power-on Hours: 603
+Blocks read:      6134072104
+Blocks written:   1443195400
+Time interval: 203:02:23
+Glist count: 0
+Scrub last done: 00:21:20
+Scrub count: 5
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.64
+Shelf: 4  
+Bay: 0 
+Serial: 3QQ0YJ9A000099348YCT
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:001d38:4d465f
+UID: 2000001D:384D465F:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.64
+Sec Port: B
+Power-on Hours: 62318
+Blocks read:      29835445085
+Blocks written:   6278619187
+Time interval: 203:01:51
+Glist count: 1
+Scrub last done: 00:12:02
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.65
+Shelf: 4  
+Bay: 1 
+Serial: 3QQ0YJ4B000099348Z9U
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:001d38:4d3aca
+UID: 2000001D:384D3ACA:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.65
+Sec Port: A
+Power-on Hours: 62388
+Blocks read:      24805219300
+Blocks written:   2715421960
+Time interval: 203:01:51
+Glist count: 28
+Scrub last done: 01:14:20
+Scrub count: 43
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 0
+
+Disk: 0d.66
+Shelf: 4  
+Bay: 2 
+Serial: 6SK2RRK00000N519BLQN
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:c7a182
+UID: 2000B452:53C7A182:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.66
+Sec Port: A
+Power-on Hours: 7848
+Blocks read:      29803036329
+Blocks written:   3258214534
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 01:14:20
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.67
+Shelf: 4  
+Bay: 3 
+Serial: 6SK2TE7F0000N5390FQ0
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:cbedc3
+UID: 2000B452:53CBEDC3:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.67
+Sec Port: B
+Power-on Hours: 772
+Blocks read:      26606090398
+Blocks written:   4131583129
+Time interval: 203:02:21
+Glist count: 0
+Scrub last done: 00:13:14
+Scrub count: 17
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.68
+Shelf: 4  
+Bay: 4 
+Serial: 29VKU6HN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:037:000cca:2063c4
+UID: 2037000C:CA2063C4:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.68
+Sec Port: A
+Power-on Hours: 8859
+Blocks read:      28668819362
+Blocks written:   3253442958
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:12:02
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.69
+Shelf: 4  
+Bay: 5 
+Serial: 3QQ0X5EM00009933HK6U
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:001d38:49cdf4
+UID: 2000001D:3849CDF4:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.69
+Sec Port: B
+Power-on Hours: 62377
+Blocks read:      28524148409
+Blocks written:   3269262914
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:13:14
+Scrub count: 38
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.70
+Shelf: 4  
+Bay: 6 
+Serial: 6SK1PD6E0000B2390D21
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:8722b1
+UID: 2000B452:538722B1:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.70
+Sec Port: B
+Power-on Hours: 29452
+Blocks read:      28311922767
+Blocks written:   3264697798
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:13:14
+Scrub count: 38
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.71
+Shelf: 4  
+Bay: 7 
+Serial: 6SK2HCBG0000B4340FD8
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:aee69d
+UID: 2000B452:53AEE69D:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.71
+Sec Port: B
+Power-on Hours: 8856
+Blocks read:      11040111801
+Blocks written:   869427624
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:12:02
+Scrub count: 51
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.72
+Shelf: 4  
+Bay: 8 
+Serial: 3QQ0Y2X300009908ZDFN
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:001d38:4bf3c4
+UID: 2000001D:384BF3C4:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.72
+Sec Port: B
+Power-on Hours: 62301
+Blocks read:      30025642681
+Blocks written:   3261420348
+Time interval: 203:01:51
+Glist count: 11
+Scrub last done: 01:14:20
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.73
+Shelf: 4  
+Bay: 9 
+Serial: CWVDTT8N
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:040:000cca:1745f0
+UID: 2040000C:CA1745F0:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.73
+Sec Port: A
+Power-on Hours: 28411
+Blocks read:      29810979007
+Blocks written:   3257894399
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 01:14:20
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.74
+Shelf: 4  
+Bay: 10
+Serial: 3QQ0ZA0F00009017TNY2
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:b45253:134052
+UID: 2000B452:53134052:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.74
+Sec Port: B
+Power-on Hours: 46166
+Blocks read:      30027145818
+Blocks written:   3263304701
+Time interval: 203:01:51
+Glist count: 2
+Scrub last done: 01:14:20
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.75
+Shelf: 4  
+Bay: 11
+Serial: 6SK2SPDT0000N5251XUE
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:c7f2fa
+UID: 2000B452:53C7F2FA:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.75
+Sec Port: A
+Power-on Hours: 7084
+Blocks read:      215577
+Blocks written:   336
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:05:38
+Scrub count: 41
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.76
+Shelf: 4  
+Bay: 12
+Serial: 3QQ0Y48700009933YMQZ
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:001d38:4c0914
+UID: 2000001D:384C0914:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.76
+Sec Port: B
+Power-on Hours: 62282
+Blocks read:      28542605280
+Blocks written:   3266830378
+Time interval: 203:01:51
+Glist count: 4
+Scrub last done: 00:13:14
+Scrub count: 38
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.77
+Shelf: 4  
+Bay: 13
+Serial: 6SK18SLT0000B21605FQ
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:7af5c6
+UID: 2000B452:537AF5C6:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.77
+Sec Port: A
+Power-on Hours: 35224
+Blocks read:      43221293302
+Blocks written:   4473897597
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 02:21:26
+Scrub count: 52
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.80
+Shelf: 5  
+Bay: 0 
+Serial: 3QQ0YW2800009935YP7A
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:001d38:4dd4d8
+UID: 2000001D:384DD4D8:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.80
+Sec Port: A
+Power-on Hours: 61851
+Blocks read:      29326997685
+Blocks written:   6348094187
+Time interval: 203:01:51
+Glist count: 10
+Scrub last done: 00:12:02
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.81
+Shelf: 5  
+Bay: 1 
+Serial: J1WTVEVN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:01e:000cca:658ec0
+UID: 201E000C:CA658EC0:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.81
+Sec Port: A
+Power-on Hours: 32027
+Blocks read:      28687115082
+Blocks written:   3253693571
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:12:02
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 0
+
+Disk: 0d.82
+Shelf: 5  
+Bay: 2 
+Serial: CWVJXW1N
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:040:000cca:1ec948
+UID: 2040000C:CA1EC948:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.82
+Sec Port: A
+Power-on Hours: 13858
+Blocks read:      28310147835
+Blocks written:   3257978827
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:13:14
+Scrub count: 38
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.83
+Shelf: 5  
+Bay: 3 
+Serial: 6SK2S5400000N5270U27
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:c8ab5e
+UID: 2000B452:53C8AB5E:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.83
+Sec Port: B
+Power-on Hours: 9796
+Blocks read:      28674496721
+Blocks written:   3256122152
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:12:02
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.84
+Shelf: 5  
+Bay: 4 
+Serial: 3SK2210Y00009124QS9U
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:0024b6:fe555c
+UID: 20000024:B6FE555C:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.84
+Sec Port: A
+Power-on Hours: 38685
+Blocks read:      29414801253
+Blocks written:   6238569427
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:13:14
+Scrub count: 38
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.85
+Shelf: 5  
+Bay: 5 
+Serial: CWX5BPDN
+Vendor: NETAPP  
+Model: X291_HVIPC420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:040:000cca:7a82fc
+UID: 2040000C:CA7A82FC:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.85
+Sec Port: A
+Power-on Hours: 19627
+Blocks read:      28305465166
+Blocks written:   3261298467
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:13:14
+Scrub count: 38
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.86
+Shelf: 5  
+Bay: 6 
+Serial: 6SK2STGW0000N5352SYJ
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:cb13f5
+UID: 2000B452:53CB13F5:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.86
+Sec Port: A
+Power-on Hours: 4227
+Blocks read:      36542006641
+Blocks written:   4229761133
+Time interval: 203:01:55
+Glist count: 0
+Scrub last done: 02:21:26
+Scrub count: 43
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 1
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.87
+Shelf: 5  
+Bay: 7 
+Serial: 3QQ0YMJ9000099348WU2
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:001d38:4d96a4
+UID: 2000001D:384D96A4:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.87
+Sec Port: B
+Power-on Hours: 61983
+Blocks read:      28538775281
+Blocks written:   3268163532
+Time interval: 203:01:51
+Glist count: 1
+Scrub last done: 00:13:14
+Scrub count: 38
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.88
+Shelf: 5  
+Bay: 8 
+Serial: 3QQ0YMD200009935997V
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:001d38:4d94b7
+UID: 2000001D:384D94B7:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.88
+Sec Port: A
+Power-on Hours: 61996
+Blocks read:      30931173706
+Blocks written:   6240968801
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 01:14:20
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.89
+Shelf: 5  
+Bay: 9 
+Serial: 6SK10EPG0000B15273ZX
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:610ff3
+UID: 2000B452:53610FF3:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.89
+Sec Port: B
+Power-on Hours: 35005
+Blocks read:      29806902224
+Blocks written:   3258660527
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 01:14:20
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.90
+Shelf: 5  
+Bay: 10
+Serial: 3QQ0X2RA000099226SCQ
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:001d38:4a921f
+UID: 2000001D:384A921F:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.90
+Sec Port: A
+Power-on Hours: 61978
+Blocks read:      30036893019
+Blocks written:   3263831654
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 01:14:20
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.91
+Shelf: 5  
+Bay: 11
+Serial: 3QQ0TEN900009933YN4E
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:001d38:4a952c
+UID: 2000001D:384A952C:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.91
+Sec Port: B
+Power-on Hours: 61947
+Blocks read:      30025346921
+Blocks written:   3264198885
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 01:14:20
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 6a.92
+Shelf: 5  
+Bay: 12
+Serial: 3QQ0XAFG000099325WG3
+Vendor: NETAPP  
+Model: X291_S15K6420F15
+Rev: NA03
+RPM: 15000
+WWN: 2:000:001d38:4a8c37
+UID: 2000001D:384A8C37:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: A
+Sec Name: 0d.92
+Sec Port: B
+Power-on Hours: 61990
+Blocks read:      28906250540
+Blocks written:   3262330902
+Time interval: 203:01:51
+Glist count: 0
+Scrub last done: 00:12:02
+Scrub count: 37
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094
+
+Disk: 0d.93
+Shelf: 5  
+Bay: 13
+Serial: 6SK2S99T0000N5354A25
+Vendor: NETAPP  
+Model: X291_S15K7420F15
+Rev: NA07
+RPM: 15000
+WWN: 2:000:b45253:cb28d7
+UID: 2000B452:53CB28D7:00000000:00000000:00000000:00000000:00000000:00000000:00000000:00000000
+Downrev: no
+Pri Port: B
+Sec Name: 6a.93
+Sec Port: A
+Power-on Hours: 1230
+Blocks read:      210945
+Blocks written:   352
+Time interval: 203:02:18
+Glist count: 0
+Scrub last done: 02:03:14
+Scrub count: 10
+LIP count: 0
+Dynamically qualified: No
+Power cycle count: 0
+Power cycle on error: 0
+Current owner: 1573990094
+Home owner: 1573990094
+Reservation owner: 1573990094

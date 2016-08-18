@@ -117,7 +117,7 @@ public class NestedParser extends CommandParser {
         boolean stopFound = false;
         
         while ((line = br.readLine()) != null) {
-            if (stop != null && line.trim().startsWith(stop)) {
+            if (stop != null && line.trim().matches(stop)) {
                 stopFound = true;
                 break;
             }

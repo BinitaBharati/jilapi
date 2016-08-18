@@ -21,6 +21,7 @@ public class RaidGroupParser implements EntityParser {
         String tmp = input.trim();
         
         String raidGrpName = tmp.substring(0, tmp.indexOf("(")).trim();
+        raidGrpName = raidGrpName.substring("RAID group".length() + 1).trim();
         out.put("raidGrpName", raidGrpName);
         
         int idx1 = tmp.indexOf("(");
