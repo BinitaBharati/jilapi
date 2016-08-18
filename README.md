@@ -210,4 +210,4 @@ cmnd6.result.stop=Local spares
 ## License
 
 Copyright © 2016 Binita Bharati <br />
-Distributed under the Eclipse Public license. 
+Distributed under the Apache license 2.0. 
