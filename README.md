@@ -3,7 +3,7 @@ Jilapi is a Java library to parse unstructured data. The core essence of Jilapi 
 
 ##Jilapi terminologies
 * A single unit of useful data is called "Entity".
-* An "Entity: consists of multiple fields.
+* An "Entity" consists of multiple fields.
 
 ##How it works
 * Jilapi categorizes unstructured data into 3 types:
