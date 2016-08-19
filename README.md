@@ -1,11 +1,16 @@
 # Jilapi
 Jilapi is a Java library to parse unstructured data. The core essence of Jilapi is that given a unstructured input, it produces a structured output. Jilapi was originally written to parse Linux command line output, but it has evolved to handle varying kinds of unstructured data.
 
+##Jilapi terminologies
+* A single unit of useful data is called "Entity".
+* An "Entity: consists of multiple fields.
+
 ##How it works
-* Line-wise parser. By default, Jilapi assumes that every output line is a meaningful entity by itself.
-  (Jilapi can also be made to work under situation when a single entity spans across multiple lines)
-* Every line is further broken down into individual fields.
-* Takes the following types of inputs:
+* Jilapi categorizes unstructured data into 3 types:
+ * Tabular data - The data resembles a table.Each line/row in the table represents a meaningful entity.
+ * Chunked data - The data is like a blob.A meaningful entity may span across multiple lines.
+ * Hierarchical data -  The data represents a hierarchy, spanning across multiple lines.Each entity may be present in a single line,  but the entity will have relation with entities in the other lines.
+* Jilapi library takes the following types of inputs:
      * InputStream
      * A single String with a new line delimiter to mark individual lines.
 * The result of the command output parsing is given out either in Java Object or in JSON format.
@@ -23,25 +28,24 @@ Jilapi is a Java library to parse unstructured data. The core essence of Jilapi 
  
 ## Jilapi property
 This is the heart of Jilapi. For every command, the user of this library has to pass appropriate [Properties](https://docs.oracle.com/javase/8/docs/api/java/util/Properties.html "java.util.Properties") loaded with command parsing rules. Below is a summary of all the possible properties: <br /> 
-* **`<CMND_KEY>.parser.type`**: The command parser types.Currently, 3 parser types are supported:  <br />
+1. **`<CMND_KEY>.parser.type`**: The command parser types.Currently, 3 parser types are supported:  <br />
       * TabularParser - handles tabular data.This reads data line-wise.
       * ChunkedParser - handles data where-in a entity spans across multiple lines.ie entity data is available in chunks. See [ifconfig -a](#ifconfig--a)
       * NestedParser - handles nested/hierarchical data.This reads data line wise.See [nested output](#nested-output)
-* **`<CMND_KEY>.entity.end`**: The delimiter marking end of a complete entity can be demarked.Entity is a the smallest unit of useful data. A command output can have multiple such entities.TabularParser and NestedParser currently supports a new line as entity default delimiter.So, this field need not be specified when parser is tabular/nested.Chunked parser works with blocks of meaningful data.So, entity delimiter need not be a new line.
-* **`<CMND_KEY>.result.entity.field.delimiter`**: The delimiter used to delimit across individual fields of a entity.This should be a      unique character, and should not be already present as part of the original output.The default field delimiter when not specified      is SPACE.
-* **`<CMND_KEY>.result.sections`**: Useful when the command output has multiple sections.May not be applicable for all commands.
+2. **`<CMND_KEY>.entity.end`**: The delimiter marking end of a complete entity.Entity is a the smallest unit of useful data. A command output can have multiple entity instances.TabularParser and NestedParser currently supports a new line as entity default delimiter.So, this field need not be specified when parser is tabular/nested.Chunked parser works with blocks of meaningful data.So, entity delimiter need not be a new line, and has to be specified explicitly.
+3. **`<CMND_KEY>.result.entity.field.delimiter`**: The delimiter used to delimit across individual fields of a entity.This should be a      unique character across the whole of the unstrcutured data.The default field delimiter when not specified is SPACE.
+4. **`<CMND_KEY>.result.sections`**: Useful when the command output has multiple sections.May not be applicable for all commands.
      If a command output has multiple sections, they are demarked using a semi colon character.Please check the 'cmnd3' properties for      a demo of the <CMND_KEY>.result.sections property.
-* **`<CMND_KEY>.result.header`**:  The output line preceding the start of the actual data.May not be applicable for all commands.
-* **`<CMND_KEY>.result.footer`**: The output line following the end of the actual data.May not be applicable for all commands.
-* **`<CMND_KEY>.result.ignore`**: The output line that needs to be ignored.May not be applicable for all commands.
-* **`<CMND_KEY>.result.entity.field.positional.map`**: A map representing the position of the fields of an entity in the output.This 
-      is mutually exclusive with result.entity.field.prefix.map.s. The map should contain the field positions in ascending order. 
+5. **`<CMND_KEY>.result.header`**:  The output line preceding the start of the actual data.May not be applicable for all commands.
+6. **`<CMND_KEY>.result.footer`**: The output line following the end of the actual data.May not be applicable for all commands.
+7. **`<CMND_KEY>.result.ignore`**: The output line that needs to be ignored.May not be applicable for all commands.
+8. **`<CMND_KEY>.result.entity.field.positional.map`**: Applicable only for tabular data. It is a map representing the position of the fields of an entity.The map should contain the field positions in ascending order. 
       Eg -> 1:fieldA,4:fieldB,10:fieldC is valid. But, 1:fieldA,10:fieldC,4:fieldB is invalid.
-      A single field can spawn across multiple positions (columns) in the output line.See cmnd1's buildTime for a sample of the same.
-* **`<CMND_KEY>.result.stop`**: If present, indicates where to stop parsing the given command output.Do not confuse this with footer,       as with footer parsing will keep continuing till EOF, but with stop, parsing completely stops.
-* **`<CMND_KEY>.result.entity.field.parser`**: Implementation of com.github.binitabharati.jilapi.entity.parser.EntityParser. Applicable when the command parser type is chunked/nested. 
-* **`<CMND_KEY>.nested.hierarchy.id`**: Implementation of `com.github.binitabharati.jilapi.parser.worker.NestedHierarchyIdentifier`. Applicable when command parser type is Nested. This property gives a way to identify each element in a nested hierarchy.
-* **`<CMND_KEY>.nested.hierarchy`**: A String representing the nested hierarchy. This entry has the following rules: <br />
+      Also, a single field can spawn across multiple positions (columns) in the output line.See cmnd1's buildTime for a sample of the same.
+9. **`<CMND_KEY>.result.stop`**: If present, indicates where to stop parsing the given command output.Do not confuse this with footer,       as with footer parsing will keep continuing till EOF, but with stop, parsing completely stops.
+10. **`<CMND_KEY>.result.entity.field.parser`**: Implementation of `com.github.binitabharati.jilapi.entity.parser.EntityParser`. Applicable when the command parser type is chunked/nested. 
+11. **`<CMND_KEY>.nested.hierarchy.id`**: Implementation of `com.github.binitabharati.jilapi.parser.worker.NestedHierarchyIdentifier`. Applicable when command parser type is Nested. This property provieds a way to identify each element in a nested hierarchy.
+12. **`<CMND_KEY>.nested.hierarchy`**: A String representing the nested hierarchy. This entry has the following rules: <br />
        * Each independent hierarchy is demarked with a semi colon.In this context, independent hierarchy means that the hierarchy is wholly unrelated to any existing hierarchy entries.
        * Each element name within the hierarchy has to be prefixed and suffixed with a `%` character. 
        * Every child hierarchy has to be enclosed within `[` and `]`.
