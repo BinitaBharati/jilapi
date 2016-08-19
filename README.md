@@ -28,18 +28,18 @@ Jilapi is a Java library to parse unstructured data. The core essence of Jilapi 
  
 ## Jilapi property
 This is the heart of Jilapi. For every command, the user of this library has to pass appropriate [Properties](https://docs.oracle.com/javase/8/docs/api/java/util/Properties.html "java.util.Properties") loaded with command parsing rules. Below is a summary of all the possible properties: <br /> 
-1. **`<CMND_KEY>.parser.type`**: The command parser types.Currently, 3 parser types are supported:  <br />
+* **`<CMND_KEY>.parser.type`**: The command parser types.Currently, 3 parser types are supported:  <br />
       * TabularParser - handles tabular data.This reads data line-wise.
       * ChunkedParser - handles data where-in a entity spans across multiple lines.ie entity data is available in chunks. See [ifconfig -a](#ifconfig--a)
       * NestedParser - handles nested/hierarchical data.This reads data line wise.See [nested output](#nested-output)
-2. **`<CMND_KEY>.entity.end`**: The delimiter marking end of a complete entity.Entity is a the smallest unit of useful data. A command output can have multiple entity instances.TabularParser and NestedParser currently supports a new line as entity default delimiter.So, this field need not be specified when parser is tabular/nested.Chunked parser works with blocks of meaningful data.So, entity delimiter need not be a new line, and has to be specified explicitly.
-3. **`<CMND_KEY>.result.entity.field.delimiter`**: The delimiter used to delimit across individual fields of a entity.This should be a      unique character across the whole of the unstrcutured data.The default field delimiter when not specified is SPACE.
-4. **`<CMND_KEY>.result.sections`**: Useful when the command output has multiple sections.May not be applicable for all commands.
+* **`<CMND_KEY>.entity.end`**: The delimiter marking end of a complete entity.Entity is a the smallest unit of useful data. A command output can have multiple entity instances.TabularParser and NestedParser currently supports a new line as entity default delimiter.So, this field need not be specified when parser is tabular/nested.Chunked parser works with blocks of meaningful data.So, entity delimiter need not be a new line, and has to be specified explicitly.
+* **`<CMND_KEY>.result.entity.field.delimiter`**: The delimiter used to delimit across individual fields of a entity.This should be a      unique character across the whole of the unstrcutured data.The default field delimiter when not specified is SPACE.
+* **`<CMND_KEY>.result.sections`**: Useful when the command output has multiple sections.May not be applicable for all commands.
      If a command output has multiple sections, they are demarked using a semi colon character.Please check the 'cmnd3' properties for      a demo of the <CMND_KEY>.result.sections property.
-5. **`<CMND_KEY>.result.header`**:  The output line preceding the start of the actual data.May not be applicable for all commands.
-6. **`<CMND_KEY>.result.footer`**: The output line following the end of the actual data.May not be applicable for all commands.
-7. **`<CMND_KEY>.result.ignore`**: The output line that needs to be ignored.May not be applicable for all commands.
-8. **`<CMND_KEY>.result.entity.field.positional.map`**: Applicable only for tabular data. It is a map representing the position of the fields of an entity.The map should contain the field positions in ascending order. 
+* **`<CMND_KEY>.result.header`**:  The output line preceding the start of the actual data.May not be applicable for all commands.
+* **`<CMND_KEY>.result.footer`**: The output line following the end of the actual data.May not be applicable for all commands.
+* **`<CMND_KEY>.result.ignore`**: The output line that needs to be ignored.May not be applicable for all commands.
+* **`<CMND_KEY>.result.entity.field.positional.map`**: Applicable only for tabular data. It is a map representing the position of the fields of an entity.The map should contain the field positions in ascending order. 
       Eg -> 1:fieldA,4:fieldB,10:fieldC is valid. But, 1:fieldA,10:fieldC,4:fieldB is invalid.
       Also, a single field can spawn across multiple positions (columns) in the output line.See cmnd1's buildTime for a sample of the same.
 9. **`<CMND_KEY>.result.stop`**: If present, indicates where to stop parsing the given command output.Do not confuse this with footer,       as with footer parsing will keep continuing till EOF, but with stop, parsing completely stops.
