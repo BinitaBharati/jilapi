@@ -1,11 +1,11 @@
 # Jilapi
 Jilapi is a Java library to parse unstructured data. The core essence of Jilapi is that given a unstructured input, it produces a structured output. Jilapi was originally written to parse Linux command line output, but it has evolved to handle varying kinds of unstructured data.
 
-##Jilapi terminologies
+## Jilapi terminologies
 * A single unit of useful data is called "Entity".
 * An "Entity" consists of multiple fields.
 
-##How it works
+## How it works
 * Jilapi categorizes unstructured data into 3 types:
  * Tabular data - The data resembles a table.Each line/row in the table represents a meaningful entity.
  * Chunked data - The data is like a blob.A meaningful entity may span across multiple lines.
@@ -75,6 +75,7 @@ Now, lets understand what attributes of jilapi property file matters in this cas
 * **`<CMND_KEY>.nested.hierarchy`**: N/A as command parser is tabular.
 <br />
 Corresponding property file entry is given below:
+
 ```
 cmnd1.parser.type=tabular
 cmnd1.result.entity.field.positional.map=1:kernelName,2:nodeName,3:kernelVersion,4-11:buildTime,12:processorType,13:hwPlatform,14:processorArch,15:osName
@@ -98,6 +99,7 @@ Now, lets understand what attributes of jilapi property file matters in this cas
 * **`<CMND_KEY>.nested.hierarchy`**: N/A as command parser is tabular.
 <br />
 Corresponding property file entry is given below:
+
 ```
 cmnd2.parser.type=tabular
 cmnd2.result.header=Destination,Gateway,Genmask,Flags,Metric,Ref,Use,Iface
@@ -121,6 +123,7 @@ Now, lets understand what attributes of jilapi property file matters in this cas
 * **`<CMND_KEY>.nested.hierarchy`**: N/A as command parser is tabular.
 <br />
 Corresponding property file entry is given below:
+
 ```
 cmnd3.parser.type=tabular
 cmnd3.result.sections=ipv4Route;ipv6Route
@@ -147,6 +150,7 @@ Now, lets understand what attributes of jilapi property file matters in this cas
 * **`<CMND_KEY>.nested.hierarchy`**: N/A as command parser is tabular.
 <br />
 Corresponding property file entry is given below:
+
 ```
 cmnd4.parser.type=tabular
 cmnd4.result.entity.field.positional.map=1:userName,2:passwd,3:userId,4:grpId,5:userFullName,6:homeDirectory,7:shellAccount
@@ -171,11 +175,11 @@ Now, lets understand what attributes of jilapi property file matters in this cas
 * **`<CMND_KEY>.nested.hierarchy`**: N/A as command parser is chunked.
 <br />
 Corresponding property file entry is given below:
+
 ```
 cmnd5.parser.type=chunked
 cmnd5.entity.end=EMPTY_LINE
 cmnd5.result.entity.field.parser=com.github.binitabharati.jilapi.entity.parser.impl.IfConfigParser
-
 ```
 ##### nested output
 Consider the below nested output: <br />
@@ -195,6 +199,7 @@ Consider the below nested output: <br />
 * **`<CMND_KEY>.nested.hierarchy`**: Should define the hierarchy as per the guidelines.
 <br />
 Corresponding property file entry is given below:
+
 ```
 cmnd6.parser.type=nested
 cmnd6.nested.hierarchy.id=com.github.binitabharati.jilapi.parser.worker.impl.NestedHierarchyIdImpl
