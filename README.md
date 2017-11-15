@@ -18,7 +18,7 @@ Jilapi is a Java library to parse unstructured data. The core essence of Jilapi 
 * The user of the library is required to provide a [Properties](https://docs.oracle.com/javase/8/docs/api/java/util/Properties.html "java.util.Properties") reference which has command parsing rules. The Properties reference can be instantiated as considered apt by the user, ie sourced from a file/DB etc. Please check the sample [jilapi.properties](src/test/resources/jilapi.properties) file for reference.
 
 ## Build
-* `git clone git@github.com:BinitaBharati/jilapi.git`
+* `git clone https://github.com/BinitaBharati/jilapi.git`
 * `cd jilapi`
 * `mvn clean;mvn package` - generates the jilapi uber jar.
 * The generated jilapi jar can be included in other projects.
